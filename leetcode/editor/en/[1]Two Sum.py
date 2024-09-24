@@ -13,5 +13,5 @@ class Solution:
             # 存入 val -> index 的映射
             val_to_index[nums[i]] = i
         return []
-    
+
 # leetcode submit region end(Prohibit modification and deletion)
