@@ -14,4 +14,5 @@ class Solution:
             val_to_index[nums[i]] = i
         return []
 
+
 # leetcode submit region end(Prohibit modification and deletion)
