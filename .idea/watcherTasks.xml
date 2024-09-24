@@ -22,7 +22,7 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="send-all &quot;Auto-commit Python&quot;" />
+      <option name="arguments" value="send-all &quot;Auto-commit $FILENAME$&quot;" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="NEVER" />
