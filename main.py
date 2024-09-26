@@ -13,4 +13,4 @@ def minTime(files, numCores, limit):
         else:
             result = result + file
     return result
-print(t,)
+print(t,5,3)
