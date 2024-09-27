@@ -29,4 +29,4 @@ def timeConversion(s):
             hours == "00"
         return hours + ":" + minutes + ":" + seconds
 
-print(timeConversion("12:05:39AM"))
+print(timeConversion("12:45:54PM"))
