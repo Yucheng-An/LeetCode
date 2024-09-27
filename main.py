@@ -19,7 +19,6 @@ t = int(input().strip())
 result = []
 for a0 in range(t):
     n = int(input().strip())
-    print(n)
     # count = 0
     # while n < 0:
     #     if n % 3 == 0 or n % 5 == 0:
