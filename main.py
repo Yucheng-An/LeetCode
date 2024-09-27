@@ -14,6 +14,14 @@ def minTime(files, numCores, limit):
             result = result + file
     return result
 print(minTime(t,5,3))
-
 t = int(input().strip())
-print(type(t))
+result = []
+for a0 in range(t):
+    n = int(input().strip())
+    count = 0
+    while n < 0:
+        if n % 3 ==0. or n % 5 ==0:
+            count += n
+        n -= 1
+    result.append(count)
+print(result)
