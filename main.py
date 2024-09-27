@@ -16,4 +16,4 @@ def minTime(files, numCores, limit):
 print(minTime(t,5,3))
 
 t = int(input().strip())
-print("T is " + t)
+print(t)
