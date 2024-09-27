@@ -15,14 +15,18 @@ def minTime(files, numCores, limit):
     return result
 print(minTime(t,5,3))
 
-t = int(input().strip())
-result = []
-for a0 in range(t):
-    n = int(input().strip())
-    count = 0
-    for i in range(1, n):
-        if i % 3 == 0 or i % 5 == 0:
-            count += i
-    result.append(count)
-for i in result:
-    print(i)
+def timeConversion(s):
+    hours = s[0] + s[1]
+    minutes = s[3] + s[4]
+    seconds = s[6] + s[7]
+    if s[8] + s[9] == "PM":
+        hours = int(hours) + 12
+        if hours == 24:
+            hours = 00
+        return str(hours)+ ":" + minutes + ":" + seconds
+    elif s[8] + s[9] == "AM":
+        if hours == "12":
+            hours == "00"
+        return hours + ":" + minutes + ":" + seconds
+
+timeConversion()
