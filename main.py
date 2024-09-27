@@ -24,6 +24,5 @@ for a0 in range(t):
     for i in range(1, n):
         if i % 3 == 0 or i % 5 == 0:
             count += i
-            print(i)
     result.append(count)
 print(result)
