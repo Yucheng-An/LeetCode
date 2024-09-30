@@ -17,3 +17,4 @@ arr1 = []
 i = 0
 
 print(arr.pop())
+print(arr)
