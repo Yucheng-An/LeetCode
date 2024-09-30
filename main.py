@@ -1,5 +1,4 @@
-arr = [1, 2, 3, 4, 5]
-arr.insert(2, 23)
-print(arr)
-
-print("lees")
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
