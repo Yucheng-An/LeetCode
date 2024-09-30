@@ -6,5 +6,5 @@ class ListNode:
 class Node:
     def __init__(self, prev, element, next):
         self.val = element
-        self.next = next
-        self.prev = prev
+        self.next = None
+        self.prev = None
