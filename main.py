@@ -17,5 +17,5 @@ arr1 = []
 i = 0
 
 if arr1 :
-    return 
+    print("")
 print(if arr )
