@@ -18,4 +18,3 @@ i = 0
 
 if arr1 :
     print("Ture")
-print(if arr )
