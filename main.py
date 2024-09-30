@@ -16,4 +16,4 @@ arr = [1, 2, 3, 4, 5]
 arr1 = []
 i = 0
 
-print()
+print(arr.pop())
