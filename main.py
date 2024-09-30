@@ -17,5 +17,5 @@ arr1 = []
 i = 0
 
 if arr1 :
-    print("")
+    print("Ture")
 print(if arr )
