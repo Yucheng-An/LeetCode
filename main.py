@@ -18,3 +18,5 @@ i = 0
 
 if arr1 :
     print("Ture")
+else:
+    
