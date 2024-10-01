@@ -1,10 +1,12 @@
 from graphviz import Digraph
 
+
 class Node:
     def __init__(self, key):
         self.left = None
         self.right = None
         self.val = key
+
 
 def insert(root, key):
     if root is None:
@@ -17,11 +19,13 @@ def insert(root, key):
 
     return root
 
+
 def inorder(root):
     if root:
         inorder(root.left)
         print(root.val, end=" ")
         inorder(root.right)
+
 
 # Create the root
 root = Node(50)
@@ -34,8 +38,6 @@ root = insert(root, 80)
 
 print("Inorder traversal of the binary tree:")
 inorder(root)
-
-
 
 
 def visualize_tree(root):
@@ -52,6 +54,7 @@ def visualize_tree(root):
 
     add_edges(root)
     return dot
+
 
 # Create and display the tree visualization
 tree_visualization = visualize_tree(root)
