@@ -34,3 +34,23 @@ print("Inorder traversal of the binary tree:")
 inorder(root)
 
 
+from graphviz import Digraph
+
+def visualize_tree(root):
+    dot = Digraph()
+
+    def add_edges(node):
+        if node:
+            if node.left:
+                dot.edge(str(node.val), str(node.left.val))
+                add_edges(node.left)
+            if node.right:
+                dot.edge(str(node.val), str(node.right.val))
+                add_edges(node.right)
+
+    add_edges(root)
+    return dot
+
+# Create and display the tree visualization
+tree_visualization = visualize_tree(root)
+tree_visualization.render('binary_tree', view=True)
