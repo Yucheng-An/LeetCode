@@ -25,6 +25,6 @@ class Solution:
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
         dummy = ListNode()
         dummy.next = head
-        x = findListKNode(dummy,n+1)
+        x = self.findListKNode(dummy, n + 1)
         x.next = x.next.next
         return dummy.next
