@@ -4,7 +4,6 @@ class TreeNode:
         self.right = None
         self.val = value
 
-
 def insert_node(root, value):
     if root is None:
         return TreeNode(value)
@@ -14,23 +13,20 @@ def insert_node(root, value):
         root.right = insert_node(root.right, value)
     return root
 
-
-def balance_tree(nodes):
+def create_balanced_tree(nodes):
     if not nodes:
         return None
     mid = len(nodes) // 2
     root = TreeNode(nodes[mid])
-    root.left = balance_tree(nodes[:mid])
-    root.right = balance_tree(nodes[mid + 1:])
+    root.left = create_balanced_tree(nodes[:mid])
+    root.right = create_balanced_tree(nodes[mid+1:])
     return root
-
 
 def inorder_traversal(root, result):
     if root:
         inorder_traversal(root.left, result)
         result.append(root.val)
         inorder_traversal(root.right, result)
-
 
 # Helper function to print tree
 def print_tree(root, level=0, label="Root:"):
@@ -39,8 +35,7 @@ def print_tree(root, level=0, label="Root:"):
         print_tree(root.left, level + 1, "L---")
         print_tree(root.right, level + 1, "R---")
 
-
-def list_to_tree(input_list, root_node=None, balance_tree=False):
+def list_to_tree(input_list, root_node=None, balance=False):
     if not input_list:
         return None
 
@@ -53,16 +48,12 @@ def list_to_tree(input_list, root_node=None, balance_tree=False):
         if item != root_value:
             root = insert_node(root, item)
 
-    # Step 2: If balance_tree is True, balance the tree
-    if balance_tree:
+    # Step 2: If balance is True, balance the tree
+    if balance:
         in_order_nodes = []
         inorder_traversal(root, in_order_nodes)
-        root = balance_tree(in_order_nodes)
+        root = create_balanced_tree(in_order_nodes)
 
     # Step 3: Print the tree in the console
     print_tree(root)
     return root
-
-
-input_list = [30, 20, 40, 10, 35, 50, 5]
-list_to_tree(input_list, root_node=25, balance_tree=True)
