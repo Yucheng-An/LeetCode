@@ -7,3 +7,5 @@ for i in arr:
 print(arr)
 print(pair)
 
+pair.sort(
+)
