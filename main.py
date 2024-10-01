@@ -62,4 +62,3 @@ def list_to_tree(input_list, root_node, balance=False):
 
 input_list = [30, 20, 40, 10, 35, 50, 5]
 list_to_tree(input_list, root_node=25, balance=True)
-list_to_tree(input_list)
