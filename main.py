@@ -12,7 +12,7 @@ class Node:
 
 
 class Solution:
-    def findListKNode(head: Optional[ListNode], n: int) -> Optional[ListNode]:
+    def findListKNode(sehead: Optional[ListNode], n: int) -> Optional[ListNode]:
         p1 = head
         for _ in range(n):
             p1 = p1.next
