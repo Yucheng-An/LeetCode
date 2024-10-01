@@ -1,11 +1,11 @@
-arr = [100,98,23,55,89,12]
+arr = [100, 98, 23, 55, 89, 12]
 pair = []
 index = 0
 for i in arr:
-    pair.append((i,index))
+    pair.append((i, index))
     index += 1
 print(arr)
 print(pair)
 
-pair.sort(key = lambda x : x[1])
+pair.sort(key=lambda x: x[1])
 print(pair)
