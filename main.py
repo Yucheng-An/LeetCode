@@ -1,3 +1,3 @@
-arr = [11,23,3,4,5,6]
+arr = [11,23,33,4,54,65]
 for i in enumerate(arr):
     print(i)
