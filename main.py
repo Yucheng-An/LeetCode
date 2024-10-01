@@ -57,7 +57,7 @@ def list_to_tree(input_list, root_node=None, balance_tree=False):
     if balance_tree:
         in_order_nodes = []
         inorder_traversal(root, in_order_nodes)
-        root = balance_tree
+        root = balance_tree(in_order_nodes)
 
     # Step 3: Print the tree in the console
     print_tree(root)
