@@ -34,7 +34,7 @@ print("Inorder traversal of the binary tree:")
 inorder(root)
 
 
-from graphviz import Digraph
+
 
 def visualize_tree(root):
     dot = Digraph()
