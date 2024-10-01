@@ -1,8 +1,34 @@
-arr = [100, 98, 23, 55, 89, 12]
+class Node:
+    def __init__(self, key):
+        self.left = None
+        self.right = None
+        self.val = key
 
-for index, value in enumerate(arr):
-    arr[index] = (value, index)
-print(arr)
+def insert(root, key):
+    if root is None:
+        return Node(key)
 
-arr.sort(key=lambda x: x[1], reverse=True)
-print(arr)
+    if key < root.val:
+        root.left = insert(root.left, key)
+    else:
+        root.right = insert(root.right, key)
+
+    return root
+
+def inorder(root):
+    if root:
+        inorder(root.left)
+        print(root.val, end=" ")
+        inorder(root.right)
+
+# Create the root
+root = Node(50)
+root = insert(root, 30)
+root = insert(root, 20)
+root = insert(root, 40)
+root = insert(root, 70)
+root = insert(root, 60)
+root = insert(root, 80)
+
+print("Inorder traversal of the binary tree:")
+inorder(root)
