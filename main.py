@@ -5,5 +5,5 @@ for index , value in enumerate(arr):
     arr[index]= (value, index)
 print(arr)
 
-pair.sort(key=lambda x: x[1], reverse = True)
-print(pair)
+arr.sort(key=lambda x: x[1], reverse = True)
+print(arr)
