@@ -1,61 +1,60 @@
-from graphviz import Digraph
-
-
-class Node:
-    def __init__(self, key):
+\class TreeNode:
+    def __init__(self, value):
         self.left = None
         self.right = None
-        self.val = key
+        self.val = value
 
-
-def insert(root, key):
+def insert_node(root, value):
     if root is None:
-        return Node(key)
-
-    if key < root.val:
-        root.left = insert(root.left, key)
+        return TreeNode(value)
+    if value < root.val:
+        root.left = insert_node(root.left, value)
     else:
-        root.right = insert(root.right, key)
-
+        root.right = insert_node(root.right, value)
     return root
 
+def balance_tree(nodes):
+    if not nodes:
+        return None
+    mid = len(nodes) // 2
+    root = TreeNode(nodes[mid])
+    root.left = balance_tree(nodes[:mid])
+    root.right = balance_tree(nodes[mid+1:])
+    return root
 
-def inorder(root):
+def inorder_traversal(root, result):
     if root:
-        inorder(root.left)
-        print(root.val, end=" ")
-        inorder(root.right)
+        inorder_traversal(root.left, result)
+        result.append(root.val)
+        inorder_traversal(root.right, result)
 
+# Helper function to print tree
+def print_tree(root, level=0, label="Root:"):
+    if root is not None:
+        print(" " * (level * 4) + label + str(root.val))
+        print_tree(root.left, level + 1, "L---")
+        print_tree(root.right, level + 1, "R---")
 
-# Create the root
-root = Node(50)
-root = insert(root, 30)
-root = insert(root, 20)
-root = insert(root, 40)
-root = insert(root, 70)
-root = insert(root, 60)
-root = insert(root, 80)
+def list_to_tree(input_list, root_node=None, balance_tree=False):
+    if not input_list:
+        return None
 
-print("Inorder traversal of the binary tree:")
-inorder(root)
+    # Step 1: Create a binary search tree from the list
+    input_list = sorted(input_list)  # Sorting for balanced tree option
+    root_value = root_node if root_node is not None else input_list[0]
+    root = TreeNode(root_value)
 
+    for item in input_list:
+        if item != root_value:
+            root = insert_node(root, item)
 
-def visualize_tree(root):
-    dot = Digraph()
+    # Step 2: If balance_tree is True, balance the tree
+    if balance_tree:
+        in_order_nodes = []
+        inorder_traversal(root, in_order_nodes)
+        root = balance_tree(in_order_nodes)
 
-    def add_edges(node):
-        if node:
-            if node.left:
-                dot.edge(str(node.val), str(node.left.val))
-                add_edges(node.left)
-            if node.right:
-                dot.edge(str(node.val), str(node.right.val))
-                add_edges(node.right)
+    # Step 3: Print the tree in the console
+    print_tree(root)
+    return root
 
-    add_edges(root)
-    return dot
-
-
-# Create and display the tree visualization
-tree_visualization = visualize_tree(root)
-tree_visualization.render('binary_tree', view=True)
