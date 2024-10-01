@@ -38,13 +38,13 @@ def print_real_tree(root, level=0, prefix="Root: "):
             print_real_tree(root.right, level + 1, "R--- ")
 
 def list_to_tree(list, root_node=None, balance=False):
-    if not input_list:
+    if not list:
         raise ValueError("The input list cannot be empty.")
 
     # Step 1: Balance the tree if balance=True
     if balance:
-        input_list = sorted(input_list)  # Sorting for balanced tree
-        root = create_balanced_tree(input_list)
+        list = sorted(list)  # Sorting for balanced tree
+        root = create_balanced_tree(list)
     else:
         # Step 2: Create a binary search tree from the list with a mandatory root_node
         if root_node is None:
