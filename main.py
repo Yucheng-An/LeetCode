@@ -11,20 +11,22 @@ class Node:
         self.prev = None
 
 
+def findListKNode(head: Optional[ListNode], n: int) -> Optional[ListNode]:
+    p1 = head
+    for _ in range(n):
+        p1 = p1.next
+    p2 = head
+    while p1 != None:
+        p1 = p1.next
+        p2 = p2.next
+    return p2
+
+
 class Solution:
-    def findListKNode(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
-        p1 = head
-        for _ in range(n):
-            p1 = p1.next
-        p2 = head
-        while p1 != None:
-            p1 = p1.next
-            p2 = p2.next
-        return p2
 
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
         dummy = ListNode()
         dummy.next = head
-        x = self.findListKNode(dummy, n + 1)
+        x = findListKNode(dummy, n + 1)
         x.next = x.next.next
         return dummy.next
