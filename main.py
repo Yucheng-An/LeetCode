@@ -28,24 +28,25 @@ def inorder_traversal(root, result):
         result.append(root.val)
         inorder_traversal(root.right, result)
 
-# Helper function to print tree
-def print_tree(root, level=0, label="Root:"):
+# Helper function to visualize the tree as a real tree
+def print_real_tree(root, level=0, prefix="Root: "):
     if root is not None:
-        print(" " * (level * 4) + label + str(root.val))
-        print_tree(root.left, level + 1, "L---")
-        print_tree(root.right, level + 1, "R---")
+        print(" " * (level * 4) + prefix + str(root.val))
+        if root.left:
+            print_real_tree(root.left, level + 1, "L--- ")
+        if root.right:
+            print_real_tree(root.right, level + 1, "R--- ")
 
-def list_to_tree(input_list, root_node=None, balance=False):
+def list_to_tree(input_list, root_node, balance=False):
     if not input_list:
-        return None
+        raise ValueError("The input list cannot be empty.")
 
     # Step 1: Create a binary search tree from the list
     input_list = sorted(input_list)  # Sorting for balanced tree option
-    root_value = root_node if root_node is not None else input_list[0]
-    root = TreeNode(root_value)
+    root = TreeNode(root_node)
 
     for item in input_list:
-        if item != root_value:
+        if item != root_node:
             root = insert_node(root, item)
 
     # Step 2: If balance is True, balance the tree
@@ -54,8 +55,8 @@ def list_to_tree(input_list, root_node=None, balance=False):
         inorder_traversal(root, in_order_nodes)
         root = create_balanced_tree(in_order_nodes)
 
-    # Step 3: Print the tree in the console
-    print_tree(root)
+    # Step 3: Print the tree as a real tree in the console
+    print_real_tree(root)
     return root
 
 
