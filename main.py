@@ -57,3 +57,7 @@ def list_to_tree(input_list, root_node=None, balance=False):
     # Step 3: Print the tree in the console
     print_tree(root)
     return root
+
+
+input_list = [30, 20, 40, 10, 35, 50, 5]
+list_to_tree(input_list, root_node=25, balance=True)
