@@ -37,7 +37,7 @@ def print_real_tree(root, level=0, prefix="Root: "):
         if root.right:
             print_real_tree(root.right, level + 1, "R--- ")
 
-def list_to_tree(input_list, root_node=None, balance=False):
+def list_to_tree(list, root_node=None, balance=False):
     if not input_list:
         raise ValueError("The input list cannot be empty.")
 
