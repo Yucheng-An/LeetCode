@@ -43,7 +43,7 @@ def list_to_tree(list, root_node=None, balance=False):
 
     # Step 1: Balance the tree if balance=True
     if balance:
-        list = sorted(list)  # Sorting for balanced tree
+        sortedList = sorted(list)  # Sorting for balanced tree
         root = create_balanced_tree(list)
     else:
         # Step 2: Create a binary search tree from the list with a mandatory root_node
