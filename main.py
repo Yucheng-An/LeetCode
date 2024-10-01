@@ -11,10 +11,20 @@ class Node:
         self.prev = None
 
 
-# 长度为 5 的数组
-arr = [1, 2, 3, 4, 5]
-arr1 = []
-i = 0
+class Solution:
+    def findListKNode(head: Optional[ListNode], n: int) -> Optional[ListNode]:
+        p1 = head
+        for _ in range(n):
+            p1 = p1.next
+        p2 = head
+        while p1 != None:
+            p1 = p1.next
+            p2 = p2.next
+        return p2
 
-print(arr.pop())
-print(arr)
+    def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
+        dummy = ListNode()
+        dummy.next = head
+        x = findListKNode(dummy,n+1)
+        x.next = x.next.next
+        return dummy.next
