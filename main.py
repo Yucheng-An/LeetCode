@@ -7,5 +7,5 @@ for i in arr:
 print(arr)
 print(pair)
 
-pair.sort(key=lambda x : x[0])
+pair.sort(key=lambda x: x[0])
 print(pair)
