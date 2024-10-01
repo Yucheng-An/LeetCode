@@ -6,3 +6,4 @@ for i in arr:
     index += 1
 print(arr)
 print(pair)
+
