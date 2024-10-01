@@ -60,4 +60,5 @@ def list_to_tree(input_list, root_node=None, balance=False):
 
 input_list = [30, 20, 40, 10, 35, 50, 5]
 list_to_tree(input_list, root_node=25, balance=False)
-a = list_to_tree(input_list, balance=True).print()
+a = list_to_tree(input_list, balance=True)
+
