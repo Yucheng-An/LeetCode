@@ -50,7 +50,7 @@ def list_to_tree(list, root_node=None, balance=False):
         if root_node is None:
             raise ValueError("root_node is required if balance=False.")
         root = TreeNode(root_node)
-        for item in input_list:
+        for item in list:
             if item != root_node:
                 root = insert_node(root, item)
 
