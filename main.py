@@ -41,20 +41,20 @@ def inorder_traversal(root, result):
         inorder_traversal(root.right, result)
 
 
-def list_to_tree(input_list, root_node=None, balance=False):
-    if not input_list:
+def list_to_tree(inputList, root_node=None, balance=False):
+    if not inputList:
         raise ValueError("The input list cannot be empty.")
 
     # Step 1: Balance the tree if balance=True
     if balance:
-        input_list = sorted(input_list)  # Sorting for balanced tree
-        root = create_balanced_tree(input_list)
+        inputList = sorted(inputList)  # Sorting for balanced tree
+        root = create_balanced_tree(inputList)
     else:
         # Step 2: Create a binary search tree from the list with a mandatory root_node
         if root_node is None:
             raise ValueError("root_node is required if balance=False.")
         root = TreeNode(root_node)
-        for item in input_list:
+        for item in inputList:
             if item != root_node:
                 root = insert_node(root, item)
 
