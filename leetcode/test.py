@@ -1,4 +1,4 @@
-citation = [3,1,1]
+citations = [3,1,1]
 if len(citations) == 1:
     if citations[0]==0:
         return 0
