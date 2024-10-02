@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="API",
+    name="",
     version="0.1",
     description="A package for string manipulation functions",
     packages=find_packages(),
