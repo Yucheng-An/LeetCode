@@ -12,6 +12,21 @@ class TreeNode:
             if self.right:
                 self.right.print(level + 1, "R--- ")
 
+def list2Tree(inputList: list, root=None, balance=False) -> TreeNode:
+    if not inputList:
+        raise ValueError("The input list cannot be empty.")
+    if balance:
+        inputList = sorted(inputList)
+        root = createBalancedTree(inputList)
+    else:
+        if root is None:
+            raise ValueError("Root is required if balance=False.")
+        root = TreeNode(root)
+        for item in inputList:
+            if item != root:
+                root = insertNode(root, item)
+    return root
+
 
 def insertNode(root, value):
     if root is None:
