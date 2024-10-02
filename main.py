@@ -59,6 +59,6 @@ def list2Tree(inputList: list, root=None, balance=False) -> TreeNode:
 
 
 input_list = [30, 20, 40, 10, 35, 50, 5]
-balance = list2Tree(input_list, root=25, balance=False)
+balanceTree = list2Tree(input_list, root=25, balance=False)
 a = list2Tree(input_list, balance=True)
 a.print()
