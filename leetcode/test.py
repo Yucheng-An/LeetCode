@@ -18,4 +18,4 @@ def arrayRankTransform(arr):
 
 
 arr = [40, 10, 20, 30]
-arrayRankTransform(arr)
+print(arrayRankTransform(arr))
