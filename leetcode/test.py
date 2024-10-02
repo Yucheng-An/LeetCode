@@ -4,7 +4,7 @@ def arrayRankTransform(arr):
     arr.sort(key=lambda x: x[0])
     rank = 1
     for i in range(len(arr)):
-        if arr
+        if arr[i]
             arr[i]= (arr[i][0],arr[i][1],rank)
 
 arr = [40, 10, 20, 30]
