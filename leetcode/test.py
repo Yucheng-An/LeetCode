@@ -1,5 +1,6 @@
 import re
 
+
 # Node class to represent a node in the expression tree
 class Node:
     def __init__(self, value):
@@ -7,11 +8,13 @@ class Node:
         self.left = None
         self.right = None
 
+
 # 1. Function to validate the mathematical expression
 def validate_expression(expression):
     # Regex to validate if the input expression contains valid characters
     pattern = r'^[0-9+\-*/().\s]+$'
     return re.match(pattern, expression) is not None
+
 
 # 2. Function to convert expression to Reverse Polish Notation (RPN) using Shunting Yard Algorithm
 def infix_to_rpn(expression):
@@ -39,6 +42,7 @@ def infix_to_rpn(expression):
 
     return output
 
+
 # 3. Function to build a binary expression tree from RPN
 def rpn_to_tree(rpn):
     stack = []
@@ -51,6 +55,7 @@ def rpn_to_tree(rpn):
             node.left = stack.pop()
             stack.append(node)
     return stack[0]
+
 
 # 4. Function to evaluate the expression tree
 def evaluate_tree(node):
@@ -69,6 +74,7 @@ def evaluate_tree(node):
     elif node.value == '/':
         return left_value / right_value
 
+
 # 5. Function to print the tree and show step-by-step calculation
 def print_tree_step_by_step(node):
     if node is None:
@@ -77,6 +83,7 @@ def print_tree_step_by_step(node):
     print_tree_step_by_step(node.right)
     if node.left and node.right:
         print(f"Calculating: {node.left.value} {node.value} {node.right.value}")
+
 
 # Main function to handle user input and display the final result
 def calculate(expression):
@@ -96,6 +103,7 @@ def calculate(expression):
 
     result = evaluate_tree(tree)
     print(f"Final result: {result}")
+
 
 # Example Usage
 if __name__ == "__main__":
