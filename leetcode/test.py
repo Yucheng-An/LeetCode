@@ -1,2 +1,3 @@
 citations = [3,1,1]
-def hindex(s)
+def hindex(citations):
+    
