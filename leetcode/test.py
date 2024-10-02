@@ -11,7 +11,8 @@ def arrayRankTransform(arr):
             rank += 1
             arr[i] = (arr[i][0], arr[i][1], rank)
     res = []
-    for i in 
+    for i in range(len(arr)):
+        res.append()
 
 arr = [40, 10, 20, 30]
 arrayRankTransform(arr)
