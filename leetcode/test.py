@@ -13,7 +13,7 @@ def arrayRankTransform(arr):
     arr.sort(key=lambda x : x[1])
     res = []
     for i in range(len(arr)):
-        res.append(arr)
+        res.append(arr[i])
 
 arr = [40, 10, 20, 30]
 arrayRankTransform(arr)
