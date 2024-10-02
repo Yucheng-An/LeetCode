@@ -28,8 +28,8 @@ def createBalancedTree(nodes: TreeNode) -> TreeNode:
         return None
     mid = len(nodes) // 2
     root = TreeNode(nodes[mid])
-    root.left = create_balanced_tree(nodes[:mid])
-    root.right = create_balanced_tree(nodes[mid + 1:])
+    root.left = createBalancedTree(nodes[:mid])
+    root.right = createBalancedTree(nodes[mid + 1:])
     return root
 
 
