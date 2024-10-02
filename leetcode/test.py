@@ -10,11 +10,12 @@ def arrayRankTransform(arr):
         else:
             rank += 1
             arr[i] = (arr[i][0], arr[i][1], rank)
-    arr.sort(key=lambda x : x[1])
+    arr.sort(key=lambda x: x[1])
     res = []
     for i in range(len(arr)):
         res.append(arr[i][2])
-        
+    return res
+
 
 arr = [40, 10, 20, 30]
 arrayRankTransform(arr)
