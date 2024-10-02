@@ -1,3 +1,4 @@
 citations = [3, 1, 1]
 
-for i, 
+for i, rank in enumerate(citations):
+    
