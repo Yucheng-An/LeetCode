@@ -41,7 +41,7 @@ def inorder_traversal(root, result):
         inorder_traversal(root.right, result)
 
 
-def list2tree(inputList: list, root=None, balance=False) -> TreeNode:
+def list2Tree(inputList: list, root=None, balance=False) -> TreeNode:
     if not inputList:
         raise ValueError("The input list cannot be empty.")
     if balance:
