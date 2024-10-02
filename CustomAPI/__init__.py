@@ -1,1 +1,1 @@
-from .list2Tree import 
+from .list2Tree import list2Tree
