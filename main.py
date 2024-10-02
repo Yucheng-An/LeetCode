@@ -1,4 +1,4 @@
-from .
+import CustomAPI
 
 input_list = [30, 20, 40, 10, 35, 50, 5]
 
