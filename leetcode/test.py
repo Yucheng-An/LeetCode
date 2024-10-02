@@ -8,7 +8,8 @@ def arrayRankTransform(arr):
         if arr[i][0] == arr[i-1][0]:
             arr[i]= (arr[i][0],arr[i][1],rank)
         else:
-            rank +
+            rank += 1
+            
 
 
 arr = [40, 10, 20, 30]
