@@ -6,8 +6,8 @@ def hindex(citations):
         else:
             return 1
     citations.sort(reverse=True)
-ranklist =[1]
-rank = 1
+    ranklist =[1]
+    rank = 1
 p = 1
 while p <= len(citations):
     if citations[p] != citations[p-1]:
