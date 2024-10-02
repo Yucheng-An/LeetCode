@@ -5,4 +5,5 @@ def arrayRankTransform(self, arr):
     pointer = 0
     rank = 1
     arr[0][3] = 1
-    
+
+arrayRankTransform()
