@@ -17,6 +17,7 @@ def hindex(citations):
         ranklist.append(rank)
         p += 1
     print(ranklist)
+    for i in range()
 
 
 hindex(citations)
