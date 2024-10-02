@@ -7,4 +7,5 @@ for i in range(1,len(citations)+1):
 print(newlist)
 for i in range(len(citations)):
     if citations[i] < newlist[i] and i > 1:
-        return newlist[]
+        return newlist[i-1]
+    
