@@ -22,7 +22,7 @@ def insert_node(root, value):
         root.right = insert_node(root.right, value)
     return root
 
-def create_balanced_tree(nodes):
+def create_balanced_tree(nodes:TreeNode):
     if not nodes:
         return None
     mid = len(nodes) // 2
