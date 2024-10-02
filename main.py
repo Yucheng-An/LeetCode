@@ -38,21 +38,6 @@ def inorderTraversal(root, result):
         inorderTraversal(root.right, result)
 
 
-def list2Tree(inputList: list, root=None, balance=False) -> TreeNode:
-    if not inputList:
-        raise ValueError("The input list cannot be empty.")
-    if balance:
-        inputList = sorted(inputList)
-        root = createBalancedTree(inputList)
-    else:
-        if root is None:
-            raise ValueError("Root is required if balance=False.")
-        root = TreeNode(root)
-        for item in inputList:
-            if item != root:
-                root = insert_node(root, item)
-
-    return root
 
 
 input_list = [30, 20, 40, 10, 35, 50, 5]
