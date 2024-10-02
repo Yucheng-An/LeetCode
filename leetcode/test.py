@@ -13,4 +13,4 @@ def hindex(citations):
         if citations[p] != citations[p-1]:
             rank += 1
         ranklist.append(rank)
-    p+=1
+        p+=1
