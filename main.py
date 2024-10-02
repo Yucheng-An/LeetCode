@@ -13,6 +13,7 @@ class TreeNode:
             if self.right:
                 self.right.print(level + 1, "R--- ")
 
+
 def insert_node(root, value):
     if root is None:
         return TreeNode(value)
@@ -22,20 +23,23 @@ def insert_node(root, value):
         root.right = insert_node(root.right, value)
     return root
 
-def create_balanced_tree(nodes:TreeNode):
+
+def create_balanced_tree(nodes: TreeNode):
     if not nodes:
         return None
     mid = len(nodes) // 2
     root = TreeNode(nodes[mid])
     root.left = create_balanced_tree(nodes[:mid])
-    root.right = create_balanced_tree(nodes[mid+1:])
+    root.right = create_balanced_tree(nodes[mid + 1:])
     return root
+
 
 def inorder_traversal(root, result):
     if root:
         inorder_traversal(root.left, result)
         result.append(root.val)
         inorder_traversal(root.right, result)
+
 
 def list_to_tree(input_list, root_node=None, balance=False):
     if not input_list:
@@ -55,7 +59,6 @@ def list_to_tree(input_list, root_node=None, balance=False):
                 root = insert_node(root, item)
 
     return root
-
 
 
 input_list = [30, 20, 40, 10, 35, 50, 5]
