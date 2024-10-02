@@ -6,7 +6,7 @@ setup(
     description="A package for string manipulation functions",
     packages=find_packages(),
     install_requires=[],  # No external dependencies
-    author="Ramis H., Yucheng A., Bex A.",
+    author="Ramis H., Yucheng A.",
     url="https://github.com/yourname/string_package",  # Update this with your repo
     classifiers=[
         "Programming Language :: Python :: 3",
