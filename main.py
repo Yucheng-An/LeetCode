@@ -1,12 +1,9 @@
 class TreeNode:
     def __init__(self, value):
         self.val = value
-        
         self.left = None
         self.right = None
-        self.val = value
 
-    # Method to print the tree
     def printTree(self, level=0, prefix="Root: "):
         if self is not None:
             print(" " * (level * 4) + prefix + str(self.val))
