@@ -5,7 +5,7 @@ def hindex(citations):
             return 0
         else:
             return 1
-citations.sort(reverse=True)
+    citations.sort(reverse=True)
 ranklist =[1]
 rank = 1
 p = 1
