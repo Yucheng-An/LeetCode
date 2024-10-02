@@ -27,7 +27,6 @@ def list2Tree(inputList: list, root=None, balance=False) -> TreeNode:
                 root = insertNode(root, item)
     return root
 
-
 def insertNode(root, value):
     if root is None:
         return TreeNode(value)
