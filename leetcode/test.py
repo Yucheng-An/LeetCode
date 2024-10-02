@@ -1,4 +1,4 @@
-def arrayRankTransform(self, arr):
+def arrayRankTransform(arr):
     for index, value in enumerate(arr):
         arr[index] = (value, index, 0)
     arr.sort(key=lambda x: x[0])
