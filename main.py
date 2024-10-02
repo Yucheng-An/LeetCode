@@ -45,10 +45,9 @@ def list_to_tree(inputList: list, root=None, balance=False) -> TreeNode:
     if not inputList:
         raise ValueError("The input list cannot be empty.")
     if balance:
-        inputList = sorted(inputList)  # Sorting for balanced tree
+        inputList = sorted(inputList)
         root = create_balanced_tree(inputList)
     else:
-        # Step 2: Create a binary search tree from the list with a mandatory root
         if root is None:
             raise ValueError("root is required if balance=False.")
         root = TreeNode(root)
