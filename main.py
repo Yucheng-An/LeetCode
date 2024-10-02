@@ -13,7 +13,7 @@ class TreeNode:
                 self.right.print(level + 1, "R--- ")
 
 
-def insert_node(root, value):
+def insertNode _node(root, value):
     if root is None:
         return TreeNode(value)
     if value < root.val:
