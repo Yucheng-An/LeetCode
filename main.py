@@ -5,7 +5,7 @@ class TreeNode:
         self.val = value
 
     # Method to print the tree
-    def print(self, level=0, prefix="Root: "):
+    def printTree(self, level=0, prefix="Root: "):
         if self is not None:
             print(" " * (level * 4) + prefix + str(self.val))
             if self.left:
