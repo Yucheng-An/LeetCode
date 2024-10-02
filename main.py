@@ -33,7 +33,7 @@ def createBalancedTree(nodes: TreeNode) -> TreeNode:
     return root
 
 
-def inorder_traversal(root, result):
+def inorderTraversal(root, result):
     if root:
         inorder_traversal(root.left, result)
         result.append(root.val)
