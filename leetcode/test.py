@@ -1,3 +1,4 @@
+
 if len(citations) == 1:
     if citations[0]==0:
         return 0
