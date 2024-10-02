@@ -43,7 +43,7 @@ def list2Tree(inputList: list, root=None, balance=False) -> TreeNode:
         raise ValueError("The input list cannot be empty.")
     if balance:
         inputList = sorted(inputList)
-        root = create_balanced_tree(inputList)
+        root = createBalancedTree(inputList)
     else:
         if root is None:
             raise ValueError("Root is required if balance=False.")
