@@ -24,7 +24,7 @@ def insert_node(root, value):
     return root
 
 
-def create_balanced_tree(nodes: TreeNode) -> TreeNode[optinal]:
+def create_balanced_tree(nodes: TreeNode) -> TreeNode:
     if not nodes:
         return None
     mid = len(nodes) // 2
