@@ -9,7 +9,7 @@ def hindex(citations):
     ranklist =[1]
     rank = 1
     p = 1
-    while p <= len(citations):
+    while p = len(citations):
         if citations[p] != citations[p-1]:
             rank += 1
         ranklist.append(rank)
