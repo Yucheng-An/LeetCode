@@ -23,6 +23,7 @@ def hindex(citations):
             return ranklist[i]
         if citations[i] < ranklist[i]:
             return ranklist[i-1]
+    
 
 
 hindex(citations)
