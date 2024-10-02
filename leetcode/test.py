@@ -5,4 +5,5 @@ newlist =[]
 for i in range(1,len(citations)+1):
     newlist.append(i)
 print(newlist)
-for i in range(len(citations))
+for i in range(len(citations)):
+    if citations[i] 
