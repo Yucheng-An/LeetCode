@@ -44,8 +44,6 @@ def inorder_traversal(root, result):
 def list_to_tree(inputList: list, root=None, balance=False) -> TreeNode:
     if not inputList:
         raise ValueError("The input list cannot be empty.")
-
-    # Step 1: Balance the tree if balance=True
     if balance:
         inputList = sorted(inputList)  # Sorting for balanced tree
         root = create_balanced_tree(inputList)
