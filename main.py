@@ -35,7 +35,7 @@ def createBalancedTree(nodes: TreeNode) -> TreeNode:
 
 def inorderTraversal(root, result):
     if root:
-        inorder_traversal(root.left, result)
+        inorder_trinorderTraversalaversal(root.left, result)
         result.append(root.val)
         inorder_traversal(root.right, result)
 
