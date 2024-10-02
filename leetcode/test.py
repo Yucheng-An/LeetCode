@@ -1,4 +1,4 @@
-def arrayRankTransform(self, arr: List[int]) -> List[int]:
+def arrayRankTransform(self, arr)
     for index, value in enumerate(arr):
         arr[index] = (value,index,0)
     arr.sort(key=lambda x : x[0])
@@ -7,4 +7,3 @@ def arrayRankTransform(self, arr: List[int]) -> List[int]:
     arr[0][3] = 1
     while pointer < len(arr):
         arr[pointer][2] =
-        
