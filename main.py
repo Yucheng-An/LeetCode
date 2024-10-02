@@ -1,4 +1,4 @@
-import list2Tree from CustomAPI
+import list2Tree 
 
 input_list = [30, 20, 40, 10, 35, 50, 5]
 
