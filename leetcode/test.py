@@ -10,7 +10,7 @@ def arrayRankTransform(arr):
         else:
             rank += 1
             arr[i] = (arr[i][0], arr[i][1], rank)
-    arr.sort(key=lambda x : x[])
+    arr.sort(key=lambda x : x[1])
     res = []
     for i in range(len(arr)):
         res.append()
