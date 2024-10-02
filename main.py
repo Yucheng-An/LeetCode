@@ -22,7 +22,6 @@ def insertNode(root, value):
         root.right = insertNode(root.right, value)
     return root
 
-
 def createBalancedTree(nodes: TreeNode) -> TreeNode:
     if not nodes:
         return None
@@ -31,7 +30,6 @@ def createBalancedTree(nodes: TreeNode) -> TreeNode:
     root.left = createBalancedTree(nodes[:mid])
     root.right = createBalancedTree(nodes[mid + 1:])
     return root
-
 
 def inorderTraversal(root, result):
     if root:
