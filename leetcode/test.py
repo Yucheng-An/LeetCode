@@ -19,7 +19,8 @@ def hindex(citations):
     print(citations)
     print(ranklist)
     for i in range(len(citations)):
-        if ranklist[i] >
+        if ranklist[i] == citations[i]:
+            return 
 
 
 hindex(citations)
