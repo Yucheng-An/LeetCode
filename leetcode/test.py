@@ -4,7 +4,6 @@ def arrayRankTransform(arr):
     arr.sort(key=lambda x: x[0])
     pointer = 0
     rank = 1
-    arr[0][3] = 1
     print(arr)
 
 
