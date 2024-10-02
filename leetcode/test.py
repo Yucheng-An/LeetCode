@@ -14,4 +14,4 @@ def hindex(citations):
             rank += 1
         ranklist.append(rank)
         p+=1
-    
+    print(ranklist)
