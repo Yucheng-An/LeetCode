@@ -5,9 +5,9 @@ setup(
     version="0.1",
     description="A package for string manipulation functions",
     packages=find_packages(),
-    install_requires=[],  # No external dependencies
+    install_requires=[],
     author="Yucheng A.",
-    url="https://github.com/yourname/string_package",  # Update this with your repo
+    url="https://github.com/yourname/string_package",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
