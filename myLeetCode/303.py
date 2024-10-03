@@ -1,2 +1,2 @@
-sum = [[0]]
+sum = [[0]*10]
 print(sum)
