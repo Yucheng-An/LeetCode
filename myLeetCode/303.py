@@ -1,2 +1,3 @@
-sum = [[0]*10] * 10
-print(len(sum))
+need, window = {}, {}
+for c in t:
+    need[c] = need.get(c, 0) + 1
