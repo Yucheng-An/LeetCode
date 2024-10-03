@@ -1,5 +1,5 @@
 """
-Since Python3 doesn't have 
+Since Python3 doesn't have build-in 
 Construct basic Tree structure, import structure into each function.
 """
 class TreeNode:
