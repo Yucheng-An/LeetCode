@@ -16,8 +16,12 @@ def list2Tree(inputList: list[str | int], root: str | int = None, balance: bool 
     if not inputList:
         raise ValueError("The input list cannot be empty.")
 
+    # Ensure the list contains homogeneous types (either all strings or all integers)
+    first_type = type(inputList[0])
+    if not all(isinstance(item, first_type) for item in inputList):
+        raise TypeError("Input list must contain either all strings or all integers.")
+
     if balance:
-        # Sorting is safe because characters and numbers are consistently compared in Python.
         inputList = sorted(inputList)
         root = createBalancedTree(inputList)
     else:
