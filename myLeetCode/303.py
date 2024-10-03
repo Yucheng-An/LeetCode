@@ -8,3 +8,4 @@ for c in t:
 for c in result:
     need[c] = need.get(c or ord(c) == ord(c) - 27, 0) + 1
 print(need)
+
