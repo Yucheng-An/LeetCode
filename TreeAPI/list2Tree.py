@@ -4,7 +4,7 @@ def list2Tree(inputList: list[str | int], root: str | int = None, balance: bool 
     """
     Converts a list to a tree based on the specified root or balance.
     Args:
-        root (TreeNode): The root node of the tree.
+        list (TreeNode): The root node of the tree.
         traversal_type (str, optional): The type of traversal ('inorder', 'preorder', 'postorder').
                                         Default is 'inorder'.
     Returns:
