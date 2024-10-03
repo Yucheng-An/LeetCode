@@ -1,21 +1,21 @@
-import TreeHelper
+# Example adjacency matrix (unweighted)
+adj_matrix = [[0, 1, 1, 0],
+              [1, 0, 1, 1],
+              [1, 1, 0, 1],
+              [0, 1, 1, 0]]
 
-input_list = [30, 20, 40, 10, 35, 50, 5]
-input_list2 = ['d', 'b', 'f', 'a', 'e', 'g', 'c']
+# Number of nodes in the graph
+num_nodes = len(adj_matrix)
 
-unbalanceTree1 = TreeHelper.list2Tree(input_list, root=20, balance=False)
-balanceTree1 = TreeHelper.list2Tree(input_list, balance=True)
+# Translate the matrix to a graph (adjacency list)
+graph = {}
 
-unbalanceTree2 = TreeHelper.list2Tree(input_list2, root='c', balance=False)
-balanceTree2 = TreeHelper.list2Tree(input_list2, balance=True)
+for i in range(num_nodes):
+    graph[i] = []
+    for j in range(num_nodes):
+        if adj_matrix[i][j] != 0:  # There's an edge
+            graph[i].append(j)
 
-balanceTree1.printTree()
-# unbalanceTree1.printTree()
-#
-# balanceTree2.printTree()
-# unbalanceTree2.printTree()
-list1 = TreeHelper.tree2List(balanceTree1, "preorder")
-TreeHelper.findNode(balanceTree1, 10).printTree()
-print(TreeHelper.depthOfTree(balanceTree1))
-print(TreeHelper.isBalanced(unbalanceTree1))
-print(TreeHelper.isBalanced(balanceTree1))
+# Display the graph as an adjacency list
+for node, neighbors in graph.items():
+    print(f"Node {node} is connected to: {', '.join(map(str, neighbors))}")
