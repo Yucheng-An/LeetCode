@@ -86,8 +86,6 @@ def calculate(expression):
     result = evaluate_tree(tree)
     print(f"Final result: {result}")
 
-
-# Example Usage
 if __name__ == "__main__":
     user_input = input("Enter a mathematical expression: ")
     calculate(user_input)
