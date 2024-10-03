@@ -1,5 +1,5 @@
 """
-Since Python3 doesn't have build-in Tree structure
+Since Python3 doesn't have build-in Tree structure.
 Construct basic Tree structure, import structure into each function.
 Included a class method "printTree" for print out Tree structure in terminal.
 """
