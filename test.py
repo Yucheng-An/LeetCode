@@ -32,8 +32,6 @@ def infix_to_rpn(expression):
 
     return output
 
-
-# 3. Function to build a binary expression tree from RPN
 def rpn_to_tree(rpn):
     stack = []
     for token in rpn:
@@ -46,8 +44,6 @@ def rpn_to_tree(rpn):
             stack.append(node)
     return stack[0]
 
-
-# 4. Function to evaluate the expression tree
 def evaluate_tree(node):
     if node.left is None and node.right is None:
         return int(node.value)
