@@ -5,6 +5,6 @@ for c in t:
     if c != ' ':
         result += c
 
-for c in t:
+for c in result:
     need[c] = need.get(c, 0) + 1
 print(need)
