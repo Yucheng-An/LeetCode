@@ -68,8 +68,6 @@ def print_tree_step_by_step(node):
     if node.left and node.right:
         print(f"Calculating: {node.left.value} {node.value} {node.right.value}")
 
-
-# Main function to handle user input and display the final result
 def calculate(expression):
     if not validate_expression(expression):
         print("Invalid expression!")
