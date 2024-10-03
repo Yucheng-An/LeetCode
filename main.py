@@ -9,7 +9,7 @@ unbalanceTree1 = TreeAPI.list2Tree(input_list, balance=True)
 balanceTree2 = TreeAPI.list2Tree(input_list2, root='c', balance=False)
 unbalanceTree2 = TreeAPI.list2Tree(input_list2, balance=True)
 
-# balanceTree1.printTree()
+balanceTree1.printTree()
 # unbalanceTree1.printTree()
 #
 # balanceTree2.printTree()
