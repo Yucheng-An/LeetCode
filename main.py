@@ -11,3 +11,6 @@ unbalanceTree2 = CustomAPI.list2Tree(input_list, balance=True)
 
 balanceTree1.printTree()
 unbalanceTree1.printTree()
+
+balanceTree2.printTree()
+unbalanceTree1.printTree()
