@@ -1,4 +1,6 @@
-
+"""
+Construct basic Tree s
+"""
 class TreeNode:
     def __init__(self, value):
         self.val = value
