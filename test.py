@@ -8,8 +8,6 @@ def validate_expression(expression):
     pattern = r'^[0-9+\-*/().\s]+$'
     return re.match(pattern, expression) is not None
 
-
-# 2. Function to convert expression to Reverse Polish Notation (RPN) using Shunting Yard Algorithm
 def infix_to_rpn(expression):
     precedence = {'+': 1, '-': 1, '*': 2, '/': 2, '(': 0}
     output = []
