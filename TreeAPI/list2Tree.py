@@ -13,7 +13,6 @@ def list2Tree(inputList: list[str | int], root: str | int = None, balance: bool 
         TypeError : Input list must contain either all strings or all integers.
         ValueError: Root is required if balance=False.
     """
-
     if not inputList:
         raise ValueError("The input list cannot be empty.")
     first_type = type(inputList[0])
