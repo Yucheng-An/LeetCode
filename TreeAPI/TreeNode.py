@@ -1,4 +1,5 @@
 """
+
 Construct basic Tree structure, import structure into each function.
 """
 class TreeNode:
