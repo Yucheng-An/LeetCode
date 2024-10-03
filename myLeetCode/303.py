@@ -3,7 +3,7 @@ class NumArray:
         self.nums = nums[0]
         result = ["null"]
         for i in range(1,len(nums)):
-            obj = self.sumRange(nums[][:][0],nums[i][:][1])
+            obj = self.sumRange(nums[i][0],nums[i][1])
             result.appen(obj)
         return result
 
