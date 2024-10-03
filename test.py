@@ -5,7 +5,6 @@ class Node:
         self.left = None
         self.right = None
 def validate_expression(expression):
-    # Regex to validate if the input expression contains valid characters
     pattern = r'^[0-9+\-*/().\s]+$'
     return re.match(pattern, expression) is not None
 
