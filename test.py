@@ -60,8 +60,6 @@ def evaluate_tree(node):
     elif node.value == '/':
         return left_value / right_value
 
-
-# 5. Function to print the tree and show step-by-step calculation
 def print_tree_step_by_step(node):
     if node is None:
         return
