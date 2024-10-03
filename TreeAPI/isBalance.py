@@ -8,7 +8,7 @@ def isBalanced(root: TreeNode) -> bool:
     Returns:
         bool: True if the tree is balanced, False otherwise.
     """
-    def check_height(node):
+    def checkHeight(node):
         if node is None:
             return 0
         left_height = check_height(node.left)
