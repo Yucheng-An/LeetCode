@@ -14,4 +14,4 @@ unbalanceTree2 = CustomAPI.list2Tree(input_list2, balance=True)
 #
 # balanceTree2.printTree()
 # unbalanceTree2.printTree()
-list1 = CustomAPI.Tree2List()
+list1 = CustomAPI.Tree2List(balanceTree1)
