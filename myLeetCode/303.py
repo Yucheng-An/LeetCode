@@ -3,6 +3,7 @@ t = "Special counsel Jack Smith provides fullest picture yet of his 2020 electio
 result = ""
 for c in t:
     if c!=' ':
+        result += c
 
 for c in t:
     need[c] = need.get(c, 0) + 1
