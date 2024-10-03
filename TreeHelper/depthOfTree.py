@@ -1,4 +1,4 @@
-from TreeAPI.TreeNode import TreeNode
+from TreeHelper.TreeNode import TreeNode
 
 def depthOfTree(root: TreeNode) -> int:
     """

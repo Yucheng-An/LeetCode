@@ -1,4 +1,4 @@
-from TreeAPI.TreeNode import TreeNode
+from TreeHelper.TreeNode import TreeNode
 
 def tree2List(root: TreeNode, traversal_type: str = 'inorder') -> list[str | int]:
     """
