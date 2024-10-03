@@ -9,7 +9,6 @@ def list2Tree(inputList: list[str | int], root: str | int = None, balance: bool 
                                         Default is 'None'.
     Returns:
         TreeNode[TreeNode]: A TreeNode start from root.
-
     Raises:
         ValueError: If an invalid traversal type is provided.
     """
