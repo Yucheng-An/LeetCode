@@ -1,3 +1,5 @@
+from TreeAPI.TreeNode import TreeNode
+
 def is_balanced(root: TreeNode) -> bool:
     """
     Determines if the binary tree is balanced.
