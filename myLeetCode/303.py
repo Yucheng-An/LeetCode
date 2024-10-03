@@ -1,15 +1,2 @@
-class NumArray:
-    def __init__(self, nums):
-        self.nums = nums[0]
-        result = ["null"]
-        for i in range(1,len(nums)):
-            obj = self.sumRange(nums[i][0],nums[i][1])
-            result.appen(obj)
-        return result
-
-
-    def sumRange(self, left: int, right: int) -> int:
-        sum = 0
-        for i in range(left,right+1):
-            sum += self.nums[i]
-        return sum
+sum = 
+print(sum)
