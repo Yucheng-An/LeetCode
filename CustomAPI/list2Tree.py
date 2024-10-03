@@ -1,5 +1,3 @@
-from CustomAPI import TreeNode
-
 
 def list2Tree(inputList: list[str | int], root: str | int = None, balance: bool = False) -> TreeNode:
     if not inputList:
