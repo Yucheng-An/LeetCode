@@ -1,5 +1,5 @@
 """
-Construct basic Tree s
+Construct basic Tree structure, import 
 """
 class TreeNode:
     def __init__(self, value):
