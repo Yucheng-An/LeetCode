@@ -1,5 +1,5 @@
 from TreeAPI.TreeNode import TreeNode
-def find_node(root: TreeNode, value: str | int) -> TreeNode:
+def findNode(root: TreeNode, value: str | int) -> TreeNode:
     """
     Finds a node with the specified value in the tree.
     Args:
