@@ -13,6 +13,6 @@ def findNode(root: TreeNode, value: str | int) -> TreeNode:
     if root.val == value:
         return root
     elif value < root.val:
-        return find_node(root.left, value)
+        return findNode(root.left, value)
     else:
-        return find_node(root.right, value)
+        return findNode(root.right, value)
