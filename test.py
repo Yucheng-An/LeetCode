@@ -1,15 +1,9 @@
 import re
-
-
-# Node class to represent a node in the expression tree
 class Node:
     def __init__(self, value):
         self.value = value
         self.left = None
         self.right = None
-
-
-# 1. Function to validate the mathematical expression
 def validate_expression(expression):
     # Regex to validate if the input expression contains valid characters
     pattern = r'^[0-9+\-*/().\s]+$'
