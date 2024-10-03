@@ -13,7 +13,6 @@ def infix_to_rpn(expression):
     output = []
     operators = []
     tokens = re.findall(r'\d+|[+\-*/()]', expression)
-
     for token in tokens:
         if token.isdigit():
             output.append(token)
