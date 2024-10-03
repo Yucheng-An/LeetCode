@@ -1,3 +1,6 @@
+from CustomAPI.list2Tree import TreeNode
+
+
 def tree_to_list(root: TreeNode, traversal_type: str = 'inorder') -> list[str | int]:
     """
     Converts a tree to a list based on the specified traversal type.
