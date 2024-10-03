@@ -2,7 +2,7 @@ need, window = {}, {}
 t = "Special counsel Jack Smith provides fullest picture yet of his 2020 election case against Trump in new filing"
 result = ""
 for c in t:
-    if c!=' ':
+    if c != ' ':
         result += c
 
 for c in t:
