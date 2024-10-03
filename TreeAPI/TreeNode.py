@@ -1,6 +1,6 @@
 """
 Since Python3 doesn't have build-in Tree structure.
-Constructed basic Tree structure, import this class structure into each function.
+Constructed basic Tree structure, import this class into each function.
 Included a class method "printTree" for print out Tree structure in terminal.
 """
 class TreeNode:
