@@ -1,5 +1,5 @@
 """
-Construct basic Tree structure, import 
+Construct basic Tree structure, import structure into each function.
 """
 class TreeNode:
     def __init__(self, value):
