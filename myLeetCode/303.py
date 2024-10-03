@@ -1,5 +1,5 @@
 class NumArray:
-    def __init__(self, nums: List[int]):
+    def __init__(self, nums):
         self.nums = nums[0]
         result = ["null"]
         for i in range(1,len(nums)):
