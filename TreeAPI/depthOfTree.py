@@ -1,6 +1,6 @@
 from TreeAPI.TreeNode import TreeNode
 
-def depth_of_tree(root: TreeNode) -> int:
+def depthOfTree(root: TreeNode) -> int:
     """
     Calculates the depth (height) of the binary tree.
     Args:
