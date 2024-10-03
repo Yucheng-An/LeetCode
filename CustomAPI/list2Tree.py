@@ -12,10 +12,12 @@ class TreeNode:
             if self.right:
                 self.right.printTree(level + 1, "R--- ")
 
-def list2Tree(inputList: list, root=None, balance=False) -> TreeNode:
+def list2Tree(inputList: list[str | int], root: str | int = None, balance: bool = False) -> TreeNode:
     if not inputList:
         raise ValueError("The input list cannot be empty.")
+
     if balance:
+        # Sorting is safe because characters and numbers are consistently compared in Python.
         inputList = sorted(inputList)
         root = createBalancedTree(inputList)
     else:
@@ -23,11 +25,12 @@ def list2Tree(inputList: list, root=None, balance=False) -> TreeNode:
             raise ValueError("Root is required if balance=False.")
         root = TreeNode(root)
         for item in inputList:
-            if item != root:
+            if item != root.val:
                 root = insertNode(root, item)
+
     return root
 
-def insertNode(root, value):
+def insertNode(root: TreeNode, value: str | int) -> TreeNode:
     if root is None:
         return TreeNode(value)
     if value < root.val:
@@ -36,7 +39,7 @@ def insertNode(root, value):
         root.right = insertNode(root.right, value)
     return root
 
-def createBalancedTree(nodes: TreeNode) -> TreeNode:
+def createBalancedTree(nodes: list[str | int]) -> TreeNode:
     if not nodes:
         return None
     mid = len(nodes) // 2
@@ -45,7 +48,7 @@ def createBalancedTree(nodes: TreeNode) -> TreeNode:
     root.right = createBalancedTree(nodes[mid + 1:])
     return root
 
-def inorderTraversal(root, result):
+def inorderTraversal(root: TreeNode, result: list[str | int]):
     if root:
         inorderTraversal(root.left, result)
         result.append(root.val)
