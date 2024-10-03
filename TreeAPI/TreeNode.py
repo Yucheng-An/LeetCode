@@ -1,7 +1,7 @@
 """
 Since Python3 doesn't have build-in Tree structure
 Construct basic Tree structure, import structure into each function.
-Included a class method 
+Included a class method ""
 """
 class TreeNode:
     def __init__(self, value):
