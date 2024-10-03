@@ -13,4 +13,4 @@ balanceTree1.printTree()
 unbalanceTree1.printTree()
 
 balanceTree2.printTree()
-unbalanceTree1.printTree()
+unbalanceTree2.printTree()
