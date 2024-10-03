@@ -2,7 +2,7 @@ from TreeAPI.TreeNode import TreeNode
 
 def list2Tree(inputList: list[str | int], root: str | int = None, balance: bool = False) -> TreeNode:
     """
-    Converts a list to a tree based on the specified root type.
+    Converts a list to a tree based on the specified root or .
     Args:
         root (TreeNode): The root node of the tree.
         traversal_type (str, optional): The type of traversal ('inorder', 'preorder', 'postorder').
