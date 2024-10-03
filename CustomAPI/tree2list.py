@@ -3,12 +3,10 @@ from CustomAPI.TreeNode import TreeNode
 def tree_to_list(root: TreeNode, traversal_type: str = 'inorder') -> list[str | int]:
     """
     Converts a tree to a list based on the specified traversal type.
-
     Args:
         root (TreeNode): The root node of the tree.
         traversal_type (str, optional): The type of traversal ('inorder', 'preorder', 'postorder').
                                         Default is 'inorder'.
-
     Returns:
         list[str | int]: A list of values from the tree based on the chosen traversal.
 
@@ -16,7 +14,6 @@ def tree_to_list(root: TreeNode, traversal_type: str = 'inorder') -> list[str | 
         ValueError: If an invalid traversal type is provided.
     """
     result = []
-
     if traversal_type == 'inorder':
         inorderTraversal(root, result)
     elif traversal_type == 'preorder':
