@@ -10,7 +10,7 @@ def list2Tree(inputList: list[str | int], root: str | int = None, balance: bool 
     Returns:
         TreeNode[TreeNode]: A TreeNode start from root.
     Raises:
-        TypeError : Input list must contain either all strings or all integers
+        TypeError : Input list must contain either all strings or all integers.
         ValueError: If an invalid traversal type is provided.
     """
 
