@@ -48,6 +48,4 @@ def createBalancedTree(nodes: list[str | int]) -> TreeNode:
     root.right = createBalancedTree(nodes[mid + 1:])
     return root
 
-def inorderTraversal(root: TreeNode, result: list[str | int]):
-
 
