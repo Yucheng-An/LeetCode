@@ -11,10 +11,10 @@ def isBalanced(root: TreeNode) -> bool:
     def checkHeight(node):
         if node is None:
             return 0
-        left_height = check_height(node.left)
-        right_height = check_height(node.right)
+        left_height = checkHeight(node.left)
+        right_height = checkHeight(node.right)
         if left_height == -1 or right_height == -1 or abs(left_height - right_height) > 1:
             return -1
         return max(left_height, right_height) + 1
 
-    return check_height(root) != -1
+    return checkHeight(root) != -1
