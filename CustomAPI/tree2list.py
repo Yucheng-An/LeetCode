@@ -22,7 +22,6 @@ def tree_to_list(root: TreeNode, traversal_type: str = 'inorder') -> list[str | 
         postorderTraversal(root, result)
     else:
         raise ValueError("Invalid traversal type. Use 'inorder', 'preorder', or 'postorder'.")
-
     return result
 
 def inorderTraversal(root: TreeNode, result: list[str | int]):
