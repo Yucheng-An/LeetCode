@@ -10,6 +10,6 @@ def depthOfTree(root: TreeNode) -> int:
     """
     if root is None:
         return 0
-    left_depth = depth_of_tree(root.left)
-    right_depth = depth_of_tree(root.right)
+    left_depth = depthOfTree(root.left)
+    right_depth = depthOfTree(root.right)
     return max(left_depth, right_depth) + 1
