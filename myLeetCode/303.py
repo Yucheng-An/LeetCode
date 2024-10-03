@@ -7,7 +7,7 @@ for c in t:
         result += c
 
 for c in result:
-    need[c] = need.get(c or ord(c) - 32 == ord(c), 0) + 1
+    need[c] = need.get(c, 0) + 1
 print(need)
 
 print(ord('c')-ord('C'))
