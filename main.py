@@ -6,8 +6,8 @@ input_list2 = ['d', 'b', 'f', 'a', 'e', 'g', 'c']
 unbalanceTree1 = TreeAPI.list2Tree(input_list, root=20, balance=False)
 balanceTree1 = TreeAPI.list2Tree(input_list, balance=True)
 
-balanceTree2 = TreeAPI.list2Tree(input_list2, root='c', balance=False)
-unbalanceTree2 = TreeAPI.list2Tree(input_list2, balance=True)
+unbalanceTree2 = TreeAPI.list2Tree(input_list2, root='c', balance=False)
+balanceTree2 = TreeAPI.list2Tree(input_list2, balance=True)
 
 balanceTree1.printTree()
 # unbalanceTree1.printTree()
