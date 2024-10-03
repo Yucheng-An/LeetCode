@@ -8,7 +8,7 @@ def list2Tree(inputList: list[str | int], root: str | int = None, balance: bool 
         root (str | number, optional): Assign specified root or not.
                                         Default is 'None'.
     Returns:
-        TreeNode[TreeNode]: A list of values from the tree based on the chosen traversal.
+        TreeNode[TreeNode]: A TreeNode start from root.
 
     Raises:
         ValueError: If an invalid traversal type is provided.
