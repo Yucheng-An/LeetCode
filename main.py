@@ -14,5 +14,5 @@ balanceTree1.printTree()
 #
 # balanceTree2.printTree()
 # unbalanceTree2.printTree()
-list1 = TreeAPI.tree2List(balanceTree1,"preorder")
+list1 = TreeAPI.tree2List(balanceTree1, "preorder")
 print(list1)
