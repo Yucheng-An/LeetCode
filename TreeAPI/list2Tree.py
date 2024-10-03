@@ -1,6 +1,19 @@
 from TreeAPI.TreeNode import TreeNode
 
 def list2Tree(inputList: list[str | int], root: str | int = None, balance: bool = False) -> TreeNode:
+    """
+    Converts a tree to a list based on the specified traversal type.
+    Args:
+        root (TreeNode): The root node of the tree.
+        traversal_type (str, optional): The type of traversal ('inorder', 'preorder', 'postorder').
+                                        Default is 'inorder'.
+    Returns:
+        list[str | int]: A list of values from the tree based on the chosen traversal.
+
+    Raises:
+        ValueError: If an invalid traversal type is provided.
+    """
+
     if not inputList:
         raise ValueError("The input list cannot be empty.")
     first_type = type(inputList[0])
