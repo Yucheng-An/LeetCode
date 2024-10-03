@@ -12,7 +12,6 @@ def list2Tree(inputList: list[str | int], root: str | int = None, balance: bool 
     Raises:
         TypeError : Input list must contain either all strings or all integers.
         ValueError: Root is required if balance=False.
-        :param balance:
     """
 
     if not inputList:
