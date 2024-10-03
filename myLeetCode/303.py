@@ -1,5 +1,6 @@
 need, window = {}, {}
 t = "Special cossssssunsel Jack Smith provides fullest picture yet of his 2020 election case against Trump in new filing"
+t.lower()
 result = ""
 for c in t:
     if c != ' ':
