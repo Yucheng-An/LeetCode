@@ -1,7 +1,7 @@
 import CustomAPI
 
 input_list = [30, 20, 40, 10, 35, 50, 5]
-input_list2 = ['a','b','c','d','e','f']
+input_list2 = ['d', 'b', 'f', 'a', 'e', 'g', 'c']
 
 balanceTree1 = CustomAPI.list2Tree(input_list, root=25, balance=False)
 unbalanceTree1 = CustomAPI.list2Tree(input_list, balance=True)
