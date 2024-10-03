@@ -3,7 +3,7 @@ import TreeAPI
 input_list = [30, 20, 40, 10, 35, 50, 5]
 input_list2 = ['d', 'b', 'f', 'a', 'e', 'g', 'c']
 
-balanceTree1 = TreeAPI.list2Tree(input_list, root=25, balance=False)
+balanceTree1 = TreeAPI.list2Tree(input_list, root=, balance=False)
 unbalanceTree1 = TreeAPI.list2Tree(input_list, balance=True)
 
 balanceTree2 = TreeAPI.list2Tree(input_list2, root='c', balance=False)
@@ -15,4 +15,4 @@ balanceTree1.printTree()
 # balanceTree2.printTree()
 # unbalanceTree2.printTree()
 list1 = TreeAPI.tree2List(balanceTree1, "preorder")
-print(TreeAPI.findNode(balanceTree1,))
+print(TreeAPI.findNode(balanceTree1,30))
