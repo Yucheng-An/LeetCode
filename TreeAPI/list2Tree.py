@@ -6,7 +6,7 @@ def list2Tree(inputList: list[str | int], root: str | int = None, balance: bool 
     Args:
         inputList (str | number): input list convert to tree.
         root (str | number, optional): The type of traversal ('inorder', 'preorder', 'postorder').
-                                        Default is 'inorder'.
+                                        Default is 'None'.
     Returns:
         list[str | int]: A list of values from the tree based on the chosen traversal.
 
