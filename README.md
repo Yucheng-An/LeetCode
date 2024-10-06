@@ -1,2 +1,1 @@
-# LeetCode
-LeetCode
+# This is my algorithm test repo and 
