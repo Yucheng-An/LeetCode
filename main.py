@@ -8,7 +8,7 @@ def example(num: int):
 def re(matrix, num, decreaseIndex ):
     if num - decreaseIndex == 1:
         matrix[(2*num-1)/2][(2*num-1)/2] = 1
-        return matrix[(2*num-1)/2][(2*num-1)/2] = 1
+        return matrix
 
 
 
