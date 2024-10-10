@@ -10,9 +10,10 @@ def re(matrix, num, decreaseIndex):
         matrix[(2 * num - 1) // 2][(2 * num - 1) // 2] = 1
         return matrix
 
-    for i in range(0 + decreaseIndex, len(matrix) - decreaseIndex):
-        for j in range(0 + decreaseIndex, len(matrix) - decreaseIndex):
-            matrix[i][j] = num - decreaseIndex
+    else:
+        for i in range(0 + decreaseIndex, len(matrix) - decreaseIndex):
+            for j in range(0 + decreaseIndex, len(matrix) - decreaseIndex):
+                matrix[i][j] = num - decreaseIndex
     re(matrix, num, decreaseIndex + 1)
 
 
