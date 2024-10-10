@@ -1,7 +1,7 @@
 def example(num: int):
     sizeMatrix = num * 2 - 1
     matrix = [[num] * sizeMatrix] * sizeMatrix
-    return re(matrix,num,0,sizeMatrix)
+    return re(matrix, num, 0, sizeMatrix)
 
 
 def re(matrix, num, start, end):
@@ -11,6 +11,7 @@ def re(matrix, num, start, end):
     for i in range(start, end):
         for j in range(start, end):
             matrix[i][j] = num
-    re(matrix,num-1,start+1,end-1)
+    re(matrix, num - 1, start + 1, end - 1)
+
 
 example(3)
