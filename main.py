@@ -5,8 +5,9 @@ def example(num: int):
         for j in range(sizeMatrix):
 
 
-def re(matrix,num):
+def re(matrix,num,start,end):
     
+
 
     print(matrix)
 
