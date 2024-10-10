@@ -4,7 +4,7 @@ def example(num: int):
     startNumber = len(matrix)
     print(startNumber)
     for i in range(startNumber):
-        for j in range(startNumber):
+        for j in range(i,startNumber):
             matrix[i][j] = startNumber - i
     print(matrix)
 
