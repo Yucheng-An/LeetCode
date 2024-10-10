@@ -2,7 +2,7 @@ def example(num: int):
     sizeMatrix = num * 2 - 1
     matrix = [[num] * sizeMatrix] * sizeMatrix
     print(matrix)
-    return re(matrix, num, 0, sizeMatrix,)
+    return re(matrix, num, 0, sizeMatrix,num)
 
 
 def re(matrix, num, start, end, needCall):
