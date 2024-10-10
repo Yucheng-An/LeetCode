@@ -5,7 +5,7 @@ def example(num: int):
         for j in range(sizeMatrix):
 
 
-def re
+def re(matrix,num)
 
     print(matrix)
 
