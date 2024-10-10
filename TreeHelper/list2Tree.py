@@ -1,4 +1,5 @@
 from TreeHelper.TreeNode import TreeNode
+from TreeHelper.manipulation import insertNode
 
 def list2Tree(inputList: list[str | int], root: str | int = None, balance: bool = False) -> TreeNode:
     """
@@ -7,6 +8,8 @@ def list2Tree(inputList: list[str | int], root: str | int = None, balance: bool 
         inputList (str | number): input list convert to tree.
         root (str | number, optional): Assign specified root or not.
                                         Default is 'None'.
+        balance (bool, optional): Whether to balance the tree.
+                                        Default is False.
     Returns:
         TreeNode[TreeNode]: A TreeNode start from root.
     Raises:
@@ -30,16 +33,7 @@ def list2Tree(inputList: list[str | int], root: str | int = None, balance: bool 
                 root = insertNode(root, item)
     return root
 
-def insertNode(root: TreeNode, value: str | int) -> TreeNode:
-    if root is None:
-        return TreeNode(value)
-    if value < root.val:
-        root.left = insertNode(root.left, value)
-    else:
-        root.right = insertNode(root.right, value)
-    return root
-
-def createBalancedTree(nodes: list[str | int]) -> TreeNode:
+def createBalancedTree(nodes: list[str | int]) -> TreeNode | None:
     if not nodes:
         return None
     mid = len(nodes) // 2
