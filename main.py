@@ -12,6 +12,6 @@ def re(matrix, num, start, end):
     for i in range(start, end):
         for j in range(start, end):
             matrix[i][j] = num
-    re(matrix,num-1,)
+    re(matrix,num-1,start-1,end-1)
 
 example(3)
