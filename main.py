@@ -11,7 +11,8 @@ def re(matrix, num, decreaseIndex ):
         return matrix
 
     for i in range(0 + decreaseIndex, len(matrix) - decreaseIndex):
-        
+        for j in range(0 + decreaseIndex, len(matrix) - decreaseIndex):
+            matrix
 
 
 res = example(3)
