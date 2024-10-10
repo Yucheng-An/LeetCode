@@ -2,7 +2,7 @@ import random
 import string
 import pyperclip
 
-
+# Nice
 def generate_password(length=8, include_uppercase=True, include_digits=True, include_special_chars=True):
     lower = string.ascii_lowercase
     upper = string.ascii_uppercase if include_uppercase else ''
