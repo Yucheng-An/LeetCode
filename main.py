@@ -10,7 +10,7 @@ def re(matrix, num, decreaseIndex ):
         matrix[(2*num-1)/2][(2*num-1)/2] = 1
         return matrix
 
-    for i in range(0 + decreaseIndex, )
+    for i in range(0 + decreaseIndex, len(matrix) - )
 
 
 res = example(3)
