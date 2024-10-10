@@ -3,7 +3,7 @@ def example(num: int):
     matrix = [[num]*sizeMatrix] * sizeMatrix
     for i in range(sizeMatrix):
         for j in range(sizeMatrix):
-            
+
 
     print(matrix)
 
