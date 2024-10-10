@@ -13,7 +13,6 @@ def re(matrix, num, decreaseIndex ):
     for i in range(0 + decreaseIndex, len(matrix) - decreaseIndex):
         for j in range(0 + decreaseIndex, len(matrix) - decreaseIndex):
             matrix[i][j] = num - decreaseIndex
-
-
+    
 res = example(3)
 print(res)
