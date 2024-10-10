@@ -9,7 +9,6 @@ def re(matrix, num, decreaseIndex):
     if num - decreaseIndex == 0:
         matrix[(2 * num - 1) // 2][(2 * num - 1) // 2] = 1
         return matrix
-
     else:
         for i in range(0 + decreaseIndex, len(matrix) - decreaseIndex):
             for j in range(0 + decreaseIndex, len(matrix) - decreaseIndex):
