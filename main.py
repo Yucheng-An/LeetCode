@@ -6,7 +6,7 @@ def example(num: int):
 
 
 def re(matrix, num, start, end):
-    print(matrix)
+    
 
 
 example(3)
