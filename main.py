@@ -8,7 +8,7 @@ def example(num: int):
 def re(matrix, num, start, end):
     if start == end:
         matrix[start][end] = 1;
-        return matrix[start][end] = 1;
+        return matrix
 
     for i in range(start, end):
         for j in range(start, end):
