@@ -1,2 +1,2 @@
-def example():
+def example(num: int):
     
