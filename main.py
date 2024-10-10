@@ -5,7 +5,7 @@ def example(num: int):
     return re(matrix, num, 1)
 
 
-def re(matrix, num, decreaseIndex ):
+def re(matrix, num, decreaseIndex):
     if num - decreaseIndex == 1:
         matrix[(2*num-1)/2][(2*num-1)/2] = 1
         return matrix
