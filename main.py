@@ -7,7 +7,7 @@ def example(num: int):
 
 def re(matrix, num, start, end, needCall):
     if needCall == 1:
-        matrix
+        matrix[start][end] = 1
     if start == end:
         matrix[start][end] = 1
         return matrix
