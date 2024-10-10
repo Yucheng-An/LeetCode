@@ -8,7 +8,7 @@ def example(num: int):
 def re(matrix, num, start, end):
     for i in range (start,end):
         for j in range(start,end):
-            matrix[]
+            matrix[i][j]
 
 
 example(3)
