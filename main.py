@@ -13,4 +13,4 @@ def re(matrix, num, start, end):
             matrix[i][j] = num
     re(matrix, num - 1, start + 1, end - 1)
 
-res  = example()
+res  = example(3)
