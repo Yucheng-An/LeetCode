@@ -6,7 +6,9 @@ def example(num: int):
 
 
 def re(matrix, num, start, end):
-    if 
+    if start == end:
+        return matrix[start][end] = 1;
+        
     for i in range(start, end):
         for j in range(start, end):
             matrix[i][j] = num
