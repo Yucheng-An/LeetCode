@@ -5,7 +5,7 @@ def example(num: int):
     return re(matrix, num, 0, sizeMatrix, num)
 
 
-def re(matrix, num, start, end, needCall):
+def re(matrix, num, size, needCall):
     if needCall == 1:
         matrix[start][end] = 1
     if start == end:
