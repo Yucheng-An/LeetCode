@@ -19,3 +19,4 @@ def re(matrix, num, decreaseIndex):
 
 res = example(3)
 print(res)
+matrix = [[0] * sizeMatrix] * sizeMatrix
