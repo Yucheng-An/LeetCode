@@ -6,7 +6,7 @@ def example(num: int):
 
 
 def re(matrix, num, decreaseIndex ):
-    if num - decreaseIndex == :
+    if num - decreaseIndex == 1:
         matrix[start][end] = 1
 
 
