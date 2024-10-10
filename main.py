@@ -3,10 +3,10 @@ def example(num: int):
     matrix = [[3]*sizeMatrix] * sizeMatrix
     print(matrix)
     print(num)
-    # for i in range(0,len(matrix)):
-    #     for j in range(0 , len(matrix)):
-    #         matrix[i][j] = num
-    # print(matrix)
+    for i in range(0,len(matrix)):
+        for j in range(0 , len(matrix)):
+            matrix[i][j] = num
+    print(matrix)
 
 
 
