@@ -16,5 +16,5 @@ def re(matrix, num, decreaseIndex):
         matrix = re(matrix, num, decreaseIndex + 1)
         return matrix
 
-res = example(3)
+res = example(4)
 print(res)
