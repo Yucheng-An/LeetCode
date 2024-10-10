@@ -20,5 +20,5 @@ def re(matrix, num, decreaseIndex):
 res = example(3)
 print(res)
 matrix = [[0] * 5] * 5
-matrix[0][]
+matrix[0][3] = 10
 print(matrix)
