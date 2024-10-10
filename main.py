@@ -1,6 +1,6 @@
 def example(num: int):
     sizeMatrix = num * 2 - 1
-    
+    matrix = []
     res1 = re(matrix, num, 0)
     return res1
 
