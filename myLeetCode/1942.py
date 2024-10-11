@@ -8,3 +8,4 @@ friendList.sort(key=lambda x: x[0][0])
 chairList = []
 print(friendList)
 for people in friendList:
+    
