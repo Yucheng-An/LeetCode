@@ -9,3 +9,4 @@ chairList = []
 print(friendList)
 chairList.append(friendList[0])
 for people in friendList:
+    
