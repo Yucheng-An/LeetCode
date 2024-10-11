@@ -7,5 +7,5 @@ friendList.sort(key=lambda x: x[0][0])
 
 chairList = []
 print(friendList)
-
+chairList.append()
 for people in friendList:
