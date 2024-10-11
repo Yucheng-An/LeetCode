@@ -1,4 +1,4 @@
-times = [[1,4],[2,3],[4,times = [[1,4],[2,3],[4,6]], targetFriend = 16]], targetFriend = 1
+times = [[1,4],[2,3],[4,6]], targetFriend = 1
 
 
 friendList = []
