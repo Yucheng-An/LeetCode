@@ -5,3 +5,5 @@ for i in range(len(times)):
 
 friendList.sort(key=lambda x: x[0][0])
 print(friendList)
+for people in friendList:
+    
