@@ -7,4 +7,4 @@ for i in range(len(times)):
     friendList.append((times[i],i))
 
 print(friendList)
-friendList.sortkey = lambda x : x = x[0])
+friendList.sort()
