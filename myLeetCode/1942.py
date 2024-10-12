@@ -1,2 +1,3 @@
 ransomNote = "aa"
+
 dicransom = {}
