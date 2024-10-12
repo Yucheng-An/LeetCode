@@ -1,2 +1,2 @@
-
+ransomNote = "aa"
 dicransom = {}
