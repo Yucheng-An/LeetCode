@@ -9,4 +9,3 @@ chairList = []
 print(friendList)
 chairList.append(friendList[0])
 for i in range(1,len(friendList)):
-    
