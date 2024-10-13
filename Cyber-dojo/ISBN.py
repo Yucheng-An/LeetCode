@@ -14,7 +14,7 @@ class ValidateISBN:
         # Validate each character
         for char in ISBN:
             if (
-                    (len(ISBN) == 13 and not char.isdigit())
+                    (len(ISBN) == 13 and not c.isdigit())
                     or (len(ISBN) == 10 and not (c.isdigit()
                     or (c == 'X'and ISBN.index(c) == 9)))
             ):
