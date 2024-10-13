@@ -1,7 +1,6 @@
 ransomNote = "aa"
 magazine = "aab"
 dicRansomNote = {}
-dicMagazine = {}
 for i in magazine:
     if i in dicMagazine:
         dicMagazine[i] += 1
