@@ -1,5 +1,3 @@
- 
-
 class ValidateISBN:
     @staticmethod
     def answer():
@@ -29,4 +27,3 @@ elif len(ISBN)==13:
         multiplier=1 if i%2==0 else 3
         total+=int(ISBN[i])*multiplier
     return total%10==0
-                
