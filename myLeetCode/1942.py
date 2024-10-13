@@ -1,4 +1,4 @@
-ransomNote = "aaaaaa"
+ransomNote = "aa"
 magazine = "aab"
 dicRansomNote = {}
 dicMagazine = {}
@@ -7,4 +7,4 @@ for i in ransomNote:
         dicRansomNote[i] += 1
     if i not in dicRansomNote:
         dicRansomNote[i] = 1
-for 
+for
