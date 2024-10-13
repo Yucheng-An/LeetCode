@@ -1,4 +1,5 @@
 ransomNote = "aa"
 magazine = "aab"
 dicransom = {}
-for 
+for i in ransomNote:
+    if i in
