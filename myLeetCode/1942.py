@@ -3,4 +3,4 @@ magazine = "aab"
 dicransom = {}
 for i in ransomNote:
     if i in dicransom:
-        dicransom{}
+        dicransom{i}
