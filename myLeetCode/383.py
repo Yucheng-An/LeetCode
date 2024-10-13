@@ -12,4 +12,4 @@ def canConstruct(self, ransomNote: str, magazine: str) -> bool:
             return False
         else:
             return False
-     return True
+    return True
