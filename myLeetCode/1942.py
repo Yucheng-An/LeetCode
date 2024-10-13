@@ -3,5 +3,6 @@ magazine = "aab"
 dicransom = {}
 for i in ransomNote:
     if i in dicransom:
-        i.value += 1
-    
+        dicransom.i.value += 1
+    if i not in dicransom:
+        
