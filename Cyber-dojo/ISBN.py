@@ -16,7 +16,7 @@ class ValidateISBN:
             if (len(ISBN) == 13 and not char.isdigit()) or (len(ISBN) == 10 and not (char.isdigit() or (char == 'X' and ISBN.index(char) == 9))):
                 raise ValueError("Invalid character in ISBN")
 
-        total = 0
+        result = 0
 
         # Validate ISBN-10
         if len(ISBN) == 10:
@@ -25,12 +25,12 @@ class ValidateISBN:
                     digit = 10
                 else:
                     digit = int(ISBN[i])
-                total += digit * (10 - i)
-            return total % 11 == 0
+                result += digit * (10 - i)
+            return result % 11 == 0
 
         # Validate ISBN-13
         elif len(ISBN) == 13:
             for i in range(13):
                 multiplier = 1 if i % 2 == 0 else 3
-                total += int(ISBN[i]) * multiplier
-            return total % 10 == 0
+                result += int(ISBN[i]) * multiplier
+            return result % 10 == 0
