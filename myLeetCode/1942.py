@@ -10,4 +10,4 @@ for i in magazine:
 print(dicMagazine)
 for i in ransomNote:
     if i in dicMagazine:
-        dicMagazine[i] = 
+        dicMagazine[i] -= 1
