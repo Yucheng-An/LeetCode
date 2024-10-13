@@ -6,4 +6,3 @@ for i in ransomNote:
         dicransom[i] += 1
     if i not in dicransom:
         dicransom[i] = 1
-print(dicransom)
