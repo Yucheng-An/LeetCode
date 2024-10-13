@@ -14,11 +14,11 @@ class ValidateISBN:
                 raise ValueError("ISBN10 can only contain digits")
 
         total=0
-if len(ISBN)==10:
-    for i in range(10):
-        if ISBN[i]=='X':
-            digit=10
-        else:
+        if len(ISBN)==10:
+            for i in range(10):
+                if ISBN[i]=='X':
+                digit=10
+                else:
             digit=int(ISBN[i])
         total+=digit*(10-i)
     return total%11==0
