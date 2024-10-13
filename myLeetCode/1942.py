@@ -2,4 +2,5 @@ ransomNote = "aa"
 magazine = "aab"
 dicransom = {}
 for i in ransomNote:
-    if i in
+    if i in dicransom:
+        
