@@ -19,7 +19,7 @@ class ValidateISBN:
                 if ISBN[i]=='X':
                 digit=10
                 else:
-            digit=int(ISBN[i])
+                digit=int(ISBN[i])
         total+=digit*(10-i)
     return total%11==0
 elif len(ISBN)==13:
