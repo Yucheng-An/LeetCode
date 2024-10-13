@@ -20,8 +20,8 @@ class ValidateISBN:
                 digit=10
                 else:
                 digit=int(ISBN[i])
-        total+=digit*(10-i)
-    return total%11==0
+            total+=digit*(10-i)
+        return total%11==0
 elif len(ISBN)==13:
     for i in range(13):
         multiplier=1 if i%2==0 else 3
