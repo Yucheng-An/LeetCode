@@ -7,3 +7,4 @@ for i in magazine:
         dicMagazine[i] += 1
     if i not in dicMagazine:
         dicMagazine[i] = 1
+print(dicMagazine)
