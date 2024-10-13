@@ -16,8 +16,7 @@ class ValidateISBN:
             if (
                     (len(ISBN) == 13 and not char.isdigit())
                     or (len(ISBN) == 10 and not (char.isdigit()
-                                                 or (char == 'X'
-                                                     and ISBN.index(char) == 9)))):
+                    or (char == 'X'and ISBN.index(char) == 9)))):
                 raise ValueError("Invalid character in ISBN")
 
         result = 0
