@@ -7,3 +7,4 @@ for i in ransomNote:
         dicRansomNote[i] += 1
     if i not in dicRansomNote:
         dicRansomNote[i] = 1
+for 
