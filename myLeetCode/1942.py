@@ -11,4 +11,4 @@ print(dicMagazine)
 for i in ransomNote:
     if i in dicMagazine:
         dicMagazine[i] -= 1
-    elif 
+        if 
