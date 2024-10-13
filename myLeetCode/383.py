@@ -1,8 +1,6 @@
 def canConstruct(self, ransomNote: str, magazine: str) -> bool:
-    ransomNote = "aa"
-magazine = "aab"
-dicRansomNote = {}
-for i in magazine:
+    dicRansomNote = {}
+        for i in magazine:
     if i in dicMagazine:
         dicMagazine[i] += 1
     if i not in dicMagazine:
