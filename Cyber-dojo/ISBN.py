@@ -13,7 +13,7 @@ class ValidateISBN:
             if (len(ISBN) == 13 and not char.isdigit()) or (len(ISBN)==10 and (not char.isdigit()) and  (not (char=='X' and ISBN.index(char)==9))):
                 raise ValueError("ISBN10 can only contain digits")
 
-total=0
+        total=0
 if len(ISBN)==10:
     for i in range(10):
         if ISBN[i]=='X':
