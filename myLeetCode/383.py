@@ -11,5 +11,5 @@ def canConstruct(self, ransomNote: str, magazine: str) -> bool:
         if dicMagazine[i] == -1:
             return False
         else:
-                return False
-        return True
+            return False
+     return True
