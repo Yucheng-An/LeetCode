@@ -1,5 +1,5 @@
 def canConstruct(self, ransomNote: str, magazine: str) -> bool:
-    dicRansomNote = {}
+    dicMagazine = {}
         for i in magazine:
             if i in dicMagazine:
                 dicMagazine[i] += 1
