@@ -24,6 +24,6 @@ class ValidateISBN:
         return total%11==0
         elif len(ISBN)==13:
         for i in range(13):
-        multiplier=1 if i%2==0 else 3
-        total+=int(ISBN[i])*multiplier
-    return total%10==0
+            multiplier=1 if i%2==0 else 3
+         total+=int(ISBN[i])*multiplier
+        return total%10==0
