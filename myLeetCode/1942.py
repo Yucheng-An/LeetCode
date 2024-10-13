@@ -1,4 +1,4 @@
-ransomNote = "aa"
+ransomNote = "aaaaaa"
 magazine = "aab"
 dicransom = {}
 for i in ransomNote:
