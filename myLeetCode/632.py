@@ -1,1 +1,1 @@
-count = defaultdict(int)
+print(ord('8') - ord('0'))
