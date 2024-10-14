@@ -29,12 +29,8 @@ def find_largest_position(arr, left, right):
     if left == right:
         return left
     mid = (left + right) // 2
-
-    # Recursively find the largest position in the left and right halves
     left_pos = find_largest_position(arr, left, mid)
     right_pos = find_largest_position(arr, mid + 1, right)
-
-    # Compare the two largest elements and return the position of the larger one
     if arr[left_pos] > arr[right_pos]:
         return left_pos
     else:
