@@ -1,2 +1,2 @@
 print(ord('8') - ord('0'))
-print()
+print(ord('8'))
