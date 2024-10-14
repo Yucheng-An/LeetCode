@@ -7,3 +7,4 @@ def find (il):
     else:
         return il[1]-1
 
+t = [0,1,]
