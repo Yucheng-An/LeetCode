@@ -11,15 +11,15 @@ def find(il):
 t = [0, 1, 3, 4, 5, 6]
 
 print(find(t))
-def find_missing(inputList, left, right, start):
+def findMissing(inputList, left, right, start):
     if left >= right:
         return start + left
     mid = (left + right) // 2
     if inputList[mid] == start + mid:
-        return find_missing(inputList, mid + 1, right, start)
+        return findMissing(inputList, mid + 1, right, start)
     else:
-        return find_missing(inputList, left, mid, start)
+        return findMissing(inputList, left, mid, start)
 
 # Example usage:
 arr = [9, 10, 11, 12, 13, 15, 16]
-missing_number = find_missing(arr, 0, len(arr), arr[0])
+missing_number = findMissing(arr, 0, len(arr), arr[0])
