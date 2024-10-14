@@ -3,7 +3,7 @@ def find(il):
         return None
     if il[-1] - il[-2] == 1:
         il.pop()
-        find(il)
+        return find(il)
     else:
         res = il[-1] - 1
         return res
