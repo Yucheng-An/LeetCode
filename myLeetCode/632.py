@@ -5,6 +5,7 @@ def find(il):
         il.pop()
         find(il)
     else:
+        res = il[-1] - 1
         return il[-1] - 1
 
 
