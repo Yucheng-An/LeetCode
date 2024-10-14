@@ -5,7 +5,7 @@ def find(il):
         il.pop()
         find(il)
     else:
-        return il[1] - 1
+        return il[-1] - 1
 
 
 t = [0, 1, 3, 4, 5, 6]
