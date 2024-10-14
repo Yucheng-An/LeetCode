@@ -6,7 +6,7 @@ def find(il):
         find(il)
     else:
         res = il[-1] - 1
-        return il[-1] - 1
+        return res
 
 
 t = [0, 1, 3, 4, 5, 6]
