@@ -1,2 +1,2 @@
-def find (inputlist):
+def find (il):
     if len(il)
