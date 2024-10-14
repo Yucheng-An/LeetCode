@@ -1,1 +1,2 @@
-def find *()
+def find (inputlist):
+    
