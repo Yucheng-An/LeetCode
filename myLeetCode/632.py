@@ -27,6 +27,6 @@ def find_missing(arr, left, right):
         return find_missing(arr, left, mid)
 
 # Example usage:
-arr = [1, 1, 3, 4, 5, 6]
+arr = [0, 1, 3, 4, 5, 6]
 missing_number = find_missing(arr, 0, len(arr))
 print("The missing number is:", missing_number)
