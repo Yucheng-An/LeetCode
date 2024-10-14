@@ -5,4 +5,4 @@ def find (il):
         il.pop()
         find(il)
     else:
-        return list[1]
+        return list[1]-1
