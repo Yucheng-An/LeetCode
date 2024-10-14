@@ -25,12 +25,12 @@ arr = [9, 10, 11, 12, 13, 15, 16]
 missing_number = findMissing(arr, 0, len(arr), arr[0])
 
 
-def find_largest_position(arr, left, right):
+def findLargestIndex(arr, left, right):
     if left == right:
         return left
     mid = (left + right) // 2
-    left_pos = find_largest_position(arr, left, mid)
-    right_pos = find_largest_position(arr, mid + 1, right)
+    left_pos = findLargestIndex(arr, left, mid)
+    right_pos = findLargestIndex(arr, mid + 1, right)
     if arr[left_pos] > arr[right_pos]:
         return left_pos
     else:
@@ -38,5 +38,5 @@ def find_largest_position(arr, left, right):
 
 # Example usage:
 arr = [3, 6, 2, 9, 7, 5]
-position = find_largest_position(arr, 0, len(arr) - 1)
+position = findLargestIndex(arr, 0, len(arr) - 1)
 print("The largest element is at position:", position)
