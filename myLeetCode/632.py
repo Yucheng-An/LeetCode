@@ -30,11 +30,11 @@ def findLargestIndex(inputArray, left, right):
         return left
     mid = (left + right) // 2
     leftResult = findLargestIndex(inputArray, left, mid)
-    right_pos = findLargestIndex(inputArray, mid + 1, right)
-    if inputArray[leftResult] > inputArray[right_pos]:
+    rightResult = findLargestIndex(inputArray, mid + 1, right)
+    if inputArray[leftResult] > inputArray[rightResult]:
         return leftResult
     else:
-        return right_pos
+        return rightResult
 
 # Example usage:
 arr = [3, 6, 2, 9, 7, 5]
