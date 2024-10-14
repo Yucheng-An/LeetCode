@@ -25,13 +25,13 @@ arr = [9, 10, 11, 12, 13, 15, 16]
 missing_number = findMissing(arr, 0, len(arr), arr[0])
 
 
-def findLargestIndex(arr, left, right):
+def findLargestIndex(inputArray, left, right):
     if left == right:
         return left
     mid = (left + right) // 2
-    left_pos = findLargestIndex(arr, left, mid)
-    right_pos = findLargestIndex(arr, mid + 1, right)
-    if arr[left_pos] > arr[right_pos]:
+    left_pos = findLargestIndex(inputArray, left, mid)
+    right_pos = findLargestIndex(inputArray, mid + 1, right)
+    if inputArray[left_pos] > inputArray[right_pos]:
         return left_pos
     else:
         return right_pos
