@@ -11,5 +11,5 @@ def find(il):
 t = [0, 1, 3, 4, 5, 6]
 print(t[-2])
 res = find(t)
-print(find(t))
+print(res)
 print(t[-1])
