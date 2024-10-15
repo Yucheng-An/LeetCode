@@ -3,11 +3,11 @@ def findRepeatedDnaSequences(self, s: str):
     for i in range(len(s)):
         if s[i] == 'A':
             nums[i] = 1
-        elif s == 'C':
+        elif s[i] == 'C':
             nums[i] = 2
-        elif s == 'G':
+        elif s[i] == 'G':
             nums[i] = 3
-        elif s == 'T':
+        elif s[i] == 'T':
             nums[i] = 4
     hashNumber = 0
     seen = set()
