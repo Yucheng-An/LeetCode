@@ -1,4 +1,4 @@
-def searchRange(nums, target) -> List[int]:
+def searchRange(nums, target):
     return [left_bound(nums,target),right_bound(nums,target)]
 
 def left_bound(nums: List[int], target: int) -> int:
