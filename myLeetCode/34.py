@@ -1,7 +1,7 @@
 def searchRange(nums, target):
     return [left_bound(nums,target),right_bound(nums,target)]
 
-def left_bound(nums: List[int], target: int) -> int:
+def left_bound(nums, target):
     left, right = 0, len(nums) - 1
     while left <= right:
         mid = left + (right - left) // 2
