@@ -29,4 +29,4 @@ def right_bound(nums, target):
     return right if nums[right] == target else -1
 
 
-nums = []
+nums = [5,5,7,7,7,8,8,8,8,8,]
