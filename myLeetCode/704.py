@@ -7,7 +7,7 @@ def search(nums, target):
         elif nums[mid] > target:
             right = mid - 1
         elif nums[mid] < target:
-            left = mid
+            left = mid + 1 
     return -1
 
 nums = [-1,0,2,3,5,9,12]
