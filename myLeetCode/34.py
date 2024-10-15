@@ -3,7 +3,7 @@ def searchRange(nums, target):
 
 def left_bound(nums, target):
     left, right = 0, len(nums)
-    while left <= right:
+    while left < right:
         mid = left + (right - left) // 2
         if nums[mid] < target:
             left = mid + 1
@@ -16,7 +16,7 @@ def left_bound(nums, target):
     return left if nums[left] == target else -1
 def right_bound(nums, target):
     left, right = 0, len(nums)
-    while left <= right:
+    while left < right:
         mid = left + (right - left) // 2
         if nums[mid] < target:
             left = mid + 1
