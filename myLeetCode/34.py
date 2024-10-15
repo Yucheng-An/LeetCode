@@ -27,3 +27,5 @@ def right_bound(nums, target):
     if right < 0 or right >= len(nums):
         return -1
     return right if nums[right] == target else -1
+
+
