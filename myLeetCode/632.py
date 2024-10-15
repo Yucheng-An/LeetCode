@@ -1,4 +1,5 @@
 res = set()
 res.add(1)
 res.add(2)
+res.add(2)
 print(res)
