@@ -1,4 +1,4 @@
-def search(nums, target: int) -> int:
+def search(nums, target: int):
     return binarySearch(nums,target,0,len(nums)-1)
 
 def binarySearch(nums,target,left,right):
