@@ -1,6 +1,6 @@
 def search(nums, target):
     left, right = 0, len(nums)-1
-    while left <= right:
+    while left < right:
         mid = left + ((right - left)//2)
         if nums[mid] == target:
             return mid
