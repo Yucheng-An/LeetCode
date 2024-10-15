@@ -5,7 +5,8 @@ def search(nums, target):
         if nums[mid] == target:
             return mid
         elif nums[mid] > target:
-            right 
+            right = mid - 1
+        elif nums
 
 nums = [-1,0,2,3,5,9,12]
 target = 2
