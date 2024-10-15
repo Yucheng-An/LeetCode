@@ -15,8 +15,8 @@ def left_bound(nums, target):
         return -1
     return left if nums[left] == target else -1
 def right_bound(nums, target):
-    left, right = 0, len(nums) - 1
-    while left <= right:
+    left, right = 0, len(nums)
+    while left < right:
         mid = left + (right - left) // 2
         if nums[mid] < target:
             left = mid + 1
