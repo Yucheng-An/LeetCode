@@ -15,4 +15,4 @@ def binarySearch(nums,target,left,right):
 nums = [-1,0,3,5,9,12]
 target = 2
 
-search(nums,target)
+print(search(nums,target))
