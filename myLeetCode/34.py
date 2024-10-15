@@ -8,7 +8,7 @@ def left_bound(nums, target):
         if nums[mid] < target:
             left = mid + 1
         elif nums[mid] > target:
-            right = mid - 1
+            right = mid
         elif nums[mid] == target:
             right = mid
     if left < 0 or left >= len(nums):
@@ -19,7 +19,7 @@ def right_bound(nums, target):
     while left < right:
         mid = left + (right - left) // 2
         if nums[mid] < target:
-            left = mid + 1
+            left = mid
         elif nums[mid] > target:
             right = mid - 1
         elif nums[mid] == target:
