@@ -8,6 +8,7 @@ def search(nums, target):
             right = mid - 1
         elif nums[mid] < target:
             left = mid
+    return -1
 
 nums = [-1,0,2,3,5,9,12]
 target = 2
