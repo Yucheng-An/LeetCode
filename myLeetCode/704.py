@@ -12,7 +12,7 @@ def binarySearch(nums,target,left,right):
             left = mid + 1
     return -1
 
-nums = [-1,0,3,5,9,12]
+nums = [-1,0,2,3,5,9,12]
 target = 2
 
 print(search(nums,target))
