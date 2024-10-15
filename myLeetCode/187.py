@@ -24,3 +24,4 @@ def findRepeatedDnaSequences(self, s: str) -> List[str]:
             hashNumber = hashNumber - (nums[left] * (10**9))
             left += 1
     return list(res)
+
