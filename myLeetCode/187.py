@@ -1,7 +1,7 @@
 def findRepeatedDnaSequences(self, s: str):
     nums =[0] * len(s)
-    for i in :
-        if s == 'A':
+    for i in range(len(s)):
+        if s[i] == 'A':
             nums[i] = 1
         elif s == 'C':
             nums[i] = 2
