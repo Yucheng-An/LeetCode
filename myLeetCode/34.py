@@ -10,7 +10,7 @@ def left_bound(nums, target):
         elif nums[mid] > target:
             right = mid - 1
         elif nums[mid] == target:
-            right = mid - 1
+            right = mid
     if left < 0 or left >= len(nums):
         return -1
     return left if nums[left] == target else -1
