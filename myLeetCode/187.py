@@ -1,4 +1,4 @@
-def findRepeatedDnaSequences(self, s: str) -> List[str]:
+def findRepeatedDnaSequences(self, s: str):
     nums =[0] * len(s)
     for i in s:
         if s == 'A':
