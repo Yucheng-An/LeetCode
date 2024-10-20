@@ -22,7 +22,7 @@ def subExp(subExpr):
             boolValue.append('f')
     allTrue = None
     allFalse = None
-    mixed= 
+    mixed= None
     
     for i in boolValue:
         
