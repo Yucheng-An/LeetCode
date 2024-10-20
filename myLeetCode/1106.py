@@ -15,5 +15,7 @@ def parseBoolExpr(expression):
 def subExp(subExpr):
     boolValue = []
     for i in range(2,len(subExpr)-1):
-        if 
+        if subExpr[i] == 't': 
+            boolValue.append(subExpr[i])
+        elif subExpr
         
