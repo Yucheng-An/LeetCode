@@ -22,7 +22,7 @@ def right_bound(nums, target):
             left = mid
         elif nums[mid] > target:
             right = mid - 1
-        elif nums[mid] == target:   
+        elif nums[mid] == target:
             left = mid
     if right < 0 or right >= len(nums):
         return -1
