@@ -46,4 +46,4 @@ def subExp(subExpr):
         elif allFalse:
             return 'f'
 
-print("&(f,t)")
+print(subExp("&(f,t)"))
