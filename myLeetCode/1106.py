@@ -1,1 +1,3 @@
-str = "|(f,f,f,t)"
+testStr = "|(f,f,f,t)"
+
+
