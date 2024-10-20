@@ -29,7 +29,8 @@ def subExp(subExpr):
     elif len(boolValue) ==  2:
         mixed = True
     elif boolValue[0] == 't':
-        
+        allTrue = True
+    else: 
     if subExpr[0]:
         
         
