@@ -31,7 +31,8 @@ def subExp(subExpr):
         allFalse = True
         
     if subExpr[0] == '|':
-        if mixed 
+        if mixed == True:
+            
     elif subExpr[0] == '&':
         
         
