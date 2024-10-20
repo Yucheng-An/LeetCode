@@ -47,4 +47,4 @@ def subExp(subExpr):
             return 'f'
 
 
-print(subExp("&(f,t)"))
+print(subExp("&(f,t,t,t,t)"))
