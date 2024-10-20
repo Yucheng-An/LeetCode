@@ -1,3 +1,4 @@
+from tomlkit.exceptions import MixedArrayTypesError
 
 testStr = "|(f,f,f,t)"
 
@@ -20,7 +21,8 @@ def subExp(subExpr):
         elif subExpr[i] == 'f':
             boolValue.append('f')
     allTrue = None
-    all
+    allFalse = None
+    mixed= 
     
     for i in boolValue:
         
