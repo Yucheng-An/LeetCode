@@ -13,4 +13,4 @@ def parseBoolExpr(expression):
     for i in boolValue:
         
 def subExp(subExpr):
-    
+    for i in range()
