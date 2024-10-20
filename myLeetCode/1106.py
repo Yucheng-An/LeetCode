@@ -30,6 +30,8 @@ def subExp(subExpr):
     else: 
         allFalse = True
         
-    if subExpr[0] == '|' :
+    if subExpr[0] == '|':
+    
+    elif 
         
         
