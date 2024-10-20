@@ -24,7 +24,7 @@ def subExp(subExpr):
     allFalse = None
     mixed= None
     
-    for i in boolValue:
+    if len(boolValue) ==  0:
         
     if subExpr[0]:
         
