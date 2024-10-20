@@ -25,6 +25,7 @@ def subExp(subExpr):
     mixed= None
     
     if len(boolValue) ==  2:
+        mixed = True
         
     if subExpr[0]:
         
