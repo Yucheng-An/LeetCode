@@ -9,27 +9,28 @@ def parseBoolExpr(expression):
     for i in expression:
         if i == 'f' or i == 't':
             boolValue.append(i)
-        elif i =='|' or i == '&':
+        elif i == '|' or i == '&':
             calculation.append(i)
-        
+
+
 def subExp(subExpr):
-    global mixed,allTrue,allFalse
+    global mixed, allTrue, allFalse
     boolValue = set()
-    for i in range(2,len(subExpr)-1):
-        if subExpr[i] == 't': 
+    for i in range(2, len(subExpr) - 1):
+        if subExpr[i] == 't':
             boolValue.add('t')
         elif subExpr[i] == 'f':
             boolValue.add('f')
-    
-    if len(boolValue) ==  0:
+
+    if len(boolValue) == 0:
         return None
-    elif len(boolValue) ==  2:
+    elif len(boolValue) == 2:
         mixed = True
     elif boolValue[0] == 't':
         allTrue = True
-    else: 
+    else:
         allFalse = True
-        
+
     if subExpr[0] == '|':
         if mixed:
             return 't'
@@ -44,5 +45,6 @@ def subExp(subExpr):
             return 't'
         elif allFalse:
             return 'f'
+
 
 print(subExp("&(f,t)"))
