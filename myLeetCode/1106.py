@@ -12,4 +12,4 @@ def parseBoolExpr(expression):
             calculation.append(i)
     for i in boolValue:
         
-def 
+def subExp(subExpr)
