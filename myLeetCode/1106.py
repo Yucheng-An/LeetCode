@@ -8,4 +8,6 @@ def parseBoolExpr(expression):
     for i in expression:
         if i == 'f' or i == 't':
             boolValue.append(i)
-        elif i ==''
+        elif i =='|' or i == '&':
+            boolValue.append(i)
+    
