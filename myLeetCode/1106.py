@@ -4,7 +4,7 @@ testStr = "|(f,f,f,t)"
 
 
 def parseBoolExpr(expression):
- # for i in range(len(expression)):
+# for i in range(len(expression)):
         
 
 def subExp(subExpr):
