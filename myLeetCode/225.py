@@ -9,6 +9,7 @@ class MyStack:
     def pop(self) -> int:
         t = self.stackList.pop()
         return t
+
     def top(self) -> int:
         return self.stackList[-1]
 
@@ -17,7 +18,6 @@ class MyStack:
             return True
         else:
             return False
-
 
 # Your MyStack object will be instantiated and called as such:
 # obj = MyStack()
