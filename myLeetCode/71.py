@@ -1,4 +1,4 @@
-def simplifyPath(self, path: str) -> str:
+def simplifyPath(path) -> str:
     parts = path.split("/")
     stk = []
     for part in parts:
