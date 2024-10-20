@@ -14,6 +14,7 @@ def parseBoolExpr(expression):
     for i in boolValue:
         
 def subExp(subExpr):
+    global mixed
     boolValue = set()
     for i in range(2,len(subExpr)-1):
         if subExpr[i] == 't': 
