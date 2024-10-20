@@ -5,4 +5,5 @@ testStr = "|(f,f,f,t)"
 
 def parseBoolExpr(expression):
     calculation = []
-    value = 
+    boolValue = []
+    
