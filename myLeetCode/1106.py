@@ -3,7 +3,7 @@ from tomlkit.exceptions import MixedArrayTypesError
 testStr = "|(f,f,f,t)"
 
 
-def parseBoolExpr(expression):
+# def parseBoolExpr(expression):
 # for i in range(len(expression)):
         
 
