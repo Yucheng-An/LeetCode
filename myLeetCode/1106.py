@@ -9,5 +9,5 @@ def parseBoolExpr(expression):
         if i == 'f' or i == 't':
             boolValue.append(i)
         elif i =='|' or i == '&':
-            boolValue.append(i)
+            calculation.append(i)
     
