@@ -15,4 +15,4 @@ def simplifyPath(path):
     return res if res else "/"
 
 
-print(simplifyPath("/.../a/../b/c/../d/./"))
+print(simplifyPath("/.../a/../b/c//////../d/./"))
