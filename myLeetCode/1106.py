@@ -20,6 +20,7 @@ def subExp(subExpr):
         elif subExpr[i] == 'f':
             boolValue.append('f')
     allTrue = None
+    all
     
     for i in boolValue:
         
