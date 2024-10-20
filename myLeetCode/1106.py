@@ -1,4 +1,4 @@
 testStr = "|(f,f,f,t)"
 
 
-def parseBoolExpr(self, expression: str) -> bool:
+def parseBoolExpr(self, expression: str):
