@@ -19,4 +19,5 @@ def subExp(subExpr):
             boolValue.append(subExpr[i])
         elif subExpr[i] == 'f':
             boolValue.append(subExpr[i])
+            
         
