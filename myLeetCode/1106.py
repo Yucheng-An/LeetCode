@@ -31,6 +31,7 @@ def subExp(subExpr):
     elif boolValue[0] == 't':
         allTrue = True
     else: 
+        allFalse = 
     if subExpr[0]:
         
         
