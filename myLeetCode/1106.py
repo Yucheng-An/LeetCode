@@ -39,6 +39,11 @@ def subExp(subExpr):
         elif allFalse:
             return 'f'
     elif subExpr[0] == '&':
-        
+        if mixed:
+            return 'f'
+        elif allTrue:
+            return 't'
+        elif allFalse:
+            return 'f'
         
         
