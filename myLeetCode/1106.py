@@ -19,6 +19,7 @@ def subExp(subExpr):
             boolValue.append('t')
         elif subExpr[i] == 'f':
             boolValue.append('f')
+    con1
     for i in boolValue:
         
     if subExpr[0]:
