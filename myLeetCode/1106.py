@@ -34,6 +34,7 @@ def subExp(subExpr):
     if subExpr[0] == '|':
         if mixed:
             return 't'
+        
             
     elif subExpr[0] == '&':
         
