@@ -38,8 +38,7 @@ def subExp(subExpr):
             return 't'
         elif allFalse:
             return 'f'
-
-            
     elif subExpr[0] == '&':
+        
         
         
