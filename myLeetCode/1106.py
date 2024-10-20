@@ -11,7 +11,6 @@ def parseBoolExpr(expression):
             boolValue.append(i)
         elif i =='|' or i == '&':
             calculation.append(i)
-    for i in boolValue:
         
 def subExp(subExpr):
     global mixed,allTrue,allFalse
