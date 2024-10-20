@@ -29,7 +29,7 @@ def subExp(subExpr):
     elif len(boolValue) ==  2:
         mixed = True
     else: 
-        for len()
+        
     if subExpr[0]:
         
         
