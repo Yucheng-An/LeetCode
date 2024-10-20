@@ -32,6 +32,6 @@ def subExp(subExpr):
         
     if subExpr[0] == '|':
     
-    elif 
+    elif subExpr[0] == '|':
         
         
