@@ -8,7 +8,6 @@ def lengthLongestPath( input):
         stack.append(len(part) - level)
         if "." in part:
             total_length = sum(stack) + len(stack) - 1
-            # 加上父路径的分隔符
             max_len = max(max_len, total_length)
     return max_len
 
