@@ -1,4 +1,4 @@
-def mergeAlternately(self, word1: str, word2: str) -> str:
+def mergeAlternately(word1: str, word2: str) -> str:
     p1 = 0
     p2 = 0
     res = ""
