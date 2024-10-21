@@ -17,7 +17,7 @@ def lengthLongestPath(input):
 input = "dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext"
 print(lengthLongestPath(input))
 
-s = "\t\t\tfile2.ext"
+s = "\t"
 print(len(s))
 index = s.rfind("\t")
 print(index)
