@@ -10,7 +10,7 @@ def mergeAlternately(word1, word2):
     if p1 < len(word1):
         res += word1[p1:-1]
     else:
-        res += word2[p2:-1]
+        res += word2[p2+1:-1]
     return res
 
 word1 ="ab"
