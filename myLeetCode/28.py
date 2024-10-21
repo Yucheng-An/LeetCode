@@ -20,5 +20,5 @@ class Solution:
 
 haystack ="mississippi"
 needle ="issipi"
-newclass = Solution.strStr()
+newclass = Solution
 print(newclass.strStr(haystack,needle))
