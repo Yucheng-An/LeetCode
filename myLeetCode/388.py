@@ -6,7 +6,6 @@ def lengthLongestPath( input):
         while level < len(stack):
             stack.pop()
         stack.append(len(part) - level)
-        # 如果是文件，就计算路径长度
         if "." in part:
             total_length = sum(stack) + len(stack) - 1
             # 加上父路径的分隔符
