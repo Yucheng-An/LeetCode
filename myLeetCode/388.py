@@ -2,7 +2,7 @@ def lengthLongestPath( input):
     stack = []
     max_len = 0
     t = input.split("\n")
-    for part in input.split("\n"):
+    for part in t:
         
         level = part.rfind("\t") + 1
         while level < len(stack):
