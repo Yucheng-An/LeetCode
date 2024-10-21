@@ -9,6 +9,7 @@ def lengthLongestPath(input):
         while level < len(stack):
             stack.pop()
         stack.append(len(part) - level)
+        print(stack)
         if "." in part:
             total_length = sum(stack) + len(stack) - 1
             max_len = max(max_len, total_length)
