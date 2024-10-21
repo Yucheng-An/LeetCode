@@ -11,3 +11,6 @@ def lengthLongestPath( input):
             # 加上父路径的分隔符
             max_len = max(max_len, total_length)
     return max_len
+
+input = "dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext"
+print()
