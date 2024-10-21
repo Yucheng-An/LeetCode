@@ -1,4 +1,4 @@
-def lengthLongestPath( input) -> int:
+def lengthLongestPath( input):
     # 这个栈存储之前的父路径。实际上这里只用存父路径的长度就够了，这个优化留给你吧
     stack = []
     max_len = 0
