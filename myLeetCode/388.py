@@ -20,4 +20,5 @@ print(lengthLongestPath(input))
 s = "\t\t\tfile2.ext"
 index = s.rfind("\t")
 print(index)
+print()
 print(len(s) - index)
