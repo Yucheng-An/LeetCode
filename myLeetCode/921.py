@@ -7,6 +7,6 @@ def t (s):
             res += 1
         elif s[i] == ')':
             res -= 1
-        return abs(res)
+    return abs(res)
     
 print(t("((("))
