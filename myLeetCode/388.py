@@ -6,6 +6,7 @@ def lengthLongestPath( input):
     for part in t:
         
         level = part.rfind("\t") + 1
+        print(level)
         while level < len(stack):
             stack.pop()
         stack.append(len(part) - level)
