@@ -13,6 +13,7 @@ def generateParenthesis(n):
             for left in dp[p]:
                 for right in dp[q]:
                     current_combinations.append(f"({left}){right}")
+                    res.append(f"({left}){right}")
         dp[i] = current_combinations
 
     return dp
