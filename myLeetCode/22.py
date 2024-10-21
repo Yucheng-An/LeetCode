@@ -19,5 +19,5 @@ def generateParenthesis(n):
     return dp
 
 # Example usage:
-n = 
+n = 5
 print(generateParenthesis(n))
