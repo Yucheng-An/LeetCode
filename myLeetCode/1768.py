@@ -12,7 +12,7 @@ def mergeAlternately(word1, word2):
             res += word1[p1]
     else:
         for i in range(p2,len(word2)):
-            
+            word2[p2]
             res += word2[p2]
     return res
 
