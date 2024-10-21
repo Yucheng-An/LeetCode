@@ -8,3 +8,5 @@ def t (s):
         elif s[i] == ')':
             res -= 1
         return abs(res)
+    
+print("(((")
