@@ -1,4 +1,4 @@
-def lengthLongestPath( input):
+def lengthLongestPath(input):
     stack = []
     max_len = 0
     t = input.split("\n")
