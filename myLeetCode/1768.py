@@ -12,3 +12,4 @@ def mergeAlternately(word1, word2):
     else:
         res += word2[p2:-1]
         
+word1 = ""
