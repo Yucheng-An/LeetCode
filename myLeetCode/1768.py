@@ -18,4 +18,4 @@ def mergeAlternately(word1, word2):
 word1 ="ab"
 word2 ="pqrs"
 print(mergeAlternately(word1, word2))
-print(word2[0:len(word2)-1])
+print(word2[0:len(word2)])
