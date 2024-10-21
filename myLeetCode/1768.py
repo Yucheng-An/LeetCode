@@ -14,5 +14,5 @@ def mergeAlternately(word1, word2):
     return res
 
 word1 = "abcd"
-word2 = "1234"
+word2 = "12342222222"
 print(mergeAlternately(word1, word2))
