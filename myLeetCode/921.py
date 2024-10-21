@@ -9,4 +9,4 @@ def t (s):
             res -= 1
         return abs(res)
     
-print("(((")
+print(t("((("))
