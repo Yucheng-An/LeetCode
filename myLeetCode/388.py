@@ -18,5 +18,5 @@ input = "dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir
 print(lengthLongestPath(input))
 
 s = "hhhello"
-index = s.rfind("h")
+index = s.rfind("he")
 print(index)
