@@ -15,3 +15,4 @@ def strStr(haystack: str, needle: str) -> int:
         h+=1
     return -1
 
+haystack = "sadbutsad", needle = "sad"
