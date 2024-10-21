@@ -13,3 +13,5 @@ def mergeAlternately(word1, word2):
         res += word2[p2:-1]
         
 word1 = "abcd"
+word2 = "1234"
+print(mergeAlternately(word1,word2))
