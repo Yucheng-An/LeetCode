@@ -1,7 +1,10 @@
+from tempfile import tempdir
+
+
 def lengthLongestPath( input):
     stack = []
     max_len = 0
-    t=
+    tempdir=
     for part in input.split("\n"):
         
         level = part.rfind("\t") + 1
