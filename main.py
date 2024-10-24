@@ -6,7 +6,6 @@ def maxQualitySegmentation(y):
         for j in range(1, i + 1):
             newWord = y[j-1:i]
             current_quality = quality(newWord) + OPT[j - 1]
-            # Update the maximum quality for OPT(i)
             max_quality = max(max_quality, current_quality)
 
         # Store the best quality achievable for the first i characters
