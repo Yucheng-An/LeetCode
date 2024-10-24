@@ -1,13 +1,10 @@
 def minCostSchedule(n, s, r, c):
-    # Initialize the DP array to store minimum costs up to each week
     OPT = [float('inf')] * (n + 1)
-
-    # Base cases
-    OPT[0] = 0  # No weeks, no cost
+    OPT[0] = 0
     if n >= 1:
-        OPT[1] = r * s[0]  # Cost for week 1
+        OPT[1] = r * s[0]
     if n >= 2:
-        OPT[2] = r * s[0] + r * s[1]  # Cost for first two weeks
+        OPT[2] = r * s[0] + r * s[1]
     if n >= 3:
         OPT[3] = r * s[0] + r * s[1] + r * s[2]  # Cost for first three weeks
 
