@@ -8,6 +8,4 @@ def maxQualitySegmentation(y):
             current_quality = quality(newWord) + OPT[j - 1]
             max_quality = max(max_quality, current_quality)
         OPT[i] = max_quality
-
-    # The result is the maximum quality for the full string y
     return OPT[n]
