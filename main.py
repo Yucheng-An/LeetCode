@@ -2,7 +2,7 @@ def minCostSchedule(weekNumber, supplyList, companyA_Rate, companyB_Amount):
     OPT = [float('inf')] * (weekNumber + 1)
     OPT[0] = 0
     for i in range(1,4):
-        OPT
+        OPT[i] = 
     if weekNumber >= 1:
         OPT[1] = companyA_Rate * supplyList[0]
     if weekNumber >= 2:
