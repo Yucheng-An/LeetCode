@@ -1,6 +1,5 @@
 def maxQualitySegmentation(y, quality):
     n = len(y)
-    # Initialize DP array to store maximum quality for each prefix of y
     OPT = [0] * (n + 1)
 
     # Iterate over all characters in y to fill OPT
