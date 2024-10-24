@@ -28,7 +28,7 @@ def minCostSchedule(n, s, r, c):
 
 # Example Usage:
 n = 10
-s = [111, 91, 91, 12, 12, 12, 12, 9, 9, 11]  # Weekly supply in pounds
+s = [11, 9, 9, 12, 12, 12, 12, 9, 9, 11]   # Weekly supply in pounds
 r = 1  # Cost per pound for Company A
 c = 10  # Fixed weekly cost for Company B
 
