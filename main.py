@@ -5,7 +5,6 @@ def maxQualitySegmentation(y):
         max_quality = float('-inf')
         for j in range(1, i + 1):
             newWord = y[j-1:i]
-            # Calculate the quality if this word is used
             current_quality = quality(newWord) + OPT[j - 1]
             # Update the maximum quality for OPT(i)
             max_quality = max(max_quality, current_quality)
