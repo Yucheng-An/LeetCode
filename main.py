@@ -6,21 +6,13 @@ def minCostSchedule(n, s, r, c):
     if n >= 2:
         OPT[2] = r * s[0] + r * s[1]
     if n >= 3:
-        OPT[3] = r * s[0] + r * s[1] + r * s[2]  # Cost for first three weeks
-
-    # Fill the DP table from week 4 to week n
+        OPT[3] = r * s[0] + r * s[1] + r * s[2]
     for i in range(4, n + 1):
-        # Option 1: Use Company A for week i
         optionA = r * s[i - 1] + OPT[i - 1]
-
-        # Option 2: Use Company B for the block ending at week i
         optionB = float('inf')
         if 4 <= i <= n-4:
             optionB = c * 4 + OPT[i - 4]
-
-        # Choose the minimum of the two
         OPT[i] = min(optionA, optionB)
-
     return OPT[n]
 
 # Example Usage:
