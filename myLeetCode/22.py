@@ -5,7 +5,7 @@ def generateParenthesis(n):
     # Base case: there's only one combination with 0 pairs of parentheses
     dp[0] = [""]
 
-    # Fill the dp array for each number of pairs from 1 to n
+    # Fill the dp array for each number of pairs from 1 to weekNumber
     for i in range(1, n + 1):
         current_combinations = []
         for p in range(i):

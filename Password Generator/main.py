@@ -29,9 +29,9 @@ def copy_to_clipboard(text):
 def get_user_input():
     try:
         length = int(input("Enter the desired length of the password: "))
-        include_uppercase = input("Include uppercase letters? (y/n): ").lower() == 'y'
-        include_digits = input("Include digits? (y/n): ").lower() == 'y'
-        include_special_chars = input("Include special characters? (y/n): ").lower() == 'y'
+        include_uppercase = input("Include uppercase letters? (y/weekNumber): ").lower() == 'y'
+        include_digits = input("Include digits? (y/weekNumber): ").lower() == 'y'
+        include_special_chars = input("Include special characters? (y/weekNumber): ").lower() == 'y'
     except ValueError:
         print("Invalid input, please try again.")
         return get_user_input()  # Retry input if user gives incorrect input
