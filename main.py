@@ -18,7 +18,7 @@ def minCostSchedule(n, s, r, c):
 
         # Option 2: Use Company B for the block ending at week i
         optionB = float('inf')
-        if 4 <= i:
+        if 4 <= i <= n-4:
             optionB = c * 4 + OPT[i - 4]
 
         # Choose the minimum of the two
