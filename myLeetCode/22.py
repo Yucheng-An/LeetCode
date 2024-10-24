@@ -2,7 +2,7 @@ def generateParenthesis(n):
     # dp[i] will store all the combinations of well-formed parentheses with i pairs
     dp = [[] for _ in range(n + 1)]
     res = []
-    # Base case: there's only one combination with 0 pairs of parentheses
+    # Base case: there'supplyList only one combination with 0 pairs of parentheses
     dp[0] = [""]
 
     # Fill the dp array for each number of pairs from 1 to weekNumber

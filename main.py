@@ -1,14 +1,14 @@
-def minCostSchedule(weekNumber, s, r, c):
+def minCostSchedule(weekNumber, supplyList, r, c):
     OPT = [float('inf')] * (weekNumber + 1)
     OPT[0] = 0
     if weekNumber >= 1:
-        OPT[1] = r * s[0]
+        OPT[1] = r * supplyList[0]
     if weekNumber >= 2:
-        OPT[2] = r * s[0] + r * s[1]
+        OPT[2] = r * supplyList[0] + r * supplyList[1]
     if weekNumber >= 3:
-        OPT[3] = r * s[0] + r * s[1] + r * s[2]
+        OPT[3] = r * supplyList[0] + r * supplyList[1] + r * supplyList[2]
     for i in range(4, weekNumber + 1):
-        optionA = r * s[i - 1] + OPT[i - 1]
+        optionA = r * supplyList[i - 1] + OPT[i - 1]
         optionB = float('inf')
         if 4 <= i <= weekNumber-4:
             optionB = c * 4 + OPT[i - 4]
