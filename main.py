@@ -1,4 +1,4 @@
-def maxQualitySegmentation(y, quality):
+def maxQualitySegmentation(y, :
     n = len(y)
     OPT = [0] * (n + 1)
 
