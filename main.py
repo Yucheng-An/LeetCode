@@ -7,6 +7,6 @@ def maxQualityOfString(y):
             newWord = y[left-1:right]
             current_quality = quality(newWord) + OPT[left - 1]
             maxQuality = max(maxQuality, current_quality)
-            # Update ba
+            # Update base on the right 
         OPT[right] = maxQuality
     return OPT[n]
