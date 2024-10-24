@@ -5,8 +5,8 @@ def maxQualityOfString(y):
         maxQuality = float('-inf')
         for left in range(1, right + 1):
             newWord = y[left-1:right]
-            current_quality = quality(newWord) + OPT[left - 1]
+            subQuality = quality(newWord) + OPT[left - 1]
             maxQuality = max(maxQuality, current_quality)
-            # Update base on the right edge mac
+            # Update base on the right edge max-quality
         OPT[right] = maxQuality
     return OPT[n]
