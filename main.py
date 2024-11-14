@@ -1,8 +1,6 @@
 def letter_combinations(digits):
     if not digits:
         return []
-
-    # Mapping of digits to corresponding letters
     keyboard = [[], [], ['a', 'b', 'c'], ['d', 'e', 'f'], ['g', 'h', 'i'], ['j', 'k', 'l'], ['m', 'n', 'o'],
                 ['p', 'q', 'r', 's'], ['t', 'u', 'v'], ['w', 'x', 'y', 'z']]
 
