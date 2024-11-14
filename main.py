@@ -4,4 +4,4 @@ def letterCombinations(digits):
     allCombine = []
     for i in range(len(digits)):
         for j in keyboard[int(digits[i])]:
-            
+            print(j)
