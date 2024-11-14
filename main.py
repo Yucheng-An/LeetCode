@@ -3,8 +3,6 @@ def letter_combinations(digits):
         return []
     keyboard = [[], [], ['a', 'b', 'c'], ['d', 'e', 'f'], ['g', 'h', 'i'], ['j', 'k', 'l'], ['m', 'n', 'o'],
                 ['p', 'q', 'r', 's'], ['t', 'u', 'v'], ['w', 'x', 'y', 'z']]
-
-    # Backtracking function to generate combinations
     def backtrack(index, path):
         if index == len(digits):
             combinations.append("".join(path))
