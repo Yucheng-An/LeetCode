@@ -7,3 +7,6 @@ def letterCombinations(digits):
     for i in range(len(digits)):
         subKeyboard.append(keyboard[int(digits[i])])
     print(subKeyboard)
+
+
+letterCombinations("23")
