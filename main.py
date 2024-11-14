@@ -3,7 +3,8 @@ def letter_combinations(digits):
         return []
 
     # Mapping of digits to corresponding letters
-    keyboard = [[],[],['a','b','c'],['d','e','f'],['g','h','i'],['j','k','l'],['m','n','o'],['p','q','r','s'],['t','u','v'],['w','x','y','z']]
+    keyboard = [[], [], ['a', 'b', 'c'], ['d', 'e', 'f'], ['g', 'h', 'i'], ['j', 'k', 'l'], ['m', 'n', 'o'],
+                ['p', 'q', 'r', 's'], ['t', 'u', 'v'], ['w', 'x', 'y', 'z']]
 
     # Backtracking function to generate combinations
     def backtrack(index, path):
@@ -19,6 +20,7 @@ def letter_combinations(digits):
     combinations = []
     backtrack(0, [])
     return combinations
+
 
 # Example usage
 digits = "23"
