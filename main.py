@@ -5,4 +5,4 @@ def letterCombinations(digits):
     subKeyboard = []
     allCombine = []
     for i in range(len(digits)):
-        subKeyboard.append()
+        subKeyboard.append(keyboard[int(digits[i])])
