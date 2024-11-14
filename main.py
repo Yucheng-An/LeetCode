@@ -20,5 +20,5 @@ def letter_combinations(digits):
 
 
 # Example usage
-digits = "23"
+digits = "234"
 print(letter_combinations(digits))
