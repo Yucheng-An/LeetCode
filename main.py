@@ -12,4 +12,4 @@ def letterCombinations(digits):
     
     
 
-letterCombinations("23")
+letterCombinations("234")
