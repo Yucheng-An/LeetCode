@@ -3,10 +3,7 @@ def letter_combinations(digits):
         return []
 
     # Mapping of digits to corresponding letters
-    digit_to_char = {
-        "2": "abc", "3": "def", "4": "ghi", "5": "jkl",
-        "6": "mno", "7": "pqrs", "8": "tuv", "9": "wxyz"
-    }
+keyboard = [[],[],['a','b','c'],['d','e','f'],['g','h','i'],['j','k','l'],['m','n','o'],['p','q','r','s'],['t','u','v'],['w','x','y','z']]
 
     # Backtracking function to generate combinations
     def backtrack(index, path):
