@@ -9,8 +9,4 @@ def letterCombinations(digits):
     print(subKeyboard)
     n = len(subKeyboard)
     
-        
-    
-    
-
 letterCombinations("234")
