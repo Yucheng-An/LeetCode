@@ -7,7 +7,7 @@ def letterCombinations(digits):
     for i in range(len(digits)):
         subKeyboard.append(keyboard[int(digits[i])])
     print(subKeyboard)
-    for i in range(len(subKeyboard)):
+    # for i in range(len(subKeyboard)):
         
     
     
