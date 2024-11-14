@@ -10,4 +10,4 @@ def letterCombinations(digits):
     n = len(subKeyboard)
     
 
-letterCombinations("234")
+letterCombinations("23")
