@@ -12,7 +12,7 @@ def letter_combinations(digits):
         for char in possible_chars:
             path.append(char)
             backtrack(index + 1, path)
-            path.pop()  # backtrack
+            path.pop()
 
     combinations = []
     backtrack(0, [])
