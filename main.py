@@ -11,7 +11,7 @@ def letter_combinations(digits):
         if index == len(digits):
             combinations.append("".join(path))
             return
-        possible_chars = digit_to_char[digits[index]]
+        possible_chars = keyboard[digits[index]]
         for char in possible_chars:
             path.append(char)
             backtrack(index + 1, path)
