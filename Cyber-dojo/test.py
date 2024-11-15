@@ -1,4 +1,4 @@
-from ISBN import is_ValidateISBN
+from ISBN import ValidateISBN
 import unittest
 class TestValidateISBN(unittest.TestCase):
     def test_simple_test_to_make_sure_everything_works(self):
