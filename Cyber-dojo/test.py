@@ -58,16 +58,3 @@ class TestValidateISBN(unittest.TestCase):
         validator=ValidateISBN()
         result=validator.is_ValidateISBN("9781987631051")
         self.assertFalse(result)
-
-ISBN-10:
-0471958697
-0 471 60695 2
-0-470-84525-2
-0-321-14653-0
-
-ISBN-13:
-9780470059029
-978 0 471 48648 0
-978-0596809485
-978-0-13-149505-0
-978-0-262-13472-9
