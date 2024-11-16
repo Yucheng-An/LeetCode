@@ -1,4 +1,4 @@
-# Leetcode 17 
+# Leetcode 17
 
 def letter_combinations(inputDigits):
     if not inputDigits:
