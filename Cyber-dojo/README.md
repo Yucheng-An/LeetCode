@@ -1,1 +1,1 @@
-> __Note:__ Cyber-dojo is team assignment 
+> __Note:__ Cyber-dojo is team assignment  
