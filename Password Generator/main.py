@@ -30,7 +30,7 @@ def get_user_input():
     try:
         length = int(input("Enter the desired length of the password: "))
         include_uppercase = input("Include uppercase letters? (y/weekNumber): ").lower() == 'y'
-        include_digits = input("Include digits? (y/weekNumber): ").lower() == 'y'
+        include_digits = input("Include inputDigits? (y/weekNumber): ").lower() == 'y'
         include_special_chars = input("Include special characters? (y/weekNumber): ").lower() == 'y'
     except ValueError:
         print("Invalid input, please try again.")

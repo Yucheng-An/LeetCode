@@ -9,7 +9,7 @@ class ValidateISBN:
 
         # Check if ISBN length is either 10 or 13
         if not (len(ISBN) == 10 or len(ISBN) == 13):
-            raise ValueError("ISBN numbers must be 10 or 13 digits")
+            raise ValueError("ISBN numbers must be 10 or 13 inputDigits")
 
         # Validate each character
         for char in ISBN:
