@@ -10,4 +10,6 @@ def func (A,x):
             return 1
         else:
             return 0
-    left = A[:n/2:]
+    left = A[:n/2]
+    right  = A[n/2:]
+    return right + left
