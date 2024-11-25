@@ -13,3 +13,5 @@ def func (A,x):
     left = A[:n/2]
     right  = A[n/2:]
     return right + left
+
+print(func())
