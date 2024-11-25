@@ -2,6 +2,7 @@ A= [1,2,3,4,5,6,7,8]
 x = 6
 
 def func (A,x):
+    n = len(A)
     if len(A) == 0:
         return None
     if len(A) ==1 :
