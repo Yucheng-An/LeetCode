@@ -14,4 +14,4 @@ def func (A,x):
     right  = A[n/2:]
     return right + left
 
-print(func())
+print(func(A,x))
