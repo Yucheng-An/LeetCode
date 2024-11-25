@@ -1,17 +1,19 @@
-A= [1,2,3,4,5,6,7,8]
+A = [1, 2, 3, 4, 5, 6, 7, 8]
 x = 6
 
-def func (A,x):
+
+def func(A, x):
     n = len(A)
     if len(A) == 0:
         return None
-    if len(A) ==1 :
-        if A[0]>x:
+    if len(A) == 1:
+        if A[0] > x:
             return 1
         else:
             return 0
-    left = A[:n//2]
-    right  = A[n//2:]
+    left = A[:n // 2]
+    right = A[n // 2:]
     return right + left
 
-print(func(A,x))
+
+print(func(A, x))
