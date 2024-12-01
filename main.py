@@ -19,6 +19,7 @@ def smallest(min_factor, max_factor):
         raise ValueError("min must be <= max")
     strList = []
     for i in range(min_factor,max_factor+1):
+        
     pass
 
 
