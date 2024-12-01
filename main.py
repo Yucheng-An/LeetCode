@@ -44,7 +44,7 @@ def checkPalindrome(s):
     print(stack)
     for i in range(len(s)//2,len(s)):
         if stack[-1] != s[i]:
-            
+            return 
         
 checkPalindrome("1")
 smallest(1, 9)
