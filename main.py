@@ -1,5 +1,4 @@
-A = [1, 2, 3, 4, 5, 6, 7, 8]
-x = 6
+
 
 
 def count_greater(A, x):
@@ -11,6 +10,7 @@ def count_greater(A, x):
     right = A[len(A) // 2:]
     return right + left
 
-
+A = [1, 2, 3, 4, 5, 6, 7, 8]
+x = 6
 res = count_greater(A, x)
 print(res)
