@@ -52,7 +52,7 @@ def checkPalindrome(s):
         return True
         
 s="12345"
-print(s[::])
+print(s[:])
 print(checkPalindrome("11111"))
 print("--------")
 smallest(1, 9)
