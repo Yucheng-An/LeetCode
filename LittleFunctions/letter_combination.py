@@ -6,7 +6,7 @@ def letter_combinations(inputDigits):
 
     def backtrack(index, path):
         keyboard = [[], [], ['a', 'b', 'c'], ['d', 'e', 'f'], ['g', 'h', 'i'], ['j', 'k', 'l'], ['m', 'n', 'o'],
-                    ['p', 'q', 'r', 's'], ['t', 'u', 'v'], ['w', 'x', 'y', 'z']]
+                    ['p', 'q', 'r', 's'], ['t', 'u', 'v'], ['w', 'targetVlue', 'y', 'z']]
         if index == len(inputDigits):
             combinations.append("".join(path))
             return

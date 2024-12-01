@@ -21,7 +21,7 @@ class MyStack:
 
 # Your MyStack object will be instantiated and called as such:
 # obj = MyStack()
-# obj.push(x)
+# obj.push(targetVlue)
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
