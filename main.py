@@ -32,7 +32,7 @@ def smallest(min_factor, max_factor):
                 break
             if stack is None:
                 palindromeList.append(i)
-        
+        stack = []
             
                 
             
