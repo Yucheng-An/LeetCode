@@ -47,6 +47,7 @@ def checkPalindrome(s):
             pass
         else:
             stack.pop()
+    print(stack)
     if stack is None:
         return True
         
