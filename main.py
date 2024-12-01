@@ -28,6 +28,7 @@ def smallest(min_factor, max_factor):
         for j in range(len(i)//2,len(i)):
             if i[j] == stack[-1]:
                 stack.pop(-1)
+            if stack is None:
                 
                 
             
