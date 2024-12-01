@@ -38,6 +38,7 @@ def smallest(min_factor, max_factor):
     print(palindromeList)
 
 def checkPalindrome(s):
+    stack = []
     for i in s:
         
 
