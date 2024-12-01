@@ -1,3 +1,6 @@
+from logging import raiseExceptions
+
+
 def largest(min_factor, max_factor):
     """Given a range of numbers, find the largest palindromes which
        are products of two numbers within that range.
@@ -12,7 +15,7 @@ def largest(min_factor, max_factor):
 
 
 def smallest(min_factor, max_factor):
-    
+    return raiseExceptions
     pass
 
 
