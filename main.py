@@ -51,4 +51,5 @@ def checkPalindrome(s):
         return True
         
 print(checkPalindrome("11"))
+print("--------")
 smallest(1, 9)
