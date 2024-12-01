@@ -20,7 +20,9 @@ def smallest(min_factor, max_factor):
     strList = []
     for i in range(min_factor,max_factor+1):
         strList.append(str(i))
-    plindromeList = []
+    palindromeList = []
+    for i in strList:
+        
     
     pass
 
