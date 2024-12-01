@@ -30,10 +30,11 @@ def smallest(min_factor, max_factor):
             if i[j] == stack[-1]:
                 stack.pop(-1)
             elif i[j] != stack[-1]:
+                stack = []
                 break
             if stack is None:
                 palindromeList.append(i)
-        stack = []
+                stack = []
     print(palindromeList)
 
 
