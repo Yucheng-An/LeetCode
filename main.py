@@ -17,4 +17,4 @@ def func(A, x):
 
 
 res = func(A, x)
-print(func(A, x))
+print(res)
