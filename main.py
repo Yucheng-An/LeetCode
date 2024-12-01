@@ -6,6 +6,7 @@ def count_greater(A, x):
         return 1 if A[0] > x else 0
     left = A[:len(A) // 2]
     right = A[len(A) // 2:]
+    
     return right + left
 
 A = [1, 2, 3, 4, 5, 6, 7, 8]
