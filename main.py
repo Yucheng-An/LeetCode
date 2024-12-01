@@ -3,7 +3,6 @@ def count_greater(inputArray, targetVlue):
         return 0
     if len(inputArray) == 1:
         return 1 if inputArray[0] > targetVlue else 0
-    right = inputArray[len(inputArray) // 2:]
     return count_greater(inputArray[:len(inputArray) // 2], targetVlue) + count_greater(inputArray[len(inputArray) // 2:], targetVlue)
 
 
