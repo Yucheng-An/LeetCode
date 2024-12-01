@@ -3,7 +3,6 @@ x = 6
 
 
 def func(A, x):
-    n = len(A)
     if len(A) == 0:
         return None
     if len(A) == 1:
