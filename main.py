@@ -16,4 +16,4 @@ def smallest(min_factor, max_factor):
     pass
 
 
-value, factors = smallest(1, max_factor=9)
+value, factors = smallest(1,9)
