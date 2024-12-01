@@ -35,5 +35,4 @@ def smallest(min_factor, max_factor):
         stack = []
     print(palindromeList)
 
-
-value, factors = smallest(1, 9)
+smallest(1, 9)
