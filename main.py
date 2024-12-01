@@ -25,6 +25,7 @@ def smallest(min_factor, max_factor):
     for i in strList:
         if i == i[::-1]:
             palindromeList.append(i)
-    if 
+    if palindromeList is not None:
+        
 
 smallest(1, 9)
