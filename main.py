@@ -15,5 +15,6 @@ def func(A, x):
     right = A[n // 2:]
     return right + left
 
+
 res = func(A, x)
 print(func(A, x))
