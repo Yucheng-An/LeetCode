@@ -15,7 +15,8 @@ def largest(min_factor, max_factor):
 
 
 def smallest(min_factor, max_factor):
-    if min_factor 
+    if min_factor > max_factor:
+        raise ValueError("min must be ")
     pass
 
 
