@@ -28,9 +28,11 @@ def smallest(min_factor, max_factor):
         for j in range(len(i)//2,len(i)):
             if i[j] == stack[-1]:
                 stack.pop(-1)
-            elif 
+            elif i[j] != stack[-1]:
+                break
             if stack is None:
                 palindromeList.append(i)
+        
             
                 
             
