@@ -39,7 +39,7 @@ def smallest(min_factor, max_factor):
 
 def checkPalindrome(s):
     stack = []
-    for i in range(0,len(s)//2+1):
+    for i in range(0,len(s)//2):
         stack.append(s[i])
     print(stack)
     for i in range(len(s)//2,len(s)):
