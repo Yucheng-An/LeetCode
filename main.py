@@ -4,7 +4,7 @@ x = 6
 
 def func(A, x):
     if len(A) == 0:
-        return None
+        return 0
     if len(A) == 1:
         return 1 if A[0] > x else 0
     left = A[:len(A) // 2]
