@@ -38,7 +38,4 @@ def smallest(min_factor, max_factor):
     print(palindromeList)
 
 
-print(s[::])
-print(checkPalindrome("11111"))
-print("--------")
 smallest(1, 9)
