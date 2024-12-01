@@ -33,6 +33,7 @@ def smallest(min_factor, max_factor):
             if stack is None:
                 palindromeList.append(i)
         stack = []
+    print()
 
 
 value, factors = smallest(1, 9)
