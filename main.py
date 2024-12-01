@@ -42,6 +42,7 @@ def checkPalindrome(s):
     for i in range(0,len(s)//2+1):
         stack.append(s[i])
     print(stack)
+    
         
 checkPalindrome("1")
 smallest(1, 9)
