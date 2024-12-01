@@ -38,18 +38,7 @@ def smallest(min_factor, max_factor):
     print(palindromeList)
 
 def checkPalindrome(s):
-    stack = []
-    for i in range(0,len(s)//2):
-        stack.append(s[i])
-    print(stack)
-    for i in range(len(s)//2,len(s)):
-        if stack[-1] != s[i]:
-            pass
-        else:
-            stack.pop()
-    print(stack)
-    if stack is None:
-        return True
+    return s[::]
         
 s="12345"
 print(s[::])
