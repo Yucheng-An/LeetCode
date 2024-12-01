@@ -24,7 +24,7 @@ def smallest(min_factor, max_factor):
     stack = []
     for i in strList:
         for j in range(len(i)):
-            pass
+            
 
 
 value, factors = smallest(1,9)
