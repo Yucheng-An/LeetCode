@@ -47,7 +47,8 @@ def checkPalindrome(s):
             pass
         else:
             stack.pop()
-    print(stack)
+    if stack is None:
+        return s
         
 checkPalindrome("112")
 smallest(1, 9)
