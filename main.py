@@ -18,14 +18,14 @@ def smallest(min_factor, max_factor):
     if min_factor > max_factor:
         raise ValueError("min must be <= max")
     strList = []
-    for i in range(min_factor,max_factor+1):
+    for i in range(min_factor, max_factor + 1):
         strList.append(str(i))
     palindromeList = []
     for i in strList:
         stack = []
-        for j in range(0,len(i)//2+1):
+        for j in range(0, len(i) // 2 + 1):
             stack.append(i[j])
-        for j in range(len(i)//2,len(i)):
+        for j in range(len(i) // 2, len(i)):
             if i[j] == stack[-1]:
                 stack.pop(-1)
             elif i[j] != stack[-1]:
@@ -33,9 +33,6 @@ def smallest(min_factor, max_factor):
             if stack is None:
                 palindromeList.append(i)
         stack = []
-            
-                
-            
 
 
-value, factors = smallest(1,9)
+value, factors = smallest(1, 9)
