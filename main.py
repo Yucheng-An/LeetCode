@@ -15,7 +15,7 @@ def largest(min_factor, max_factor):
 
 
 def smallest(min_factor, max_factor):
-    return raiseExceptions
+    return raiseEx
     pass
 
 
