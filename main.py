@@ -1,6 +1,4 @@
 
-
-
 def count_greater(A, x):
     if len(A) == 0:
         return 0
