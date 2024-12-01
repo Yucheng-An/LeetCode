@@ -49,5 +49,5 @@ def checkPalindrome(s):
             stack.pop()
     print(stack)
         
-checkPalindrome("111")
+checkPalindrome("112")
 smallest(1, 9)
