@@ -25,7 +25,7 @@ def smallest(min_factor, max_factor):
     for i in strList:
         for j in range(0,len(i)//2+1):
             stack.append(i[j])
-        for j in range()
+        for j in range(len(i)//2)
             
 
 
