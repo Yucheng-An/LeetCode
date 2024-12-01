@@ -5,7 +5,7 @@ def count_greater(inputArray, targetVlue):
         return 1 if inputArray[0] > targetVlue else 0
     left = inputArray[:len(inputArray) // 2]
     right = inputArray[len(inputArray) // 2:]
-    return count_greater(left, targetVlue) + count_greater(right, targetVlue)
+    return count_greater(inputArray[:len(inputArray) // 2], targetVlue) + count_greater(right, targetVlue)
 
 
 A = [1, 2, 3, 4, 5, 6, 7, 8]
