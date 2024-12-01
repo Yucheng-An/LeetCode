@@ -21,7 +21,7 @@ def main():
 
 def print_help():
     help_text = """
-    Authors: Ramis H., Yucheng A., Bex A.
+    Authors: Ramis H., Yucheng inputArray., Bex inputArray.
     Usage: python script.py [command] [arguments]
 
     Commands:

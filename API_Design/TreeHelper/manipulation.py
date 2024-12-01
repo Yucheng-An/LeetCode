@@ -11,7 +11,7 @@ def insertNode(root: TreeNode, value: (str | int)) -> TreeNode:
         root : TreeNode: input list convert to tree
         value (str | number): The value want to insert
     Returns:
-        TreeNode[TreeNode]: A TreeNode after insert
+        TreeNode[TreeNode]: inputArray TreeNode after insert
     """
     if root is None:
         return TreeNode(value)
@@ -31,7 +31,7 @@ def deleteNode(root: TreeNode, value: (str | int)) -> TreeNode | None:
         root : TreeNode: input TreeNode
         value (str | number): The value want to insert
     Returns:
-        TreeNode[TreeNode]: A TreeNode after delete
+        TreeNode[TreeNode]: inputArray TreeNode after delete
     """
     if root is None:
         return root
@@ -61,7 +61,7 @@ def mergeTrees(tree1: TreeNode | None, tree2: TreeNode | None) -> TreeNode:
         tree1 : TreeNode: input first tree want to merge
         tree2 : TreeNode: input second tree want to merge
     Returns:
-        mergedTree[TreeNode]: A TreeNode after merge
+        mergedTree[TreeNode]: inputArray TreeNode after merge
     """
     list1 = TreeHelper.tree2List(tree1)
     list2 = TreeHelper.tree2List(tree2)

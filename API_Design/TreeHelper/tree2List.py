@@ -8,7 +8,7 @@ def tree2List(root: TreeNode, traversal_type: str = 'inorder') -> list[str | int
         traversal_type (str, optional): The type of traversal ('inorder', 'preorder', 'postorder').
                                         Default is 'inorder'.
     Returns:
-        list[str | int]: A list of values from the tree based on the chosen traversal.
+        list[str | int]: inputArray list of values from the tree based on the chosen traversal.
 
     Raises:
         ValueError: If an invalid traversal type is provided.

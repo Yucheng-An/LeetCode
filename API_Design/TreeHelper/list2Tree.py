@@ -11,7 +11,7 @@ def list2Tree(inputList: list[str | int], root: str | int = None, balance: bool 
         balance (bool, optional): Whether to balance the tree.
                                         Default is False.
     Returns:
-        TreeNode[TreeNode]: A TreeNode start from root.
+        TreeNode[TreeNode]: inputArray TreeNode start from root.
     Raises:
         TypeError : Input list must contain either all strings or all integers.
         ValueError: Root is required if balance=False.
