@@ -2,7 +2,7 @@ A = [1, 2, 3, 4, 5, 6, 7, 8]
 x = 6
 
 
-def func(A, x):
+def count_greater(A, x):
     if len(A) == 0:
         return 0
     if len(A) == 1:
@@ -12,5 +12,5 @@ def func(A, x):
     return right + left
 
 
-res = func(A, x)
+res = count_greater(A, x)
 print(res)
