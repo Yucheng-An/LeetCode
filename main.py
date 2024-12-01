@@ -27,6 +27,7 @@ def smallest(min_factor, max_factor):
             palindromeList.append(i)
     value = None
     if palindromeList is not None:
-        
+        value = palindromeList[0]
+    
 
 smallest(1, 9)
