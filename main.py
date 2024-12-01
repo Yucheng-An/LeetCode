@@ -23,6 +23,6 @@ def smallest(min_factor, max_factor):
     print(strList)
     palindromeList = []
     for i in strList:
-        if i == i[]
+        if i == i[::-1]
 
 smallest(1, 9)
