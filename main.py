@@ -29,7 +29,8 @@ def smallest(min_factor, max_factor):
             if i[j] == stack[-1]:
                 stack.pop(-1)
             if stack is None:
-                palindromeList.append()
+                palindromeList.append(i)
+            
                 
             
 
