@@ -37,8 +37,6 @@ def smallest(min_factor, max_factor):
                 stack = []
     print(palindromeList)
 
-def checkPalindrome(s):
-    return s == s[::-1]
 
 print(s[::])
 print(checkPalindrome("11111"))
