@@ -23,7 +23,7 @@ def smallest(min_factor, max_factor):
     palindromeList = []
     stack = []
     for i in strList:
-        for j in range(len(i)):
+        for j in range(0,len(i)):
             
 
 
