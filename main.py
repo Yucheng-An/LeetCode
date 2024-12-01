@@ -50,5 +50,5 @@ def checkPalindrome(s):
     if stack is None:
         return True
         
-print(checkPalindrome("112"))
+print(checkPalindrome("11"))
 smallest(1, 9)
