@@ -1,12 +1,25 @@
-def count_greater(inputArray, targetVlue):
-    if len(inputArray) == 0:
-        return 0
-    if len(inputArray) == 1:
-        return 1 if inputArray[0] > targetVlue else 0
-    return count_greater(inputArray[:len(inputArray) // 2], targetVlue) + count_greater(inputArray[len(inputArray) // 2:], targetVlue)
+def largest(min_factor, max_factor):
+    """Given a range of numbers, find the largest palindromes which
+       are products of two numbers within that range.
+
+    :param min_factor: int with a default value of 0
+    :param max_factor: int
+    :return: tuple of (palindrome, iterable).
+             Iterable should contain both factors of the palindrome in an arbitrary order.
+    """
+
+    pass
 
 
-A = [1, 2, 3, 4, 5, 6, 7, 8]
-x = 6
-res = count_greater(A, x)
-print(res)
+def smallest(min_factor, max_factor):
+    """Given a range of numbers, find the smallest palindromes which
+    are products of two numbers within that range.
+
+    :param min_factor: int with a default value of 0
+    :param max_factor: int
+    :return: tuple of (palindrome, iterable).
+    Iterable should contain both factors of the palindrome in an arbitrary order.
+    """
+
+
+    pass
