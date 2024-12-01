@@ -7,7 +7,7 @@ def count_greater(A, x):
     left = A[:len(A) // 2]
     right = A[len(A) // 2:]
     
-    return count_greater(left,x) + left
+    return count_greater(left,x) + count_greater()
 
 A = [1, 2, 3, 4, 5, 6, 7, 8]
 x = 6
