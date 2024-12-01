@@ -21,6 +21,7 @@ def smallest(min_factor, max_factor):
     for i in range(min_factor,max_factor+1):
         strList.append(str(i))
     plindromeList = []
+    
     pass
 
 
