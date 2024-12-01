@@ -38,7 +38,7 @@ def smallest(min_factor, max_factor):
     print(palindromeList)
 
 def checkPalindrome(s):
-    return s[::]
+    return s[::-1]
         
 s="12345"
 print(s[::])
