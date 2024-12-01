@@ -51,7 +51,8 @@ def checkPalindrome(s):
     if stack is None:
         return True
         
-s=
+s="12345"
+print(s[:])
 print(checkPalindrome("11111"))
 print("--------")
 smallest(1, 9)
