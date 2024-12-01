@@ -27,6 +27,7 @@ def smallest(min_factor, max_factor):
             stack.append(i[j])
         for j in range(len(i)//2,len(i)):
             if i[j] == stack[-1] and stack is not None:
+                
             
 
 
