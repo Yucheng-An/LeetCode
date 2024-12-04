@@ -29,7 +29,7 @@ def subArraySum2(arr, target):
             currSum -= arr[start]
             start += 1
         if currSum == target:
-            return []
+            return [start+1,]
 
 testcase = [22, 9, 47, 33, 32]
 target = 145
