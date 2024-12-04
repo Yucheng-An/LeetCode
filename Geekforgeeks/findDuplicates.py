@@ -2,7 +2,9 @@ def findDuplicates(arr):
     setlist = set()
     for i in arr:
         setlist.add(i)
-    
+    for i in arr:
+        if i in setlist:
+            
     
 
 
