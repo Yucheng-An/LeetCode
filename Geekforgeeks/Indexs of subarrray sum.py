@@ -13,6 +13,7 @@ def subArraySum(arr, target):
             if sum == target:
                 res.append(i+1)
                 return res
+        sum =0
         res.clear()
         left += 1
     return [-1]
