@@ -16,4 +16,4 @@ testcase = [1,2,3,7,5]
 target = 12
 
 target = 12 
-# print(subArraySum(testcase,target))
+print(subArraySum(testcase,target))
