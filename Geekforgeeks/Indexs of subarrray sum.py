@@ -7,7 +7,6 @@ def subArraySum(arr, target):
         for i in range(left,len(arr)):
             sum = sum + arr[i]
             if sum > target:
-                sum = 0
                 res.clear()
                 break
             if sum == target:
