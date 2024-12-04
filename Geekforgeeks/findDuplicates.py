@@ -3,7 +3,7 @@ def findDuplicates(arr):
         return []
     arr.sort()
     for i in range(1,len(arr)):
-        
+        if i 
 
 
 
