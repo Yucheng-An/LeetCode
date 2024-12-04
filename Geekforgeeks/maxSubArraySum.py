@@ -12,6 +12,7 @@ def maxSubArraySum(arr):
             if subCurrentSum > maxResult:
                 maxResult = subCurrentSum
             left += 1
+        left = 0
     return maxResult
 
 test = [2,3,-8,7,-1,2,3]
