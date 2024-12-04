@@ -4,7 +4,9 @@ def findDuplicates(arr):
     for i in arr:
         if i in resSet:
             res.add(i)
-        if i not in resSet:
+        else:
+            resSet.add(i)
+    return list(res)
             
             
 
