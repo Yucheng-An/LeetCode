@@ -7,7 +7,7 @@ def maxSubArraySum(arr):
         if currentSum > maxResult:
             maxResult = currentSum
         subCurrentSum = currentSum
-        while left <= i:
+        while left < i:
             subCurrentSum -= arr[left]
             if subCurrentSum > maxResult:
                 maxResult = subCurrentSum
