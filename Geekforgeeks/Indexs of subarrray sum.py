@@ -17,7 +17,7 @@ def subArraySum(arr, target):
         left += 1
     return [-1]
 
-
+O()
 
 
 testcase = [22,9,47,33,32]
