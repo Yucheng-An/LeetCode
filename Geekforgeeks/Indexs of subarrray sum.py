@@ -19,6 +19,8 @@ def subArraySum(arr, target):
 
 # O(n^2)
 
+def subArraySum2(arr, target):
+   
 
 testcase = [22,9,47,33,32]
 target = 145
