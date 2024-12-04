@@ -23,8 +23,8 @@ def subArraySum2(arr, target):
    start = 0
    currSum = 0
    for i in arr:
-       currSum += 
-
+       currSum += i
+    
 testcase = [22,9,47,33,32]
 target = 145
 print(subArraySum(testcase, target))
