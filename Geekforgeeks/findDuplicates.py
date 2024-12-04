@@ -1,7 +1,8 @@
 def findDuplicates(arr):
     resSet = set()
     for i in arr:
-        if i is not in 
+        if i is not in resSet:
+            
 
 
 
