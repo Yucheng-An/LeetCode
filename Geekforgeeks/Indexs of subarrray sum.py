@@ -1,14 +1,14 @@
 def subArraySum(arr, target):
-    sum, left, res = 0, 0, []
+    fsum, left, res = 0, 0, []
     while left < len(arr):
         res.append(left + 1)
         for i in range(left, len(arr)):
-            sum = sum + arr[i]
-            if sum > target:
+            fsum = fsum + arr[i]
+            if fsum > target:
                 left += 1
-                sum = 0
+                fsum = 0
                 res.clear()
-            if sum == target:
+            if fsum == target:
                 res.append(i + 1)
                 return res
     return [-1]
