@@ -3,31 +3,34 @@ def subArraySum(arr, target):
     res = []
     left = 0
     while left < len(arr):
-        res.append(left+1)
-        for i in range(left,len(arr)):
+        res.append(left + 1)
+        for i in range(left, len(arr)):
             sum = sum + arr[i]
             if sum > target:
                 res.clear()
                 break
             if sum == target:
-                res.append(i+1)
+                res.append(i + 1)
                 return res
-        sum =0
+        sum = 0
         res.clear()
         left += 1
     return [-1]
 
+
 # O(n^2)
 
 def subArraySum2(arr, target):
-   start = 0
-   currSum = 0
-   for i in arr:
-       currSum += i
-       if currSum > target and start < len(arr):
-           currSum -= arr[start]
-           start += 1
-    
-testcase = [22,9,47,33,32]
+    start = 0
+    currSum = 0
+    for i in arr:
+        currSum += i
+        if currSum > target and start < len(arr):
+            currSum -= arr[start]
+            start += 1
+        if currSum == target:
+            return []
+
+testcase = [22, 9, 47, 33, 32]
 target = 145
 print(subArraySum(testcase, target))
