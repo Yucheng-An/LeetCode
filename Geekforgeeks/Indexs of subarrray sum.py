@@ -12,7 +12,7 @@ def subArraySum(arr, target):
                 res.append(i+1)
                 return res
     return [-1]
-testcase = [1,2,3]
+testcase = [1,2,3,7,5]
 
 print(testcase)
 target = 12 
