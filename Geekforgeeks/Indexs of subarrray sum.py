@@ -15,6 +15,7 @@ def subArraySum(arr, target):
                 return res
     return [-1]
 
-testcase = [1,2,3,7,5]
+testcase = [20 29 17 6 21 13 19 17 11 3
+            15]
 target = 12 
 print(subArraySum(testcase,target))
