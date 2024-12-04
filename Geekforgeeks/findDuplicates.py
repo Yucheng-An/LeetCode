@@ -3,7 +3,9 @@ def findDuplicates(arr):
     res = set()
     for i in arr:
         if i in resSet:
-            res
+            res.add(i)
+        if i not in resSet:
+            
             
 
 
