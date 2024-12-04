@@ -35,4 +35,4 @@ def subArraySum2(arr, target):
 testcase = [22, 9, 47, 33, 32]
 target = 145
 print(subArraySum(testcase, target))
-print(float())
+print(float(-int))
