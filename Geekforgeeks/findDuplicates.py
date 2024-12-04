@@ -6,8 +6,7 @@ def findDuplicates(arr):
     for i in arr:
         if i in setlist:
             resultset.add(i)
-    [2, 3, 1, 2, 3]
-    return 
+    return list(resultset)
     
 
 
