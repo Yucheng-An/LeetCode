@@ -1,6 +1,6 @@
 def findDuplicates(arr):
     if len(arr) == 1:
-        
+        return 
 
 
 
