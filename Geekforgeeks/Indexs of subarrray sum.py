@@ -1,16 +1,20 @@
-def subArraySum(arr, target):
-    fsum, left, res = 0, 0, []
+def subArraySum(self, arr, target):
+    sum = 0
+    res = []
+    left = 0
     while left < len(arr):
-        res.append(left + 1)
-        for i in range(left, len(arr)):
-            fsum = fsum + arr[i]
-            if fsum > target:
-                left += 1
-                fsum = 0
+        res.append(left+1)
+        for i in range(left,len(arr)):
+            sum = sum + arr[i]
+            if sum > target:
+                sum = 0
                 res.clear()
-            if fsum == target:
-                res.append(i + 1)
+                break
+            if sum == target:
+                res.append(i+1)
                 return res
+        res.clear()
+        left += 1
     return [-1]
 
 
