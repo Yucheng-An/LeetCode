@@ -14,5 +14,5 @@ def maxSubArraySum(arr):
             left += 1
     return maxResult
 
-test = [1,2,3,-2,5]
+test = [2,3,-8,]
 print(maxSubArraySum(test))
