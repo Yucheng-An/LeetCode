@@ -1,8 +1,6 @@
 def findDuplicates(arr):
-    if len(arr) == 1:
-        return []
-    arr.sort()
-    for i in range(1,len(arr)):
+    resSet = set()
+    for i in arr:
         if i 
 
 
