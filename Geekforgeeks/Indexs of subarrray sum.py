@@ -15,3 +15,4 @@ def subArraySum(arr, target):
                 return res
     return [-1]
 
+testcase = [1,2,3,]    
