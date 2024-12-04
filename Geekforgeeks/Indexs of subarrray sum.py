@@ -1,4 +1,4 @@
-def subArraySum(self, arr, target):
+def subArraySum(arr, target):
     sum = 0
     res = []
     left = 0
