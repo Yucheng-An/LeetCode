@@ -15,3 +15,4 @@ def maxSubArraySum(arr):
     return maxResult
 
 test = [1,2,3,-2,5]
+print(maxSubArraySum(test))
