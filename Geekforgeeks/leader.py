@@ -7,4 +7,4 @@ def leaders(arr):
     return res
 
 arr = [16, 17, 4, 3, 5, 2]
-lea
+print(leaders(arr))
