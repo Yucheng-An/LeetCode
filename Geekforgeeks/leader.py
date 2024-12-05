@@ -1,10 +1,18 @@
 def leaders(arr):
-    res = []
-    for i in (0,len(arr)-1):
-        if arr[i]<arr[i+1]:
-            initLeader = arr[i+1]
-            res.append(initLeader)
-    return res
+    n = len(arr)
+    leaders = []
+    max_from_right = float('-inf')  # Initialize with the smallest possible value
 
+    # Traverse the array from right to left
+    for i in range(n - 1, -1, -1):
+        if arr[i] >= max_from_right:
+            leaders.append(arr[i])
+            max_from_right = arr[i]
+
+    # Reverse the leaders to get the correct order
+    leaders.reverse()
+    return leaders
+
+# Example usage
 arr = [16, 17, 4, 3, 5, 2]
-print(leaders(arr))
+print("Leaders:", find_leaders(arr))
