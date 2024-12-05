@@ -11,5 +11,5 @@ def minJump(nums):
 
 
 
-test=[2, 3, 1, 2, 3]
+test=[1,3,5,8,9,2,6,]
 print()
