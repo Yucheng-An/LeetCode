@@ -15,4 +15,4 @@ def leaders(arr):
 
 # Example usage
 arr = [16, 17, 4, 3, 5, 2]
-print("Leaders:", find_leaders(arr))
+print("Leaders:", leaders(arr))
