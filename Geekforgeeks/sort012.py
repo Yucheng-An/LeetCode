@@ -1,4 +1,4 @@
-def sort012(self, arr):
+def sort012(arr):
     zeroList = []
     oneList = []
     twoList = []
@@ -10,3 +10,4 @@ def sort012(self, arr):
         elif i == 2:
             twoList.append(i)
     return zeroList + oneList + twoList
+
