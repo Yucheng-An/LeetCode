@@ -6,3 +6,5 @@ def leaders(arr):
             res.append(initLeader)
     return res
 
+arr = [16, 17, 4, 3, 5, 2]
+lea
