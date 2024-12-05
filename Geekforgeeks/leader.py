@@ -1,4 +1,4 @@
-def leaders(self, arr):
+def leaders(arr):
     initLeader = 0
     res = []
     for i in (0,len(arr)-1):
@@ -6,3 +6,4 @@ def leaders(self, arr):
             initLeader = arr[i]
             res.append(arr[i])
     return res
+
