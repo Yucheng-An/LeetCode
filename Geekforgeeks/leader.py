@@ -1,4 +1,4 @@
-def leaders(self, arr):
+def leaders(arr):
     res = []
     currentMax = float("-inf")
     for i in range(len(arr) - 1, -1, -1):
