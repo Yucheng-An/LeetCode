@@ -10,3 +10,5 @@ def sort012(self, arr):
         elif i == 2:
             twoList.append(i)
     return zeroList + oneList + twoList
+
+
