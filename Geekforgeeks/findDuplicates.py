@@ -1,6 +1,6 @@
 def minJump(nums):
     jumps = 0
-    current_jump_end = 0
+    = = 0
     farthest = 0
     for i in range(len(nums) - 1):
         farthest = max(farthest, i + nums[i])
