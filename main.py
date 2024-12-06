@@ -21,7 +21,7 @@ def func(cents):
     return 6
 
 
-def test_func():
+def test_input_15():
     
         
 def helperTest(expected,inputValue):
