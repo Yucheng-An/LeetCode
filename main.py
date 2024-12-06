@@ -17,7 +17,7 @@
 # 
 # [Source http://rosettacode.org]
 
-def func()
+def func(do)
 
 
 def test_
