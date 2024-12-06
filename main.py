@@ -33,6 +33,7 @@ def input_15():
     helperTest(1,3)
     helperTest(2,5)
     helperTest(2,6)
+    helperTest(1,1)
     
     
         
