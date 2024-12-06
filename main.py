@@ -24,6 +24,7 @@ def func(cents):
 
 def input_15():
     helperTest(6,15)
+    helperTest(6,12)
         
 def helperTest(expected,inputValue):
     if expected == func(inputValue):
