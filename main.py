@@ -21,7 +21,7 @@ def func(cents):
     if cents == 15:
         return 6
     else:
-        return 
+        return None
 
 
 def input_15():
