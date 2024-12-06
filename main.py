@@ -22,9 +22,6 @@ def func(cents):
 
 
 def test_func():
-
-
-def test_func():
     
         
 def helperTest(expected,inputValue):
