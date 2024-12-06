@@ -28,4 +28,5 @@ def test_15_cents_should_6():
     else:
         print("error")
         
-def helperTest()
+def helperTest(expected,inputValue):
+    
