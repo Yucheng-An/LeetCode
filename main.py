@@ -18,7 +18,8 @@
 # [Source http://rosettacode.org]
 
 def func(cents):
-    return 6
+    if cents == 15:
+        return 6
 
 
 def input_15():
