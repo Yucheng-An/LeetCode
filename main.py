@@ -29,6 +29,4 @@ def test_func():
         print("error")
         
 def helperTest(expected,inputValue):
-    res = func(inputValue)
-    
     return expected == func(inputValue)
