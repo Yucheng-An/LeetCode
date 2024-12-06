@@ -29,7 +29,7 @@ def input_15():
     helperTest(6,12)
     helperTest(0,0)
     helperTest(None,None)
-    
+    helperTest(None,-1)
     
         
 def helperTest(expected,inputValue):
