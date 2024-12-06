@@ -28,4 +28,5 @@ def helperTest(expected,inputValue):
     if expected == func(inputValue):
         print("test pass")
     else:
-        print("test fail")
+        print("test fail"
+            
