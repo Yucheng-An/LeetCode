@@ -24,4 +24,6 @@ def func(cents):
 def test_15_cents_should_6():
     res = func(15)
     if res == 6:
-        print("")
+        print("test passed!")
+    else:
+        print("error")
