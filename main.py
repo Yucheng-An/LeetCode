@@ -29,4 +29,4 @@ def test_15_cents_should_6():
         print("error")
         
 def helperTest(expected,inputValue):
-    
+    return expected == 
