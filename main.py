@@ -27,3 +27,5 @@ def test_15_cents_should_6():
         print("test passed!")
     else:
         print("error")
+        
+def helperTest()
