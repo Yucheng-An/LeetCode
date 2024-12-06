@@ -11,4 +11,4 @@ def sort012(arr):
             twoList.append(i)
     return zeroList + oneList + twoList
 
-print(sort012([1,2,0,0,0,0,1,1,1]))
+print(sort012([1,2,0,0,0,0,1,1,1\]))
