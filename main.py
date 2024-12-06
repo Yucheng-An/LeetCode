@@ -17,7 +17,7 @@
 # 
 # [Source http://rosettacode.org]
 
-
+def fuc
 
 
 def test_
