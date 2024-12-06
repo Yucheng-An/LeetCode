@@ -17,7 +17,8 @@
 # 
 # [Source http://rosettacode.org]
 
-def func(do)
+def func(cents):
+    return 15
 
 
 def test_
