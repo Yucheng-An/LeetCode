@@ -21,7 +21,7 @@ def func(cents):
     return 6
 
 
-def test_15_cents_should_6():
+def test_func():
     res = func(15)
     if res == 6:
         print("test passed!")
