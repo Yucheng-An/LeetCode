@@ -7,7 +7,7 @@
 # o) pennies (1 cent)
 # 
 # There are 6 ways to make change for 15 cents:
-#     o) A dime and a nickel;
+# o) A dime and a nickel;
 # o) A dime and 5 pennies;
 # o) 3 nickels;
 # o) 2 nickels and 5 pennies;
