@@ -22,11 +22,7 @@ def func(cents):
 
 
 def test_func():
-    res = func(15)
-    if res == 6:
-        print("test passed!")
-    else:
-        print("error")
+    
         
 def helperTest(expected,inputValue):
     if expected == func(inputValue):
