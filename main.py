@@ -21,4 +21,5 @@ def func(cents):
     return 6
 
 
-def test_15_cents_should_6
+def test_15_cents_should_6():
+    
