@@ -9,4 +9,4 @@ def getMinDiff(arr,k):
 
 
 k = 2
-arr[] = {1, 5, 8, 10}
+arr = [1, 5, 8, 10}
