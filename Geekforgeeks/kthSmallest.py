@@ -1,2 +1,2 @@
-def kthSamllest(arr,k):
+def kthSmallest(arr,k):
     
