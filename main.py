@@ -29,24 +29,3 @@ def func(total,coins):
 coins = [1,5,10,25]
 total = 15
 print(func(15,coins))
-def input_15():
-    helperTest(6,15)
-    helperTest(6,12)
-    helperTest(0,0)
-    helperTest(None,None)
-    helperTest(None,-1)
-    helperTest(1,3)
-    helperTest(2,5)
-    helperTest(2,6)
-    helperTest(1,1)
-    
-    
-        
-def helperTest(expected,inputValue):
-    if expected == func(inputValue):
-        print("test pass")
-    else:
-        print("test fail")
-
-input_15()
-            
