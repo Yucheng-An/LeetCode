@@ -7,4 +7,5 @@ def kthSmallest(arr,k):
             candidate = i
     return candidate
 
-testcase = []
+testcase = [7,10,4,3,20,15]
+print(kthSmallest(testcase))
