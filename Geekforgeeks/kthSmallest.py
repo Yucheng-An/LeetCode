@@ -11,6 +11,8 @@ def kthSmallest(arr,k):
         if count1 >= k:
             return i
     return -1
+
+
 testcase = [7,10,4,3,20,15]
 print(kthSmallest(testcase,3))
 print(testcase)
