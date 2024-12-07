@@ -1,2 +1,2 @@
 def kthSmallest(arr,k):
-    # k = 1 to find the 
+    # k = 1 to find the  
