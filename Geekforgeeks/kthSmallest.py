@@ -1,4 +1,6 @@
 def kthSmallest(arr,k):
+    if not arr:
+        return -1
     maxElement = max(arr)
     count = [0] * (maxElement+1)
     for i in arr:
