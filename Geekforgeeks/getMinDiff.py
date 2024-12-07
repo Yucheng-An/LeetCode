@@ -5,7 +5,7 @@ def getMinDiff(arr,k):
             arr[i] = arr[i] + k
         else:
             arr[i] = arr[i] - k
-    print(f"")
+    print(f"Min:")
     print("max:" + max(arr))
     return max(arr) - min(arr)
 
