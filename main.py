@@ -24,6 +24,5 @@ def func(total,coins):
         for x in range(coin, total + 1):
             dp[x] = dp[x] + dp[x - coin]
     return dp[total]
-
 total = 123123
 print(func(15,[1,5,10,25]))
