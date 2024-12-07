@@ -1,4 +1,4 @@
-def missingNumber(self, arr):
+def missingNumber(arr):
     sortedArr = arr.sort()
     if len(arr) == 1:
         if arr[0] == 1:
