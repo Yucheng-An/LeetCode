@@ -1,0 +1,2 @@
+def kthSamllest(arr,k):
+    
