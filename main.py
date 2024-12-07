@@ -20,7 +20,7 @@
 def func(cents):
     dp = [0] * (total + 1)
     dp[0] = 1  # Base case: one way to make 0 cents
-
+    
     for coin in coins:
         for x in range(coin, total + 1):
             dp[x] += dp[x - coin]
