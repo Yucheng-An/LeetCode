@@ -9,6 +9,7 @@ def majorityElement(arr):
             count += 1
         else:
             count -= 1
+    
     count = 0
     for i in arr:
         if i == candidate:
