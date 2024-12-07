@@ -7,3 +7,4 @@ def kthSmallest(arr,k):
             candidate = i
     return candidate
 
+testcase = []
