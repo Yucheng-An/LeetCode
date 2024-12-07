@@ -9,7 +9,7 @@ def majorityElement(arr):
             count += 1
         else:
             count -= 1
-    count = 0 
+    count = 0
     for i in arr:
         if i == candidate:
             count += 1
@@ -19,4 +19,4 @@ def majorityElement(arr):
         return -1
 
 
-print(majorityElement([3,1,3,3,2]))
+print(majorityElement([3, 1, 3, 3, 2]))
