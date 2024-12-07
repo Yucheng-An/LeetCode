@@ -14,7 +14,7 @@ def majorityElement(arr):
     for i in arr:
         if i == candidate:
             a += 1
-    if count >= len(arr):
+    if a >= len(arr):
         return candidate
     else:
         return -1
