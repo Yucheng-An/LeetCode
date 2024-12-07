@@ -10,6 +10,6 @@ def getMinDiff(arr,k):
     return max(arr) - min(arr)
 
 
-k = 2
+k = 3
 arr = [3, 9, 12, 16, 20]
 print(getMinDiff(arr,k))
