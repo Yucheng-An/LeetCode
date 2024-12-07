@@ -1,1 +1,2 @@
-def getMinDiff(self, arr,k):
+def getMinDiff(arr,k):
+    
