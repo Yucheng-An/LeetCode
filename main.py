@@ -26,7 +26,7 @@ def func(total,coins):
             dp[x] += dp[x - coin]
     return dp
 
-coins = [1,5,10,15]
+coins = [1,5,10,25]
 total = 15
 
 def input_15():
