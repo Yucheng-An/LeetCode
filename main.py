@@ -28,7 +28,7 @@ def func(total,coins):
 
 coins = [1,5,10,25]
 total = 15
-
+print()
 def input_15():
     helperTest(6,15)
     helperTest(6,12)
