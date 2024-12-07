@@ -23,5 +23,5 @@ def func(total, coins):
     return dp[total]
 
 
-total = 123123
+total = 10
 print(func(20, [1, 5, 10, 25]))
