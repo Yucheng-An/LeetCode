@@ -10,10 +10,10 @@ def majorityElement(arr):
         else:
             count -= 1
     
-    count = 0
+    a = 0
     for i in arr:
         if i == candidate:
-            count += 1
+            a += 1
     if count >= len(arr):
         return candidate
     else:
