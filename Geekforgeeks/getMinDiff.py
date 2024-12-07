@@ -9,4 +9,3 @@ def getMinDiff(arr,k):
 
 
 
-print()
