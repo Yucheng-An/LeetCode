@@ -1,7 +1,7 @@
 def sort012(self, arr):
     low = 0
     mid = 0
-    high = len(arr)-1
+    high = len(arr) - 1
     while mid <= high:
         if arr[mid] == 0:
             t = arr[low]
@@ -12,7 +12,7 @@ def sort012(self, arr):
         elif arr[mid] == 1:
             mid += 1
         else:
-            t=arr[high]
+            t = arr[high]
             arr[high] = arr[mid]
             arr[mid] = t
             high -= 1
