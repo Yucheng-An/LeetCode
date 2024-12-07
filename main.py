@@ -12,10 +12,7 @@
 # o) 2 nickels and 5 pennies;
 # o) A nickel and 10 pennies;
 # o) 15 pennies.
-# 
-# How many ways are there to make change for a dollar using these common coins? (1 dollar = 100 cents).
-# 
-# [Source http://rosettacode.org]
+
 
 def func(total, coins):
     dp = [0] * (total + 1)
