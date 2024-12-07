@@ -24,4 +24,4 @@ def func(total, coins):
 
 
 total = 123123
-print(func(total, [1, 5, 10, 25]))
+print(func(20, [1, 5, 10, 25]))
