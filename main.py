@@ -17,7 +17,7 @@
 # 
 # [Source http://rosettacode.org]
 
-def func(total):
+def func(total,coins):
     dp = [0] * (total + 1)
     dp[0] = 1  # Base case: one way to make 0 cents
     
