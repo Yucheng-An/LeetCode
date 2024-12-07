@@ -1,6 +1,9 @@
 def kthSmallest(arr,k):
     # k = 1 to find the smallest element
     
-    candidate = float("-inf")
+    candidate = float("inf")
     for i in arr:
-        if i 
+        if i < candidate:
+            candidate = i
+    return candidate
+
