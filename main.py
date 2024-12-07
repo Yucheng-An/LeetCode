@@ -19,8 +19,9 @@
 
 def func(cents):
     dp = [0]
-    dp[1]
-
+    dp[1] = 1
+    for i in cents:
+        dp[]
 
 def input_15():
     helperTest(6,15)
