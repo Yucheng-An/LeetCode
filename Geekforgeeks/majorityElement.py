@@ -18,5 +18,5 @@ def majorityElement(arr):
     else:
         return -1
 
-res = majorityElement([3,1,3,3,2])
+
 print(majorityElement([3,1,3,3,2]))
