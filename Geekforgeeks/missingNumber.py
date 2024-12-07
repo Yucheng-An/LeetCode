@@ -1,5 +1,5 @@
 def missingNumber(arr):
-    sortedArr = arr.sort()
+    arr.sort()
     if len(arr) == 1:
         if arr[0] == 1:
             return arr[0]+1
