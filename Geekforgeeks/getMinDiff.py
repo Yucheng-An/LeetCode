@@ -9,5 +9,5 @@ def getMinDiff(arr,k):
 
 
 k = 2
-arr = [1, 5, 8, 10]
+arr = [3, 9, 12, 16, 20]
 print(getMinDiff(arr,k))
