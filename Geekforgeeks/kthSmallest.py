@@ -5,7 +5,6 @@ def kthSmallest(arr,k):
     for i in arr:
         if i < candidate:
             candidate = i
-            arr.remove(i)
     return candidate
 
 testcase = [7,10,4,3,20,15]
