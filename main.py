@@ -24,7 +24,7 @@ def func(total,coins):
     for coin in coins:
         for x in range(coin, total + 1):
             dp[x] += dp[x - coin]
-    return dp
+    return dp[]
 
 coins = [1,5,10,25]
 total = 15
