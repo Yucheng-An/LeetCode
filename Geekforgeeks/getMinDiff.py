@@ -8,4 +8,4 @@ def getMinDiff(arr,k):
     return max(arr) - min(arr)
 
 
-
+k = 2, arr[] = {1, 5, 8, 10}
