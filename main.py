@@ -19,6 +19,7 @@
 
 def func(cents):
     dp = [0]
+    
 
 
 def input_15():
