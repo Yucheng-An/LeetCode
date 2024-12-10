@@ -10,7 +10,8 @@ def addBinary(a,b):
         fullB = b
     aPointer = len(fullA) -1
     bPointer = len(fullB) -1
-    
+    while aPointer >= 0 and bPointer >= 0:
+        
         
     
     
