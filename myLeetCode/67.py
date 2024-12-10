@@ -1,2 +1,8 @@
 def addBinary(a,b):
-    if 
+    t = None
+    
+    
+
+
+
+a = ""
