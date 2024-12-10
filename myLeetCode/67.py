@@ -5,6 +5,9 @@ def addBinary(a,b):
     if len(a)>len(b):
         fullB = t + b
         fullA = a
+    elif len(b) > len(a):
+        fullA = t + a
+        fullB = b
     
         
     
