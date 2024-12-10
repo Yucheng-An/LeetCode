@@ -3,7 +3,7 @@ def addBinary(a,b):
     for i in range(abs(len(a)-len(b))):
         t += '0'
     if len(a)>len(b):
-        b = t + b
+        fullB = t + b
         
     
     
