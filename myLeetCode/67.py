@@ -8,18 +8,7 @@ def addBinary(a,b):
     elif len(b) > len(a):
         fullA = t + a
         fullB = b
-    aPointer = len(fullA) -1
-    bPointer = len(fullB) -1
-    carry = 0 
-    res = ""
-    while aPointer >= 0 and bPointer >= 0:
-        if int(a[aPointer]) + int(b[bPointer]) + carry == 2:
-            carry = 1
-            res = res + "0"
-        else:
-            carry = 0
-            res = res + str(int(a[aPointer]) + int(b[bPointer]))
-        
+
     
     
 
