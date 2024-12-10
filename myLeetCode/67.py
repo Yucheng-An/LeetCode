@@ -9,6 +9,7 @@ def addBinary(a,b):
         intb = int(b[i])
         total = inta + intb + carry
         res.append(str(total%2))
+        carry = total//2
         
     
     
