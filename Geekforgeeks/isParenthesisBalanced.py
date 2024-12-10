@@ -7,9 +7,9 @@ def isParenthesisBalanced(s):
             stack.append(i)
         elif i == '[':
             stack.append(i)
-        elif i == '}' and stack[-1] == '}':
+        elif i == '}' and stack[-1] == '{':
             stack.pop()
-        elif i == ')' and stack[-1] == ')':
+        elif i == ')' and stack[-1] == '(':
             stack.pop()
         elif i == ']' and stack[-1] == ']':
             stack.pop()
