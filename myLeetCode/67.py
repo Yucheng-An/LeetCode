@@ -1,7 +1,7 @@
 def addBinary(a,b):
     maxlengh = max(len(a),len(b))
-    a = a.fill(maxlengh)
-    b = b.fill(maxlengh)
+    a = a.zfill(maxlengh)
+    b = b.zfill(maxlengh)
     print(a)
     print(b)
     
