@@ -5,4 +5,4 @@ def addBinary(a,b):
 
 
 
-a = ""
+a = "1"
