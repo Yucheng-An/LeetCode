@@ -4,6 +4,8 @@ def addBinary(a,b):
         t += '0'
     if len(a)>len(b):
         fullB = t + b
+        fullA = a
+    
         
     
     
