@@ -11,7 +11,7 @@ def isParenthesisBalanced(s):
             stack.pop()
         elif i == ')' and stack[-1] == '(':
             stack.pop()
-        elif i == ']' and stack[-1] == '':
+        elif i == ']' and stack[-1] == '[':
             stack.pop()
         elif len(stack) == 0:
             pass
