@@ -1,6 +1,3 @@
-
-
-
-
-
-a = 00000010100101000001111010011100
+def reverseBits(n):
+    result = 0 
+    for i in range(32)
