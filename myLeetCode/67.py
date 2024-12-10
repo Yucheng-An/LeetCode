@@ -11,7 +11,7 @@ def addBinary(a,b):
         res.append(str(total%2))
         carry = total//2
     if carry:
-        res.apend('1')
+        res.append('1')
     return ''.join(reversed(res))
 
 a = "11"
