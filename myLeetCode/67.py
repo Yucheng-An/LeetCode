@@ -8,7 +8,8 @@ def addBinary(a,b):
         inta = int(a[i])
         intb = int(b[i])
         total = inta + intb + carry
-        res.append()
+        res.append(str(total%2))
+        
     
     
 
