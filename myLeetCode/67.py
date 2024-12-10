@@ -1,5 +1,5 @@
 def addBinary(a,b):
-    t = None
+    t = ''
     for i in range(abs(len(a)-len(b))):
         t = t + '0'
     if len(a)>len(b):
