@@ -1,7 +1,7 @@
 def addBinary(a,b):
     t = None
     for i in range(abs(len(a)-len(b))):
-        t += '0'
+        t = t + 0
     if len(a)>len(b):
         fullB = t + b
         fullA = a
