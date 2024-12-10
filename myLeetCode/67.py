@@ -13,7 +13,7 @@ def addBinary(a,b):
     carry = 0 
     res = ""
     while aPointer >= 0 and bPointer >= 0:
-        if int(a[aPointer]) + int(b[bPointer]) == 2:
+        if int(a[aPointer]) + int(b[bPointer]) + carry == 2:
             carry = 1
             res = res + "0"
         else:
