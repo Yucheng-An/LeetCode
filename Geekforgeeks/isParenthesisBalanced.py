@@ -23,4 +23,4 @@ def isParenthesisBalanced(self, s):
         return False
 
 
-print(isParenthesisBalanced([]))
+print(isParenthesisBalanced(""))
