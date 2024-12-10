@@ -10,7 +10,9 @@ def addBinary(a,b):
         total = inta + intb + carry
         res.append(str(total%2))
         carry = total//2
-        
+        if carry:
+            res.apend('1')
+    
     
     
 
