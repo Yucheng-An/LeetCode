@@ -1,6 +1,8 @@
 def addBinary(a,b):
     t = None
-    for i in range(abs(len(a)))
+    for i in range(abs(len(a)-len(b))):
+        t += '0'
+        
     
     
 
