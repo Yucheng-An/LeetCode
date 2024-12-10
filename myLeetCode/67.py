@@ -5,7 +5,7 @@ def addBinary(a,b):
     carry = 0
     res = []
     for i in range(maxlengh-1,-1,-1):
-        
+        inta = 
     
     
 
