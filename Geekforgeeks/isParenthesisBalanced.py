@@ -1,4 +1,4 @@
-def isParenthesisBalanced(self, s):
+def isParenthesisBalanced(s):
     stack = []
     for i in s:
         if i == '{':
