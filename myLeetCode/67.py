@@ -7,6 +7,7 @@ def addBinary(a,b):
     for i in range(maxlengh-1,-1,-1):
         inta = int(a[i])
         intb = int(b[i])
+        total = inta + intb + carry
         
     
     
