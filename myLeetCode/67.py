@@ -17,7 +17,8 @@ def addBinary(a,b):
             carry = 1
             res = res + "0"
         else:
-            
+            carry = 0
+            res = res + 
         
     
     
