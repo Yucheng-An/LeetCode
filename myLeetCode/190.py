@@ -6,4 +6,4 @@ def reverseBits(n):
         n>>=1
     return result
 
-print(reverseBits())
+print(reverseBits(00000010100101000001111010011100))
