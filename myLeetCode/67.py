@@ -18,4 +18,4 @@ a = "11"
 b = "1"
 res = addBinary(a,b)
 print(res)
-print(3//2)
+print(4//2)
