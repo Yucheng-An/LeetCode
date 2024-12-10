@@ -8,8 +8,7 @@ def addBinary(a,b):
     elif len(b) > len(a):
         fullA = t + a
         fullB = b
-    print(fullA)
-    print(fullB)
+    aPointer = 
         
     
     
