@@ -2,12 +2,12 @@ def myArray(self, nums):
     if len(nums) == 1:
         return nums
     mid = len(nums)//2
-    right = self.myArray(nums[:mid])
-    left = self.myArray(nums[mid:])
-    return self.meger(right,left)
+    right = myArray(nums[:mid])
+    left = myArray(nums[mid:])
+    return meger(right,left)
 
 def sortArray(self, nums):
-    return self.myArray(nums)
+    return myArray(nums)
 
 def meger(self, right,left):
     result = []
