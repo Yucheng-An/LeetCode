@@ -1,4 +1,4 @@
-$
+# Using divide-conquer to sort array
 def myArray(self, nums):
     if len(nums) == 1:
         return nums
