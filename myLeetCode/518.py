@@ -9,4 +9,4 @@ def change(amount,coins):
 
 coin = [1,5,10,25]
 amount = 12
-print(change(coin))
+print(change(amount,coin))
