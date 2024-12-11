@@ -6,7 +6,7 @@ def myArray(self, nums):
     left = self.myArray(nums[mid:])
     return self.meger(right,left)
 
-def sortArray(self, nums: List[int]):
+def sortArray(self, nums):
     return self.myArray(nums)
 
 def meger(self, right,left):
