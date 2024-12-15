@@ -17,6 +17,9 @@ def longestCommonPrefix(strs):
 
     return prefix
 
+
+
+
 # Example usage:
 strings = ["flower", "flow", "flight"]
 print(longestCommonPrefix(strings))  # Output: "fl"
