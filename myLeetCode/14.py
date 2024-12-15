@@ -20,6 +20,10 @@ def longestCommonPrefix(strs):
 
 
 
+
+
+
+
 # Example usage:
 strings = ["flower", "flow", "flight"]
 print(longestCommonPrefix(strings))  # Output: "fl"
