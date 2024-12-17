@@ -1,4 +1,5 @@
 fruits = ['apple', 'banana', 'cherry']
 myMap = {}
-for j,i in enumerate(fruits):
+for index,value in enumerate(fruits):
+    myMap[index] = value
     print(j,i)
