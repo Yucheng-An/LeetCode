@@ -1,5 +1,5 @@
 s = "h1"
-t = 0
+t = "___"
 print(s.isalnum())
-print(s.isalnum())
+print(t.isalnum())
 print()
