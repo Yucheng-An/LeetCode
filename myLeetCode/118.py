@@ -6,7 +6,7 @@ def generate(numRows):
             if j == 0 or j == i:
                 subArray.append(1)
             else:
-                subArray.append(1)
+                subArray.append(0)
         res.append(subArray)
     return res
 
