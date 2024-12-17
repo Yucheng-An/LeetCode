@@ -1,5 +1,5 @@
 def generate(numRows):
-    res = []
+    dp = []
     for i in range(numRows):
         subArray = []
         for j in range(0, i + 1):
