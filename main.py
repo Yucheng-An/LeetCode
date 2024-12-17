@@ -1,7 +1,3 @@
-fruits = ['apple', 'banana', 'cherry','cherry','cherry','cherry']
-myMap = {}
-for index,value in enumerate(fruits):
-    myMap[value] = index
-if  in myMap:
-    print("here")
-print(myMap)
+s = " hello world my name is something" 
+s.split()
+print(s)
