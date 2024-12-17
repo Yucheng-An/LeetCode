@@ -16,5 +16,5 @@ def generate(numRows):
     return dp
 
 
-t = generate(5)
+t = generate(2)
 print(t)
