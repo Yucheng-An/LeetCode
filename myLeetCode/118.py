@@ -1,1 +1,1 @@
-def generate(self, numRows: int) -> List[List[int]]:
+def generate(numRows: int) -> List[List[int]]:
