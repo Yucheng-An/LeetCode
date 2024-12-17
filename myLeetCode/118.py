@@ -12,7 +12,7 @@ def generate(numRows):
         return dp
     for i in range(len(dp)):
         for j in range(1,len(dp[i])):
-            dp[i][]
+            dp[i][j] = 9
     return dp
 
 
