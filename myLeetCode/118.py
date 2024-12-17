@@ -8,7 +8,9 @@ def generate(numRows):
             else:
                 subArray.append(0)
         dp.append(subArray)
-    
+    if numRows == 1:
+        return dp
+    for i in range(len())
     return dp
 
 
