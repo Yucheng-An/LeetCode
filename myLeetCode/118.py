@@ -10,7 +10,7 @@ def generate(numRows):
         dp.append(subArray)
     if numRows == 1 or numRows == 2:
         return dp
-    for i in range(len(dp)):
+    for i in range(2, len(dp)):
         for j in range(1,len(dp[i])-1):
             dp[i][j] = 9
     return dp
