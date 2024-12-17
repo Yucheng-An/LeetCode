@@ -1,4 +1,4 @@
 fruits = ['apple', 'banana', 'cherry']
 
-for i,j in enumerate(fruits):
+for j,i in enumerate(fruits):
     print(i,j)
