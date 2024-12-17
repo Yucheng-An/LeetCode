@@ -3,7 +3,7 @@ def generate(numRows):
     for i in range(numRows):
         subArray = []
         for j in range(0,i+1):
-            if j != 
+            if j != 0 or j != 
         res.append(subArray)
     return res
 
