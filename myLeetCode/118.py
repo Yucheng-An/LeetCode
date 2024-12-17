@@ -11,7 +11,7 @@ def generate(numRows):
     if numRows == 1:
         return dp
     for i in range(len(dp)):
-        for j in range()
+        for j in range(1,i len)
     return dp
 
 
