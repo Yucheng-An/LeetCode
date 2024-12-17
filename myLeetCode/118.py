@@ -1,6 +1,7 @@
 def generate(numRows):
     res = []
     for i in range(numRows):
+        t = []
         for j in range(0,i):
             res.append(1)
     return res
