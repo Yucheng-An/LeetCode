@@ -1,5 +1,5 @@
 s = "h1"
-t = "___"
+t = "+_+_+"
 print(s.isalnum())
 print(t.isalnum())
 print()
