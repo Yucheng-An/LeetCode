@@ -1,3 +1,3 @@
 s = " hello world my name is something" 
-s.split()
+t = s.split()
 print(s)
