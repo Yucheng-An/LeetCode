@@ -7,8 +7,9 @@ def generate(numRows):
                 subArray.append(1)
             else:
                 subArray.append(0)
-        res.append(subArray)
-    return res
+        dp.append(subArray)
+    
+    return dp
 
 
 t = generate(5)
