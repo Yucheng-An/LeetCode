@@ -3,6 +3,7 @@ def generate(numRows):
     for i in range(numRows):
         for j in range(0,i):
             res.append(1)
+    return res
 
 
 
