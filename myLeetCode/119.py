@@ -1,4 +1,4 @@
-def getRow(self, rowIndex: int) -> List[int]:
+def getRow(self, rowIndex: int):
     numRows = rowIndex + 1
     dp = []
     for i in range(numRows):
