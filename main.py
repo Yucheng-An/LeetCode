@@ -5,3 +5,4 @@ res = ""
 for i in range(len(t)-2,-1,-1):
     res += t[i] + " "
 res += t[-1]
+print(res)
