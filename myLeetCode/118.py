@@ -7,3 +7,4 @@ def generate(numRows):
 
 
 t = generate(5)
+print(t)
