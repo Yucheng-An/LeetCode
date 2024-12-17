@@ -6,4 +6,4 @@ def generate(numRows):
 
 
 
-generate(5)
+t = generate(5)
