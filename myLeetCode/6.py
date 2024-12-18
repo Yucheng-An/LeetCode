@@ -21,4 +21,5 @@ s = "PAYPALISHIRING"
 numRows = 4
 res = convert (s,numRows)
 print(res)
-    
+rows = [''] * numRows
+print(rows)
