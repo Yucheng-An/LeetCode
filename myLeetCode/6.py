@@ -9,7 +9,10 @@ def convert(s, numRows):
         if current_row == 0 or current_row == numRows - 1:
             going_down = True
         if going_down:
-            
+            current_row += 1
+        else:
+            current_row -= 1
+    return 
 
 
 s = "PAYPALISHIRING"
