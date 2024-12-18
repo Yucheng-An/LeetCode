@@ -1,2 +1,2 @@
-def convert(self, s: str, numRows: int) -> str:
+def convert(self, s: str, numRows: int):
         
