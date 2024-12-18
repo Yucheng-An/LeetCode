@@ -7,7 +7,7 @@ def convert(s, numRows):
     for char in s:
         rows[current_row] += char
         if current_row == 0 or current_row == numRows - 1:
-            going_down = True
+            going_down = not going_down
         if going_down:
             current_row += 1
         else:
