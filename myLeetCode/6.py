@@ -6,6 +6,7 @@ def convert(s, numRows):
         res.append([])
     j = 0
     for i in range(len(s)):
-        if j == numRows -
+        if j == numRows:
+            
         
     
