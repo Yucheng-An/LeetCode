@@ -7,7 +7,8 @@ def convert(s, numRows):
     j = 0
     for i in range(len(s)):
         res[j].append(s[i])
+        j += 1
         if j == numRows:
             j = 0
-        
+    return 
     
