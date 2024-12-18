@@ -12,7 +12,7 @@ def convert(s, numRows):
             current_row += 1
         else:
             current_row -= 1
-    return 
+    return ''.join(rows)
 
 
 s = "PAYPALISHIRING"
