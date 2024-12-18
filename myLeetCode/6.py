@@ -18,7 +18,7 @@ def convert(s, numRows):
 
 
 s = "PAYPALISHIRING"
-numRows = 3
+numRows = 4
 res = convert (s,numRows)
 print(res)
     
