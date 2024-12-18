@@ -4,5 +4,6 @@ def convert(s, numRows):
     res = []
     for i in range(3):
         res.append([])
-    
+    for i in s:
+        
     
