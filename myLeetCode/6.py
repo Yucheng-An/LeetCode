@@ -6,7 +6,7 @@ def convert(s, numRows):
         res.append([])
     j = 0
     for i in range(len(s)):
-        res[j]
+        res[j].append(s[i])
         if j == numRows:
             j = 0
         
