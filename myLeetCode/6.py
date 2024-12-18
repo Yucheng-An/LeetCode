@@ -10,5 +10,7 @@ def convert(s, numRows):
         j += 1
         if j == numRows:
             j = 0
-    
+    finalres = ""
+    for i in res:
+        
     
