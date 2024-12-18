@@ -17,5 +17,5 @@ def convert(s, numRows):
     return finalres
 
 
-s = ""
+s = "PAYPALISHIRING", numRows = 3
     
