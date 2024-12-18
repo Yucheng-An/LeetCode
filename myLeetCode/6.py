@@ -14,4 +14,8 @@ def convert(s, numRows):
     for i in res:
         for j in i:
             finalres += j
+    return finalres
+
+
+s = ""
     
