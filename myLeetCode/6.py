@@ -12,5 +12,5 @@ def convert(s, numRows):
             j = 0
     finalres = ""
     for i in res:
-        
+        for j in 
     
