@@ -1,4 +1,4 @@
-def hasCycle(self, head: Optional[ListNode]) -> bool:
+def hasCycle(self, head:) -> bool:
     f = head
     s = head
     while f is not None and f.next is not None:
