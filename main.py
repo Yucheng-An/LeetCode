@@ -1,1 +1,1 @@
-row = [set() for ]
+row = [set() for _ in range(9)]
