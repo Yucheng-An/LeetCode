@@ -1,2 +1,2 @@
 row = [set() for _ in range(9)]
-print(row[1])
+print(type(row))
