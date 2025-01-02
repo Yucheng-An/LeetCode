@@ -1,1 +1,1 @@
-row = 
+row = [set() for ]
