@@ -1,4 +1,4 @@
-def isValidSudoku(self, board: List[List[str]]) -> bool:
+def isValidSudoku(board) -> bool:
     rowset = [set() for _ in range(9)]
     columnset = [set() for _ in range(9)]
     subgridset = [[set() for _ in range(3)] for _ in range(3)]
