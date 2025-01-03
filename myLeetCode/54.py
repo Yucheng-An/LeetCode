@@ -24,4 +24,4 @@ print(helper(m))
 
 def helper1 (m,rowstart,rowend, columnstart, columnend):
     res = []
-    for i in range()
+    for i in range(rowend-rowstart)
