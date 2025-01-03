@@ -19,6 +19,6 @@ smap = {}
 for c in s:
     if c not in smap:
         smap.append(c)
-        smap[c] 
+        smap[c] = 1
     else:
         smap
