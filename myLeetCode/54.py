@@ -13,7 +13,7 @@ def helper(m):
         res.append(m[i][-1])
     for i in range(mrow-1,0,-1):
         res.append(m[-1][i])
-    for i in range(mrow,1,-1):
+    for i in range(mrow-1,1,-1):
         res.append(m[i][0])
     return res 
 
