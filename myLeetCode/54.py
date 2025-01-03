@@ -10,4 +10,4 @@ def helper(m):
     for i in range(len(m[0])):
         res.append(m[0][i])
     for i in range(len(m)):
-        
+        for j in range(len())
