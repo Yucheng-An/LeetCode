@@ -28,7 +28,7 @@ def isIsomorphic(s: str, t: str) -> bool:
 
 
 s = "egg"
-t = "add"
+t = "dad"
 isIsomorphic(s,t)
 # 
 # smap = {}
