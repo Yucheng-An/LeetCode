@@ -23,7 +23,7 @@ for c in s:
     else:
         smap[c] += 1
 for c in t:
-    if c not in smap:
+    if c not in tmap:
         tmap[c] = 1
     else:
         tmap[c] += 1
