@@ -7,4 +7,5 @@ def helper(m):
     colum = 0
     mcolumn = len(m)
     mrow = len(m[0])
-    while 
+    for i in range(len(m[0])):
+        m[0]
