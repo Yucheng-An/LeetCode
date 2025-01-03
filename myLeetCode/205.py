@@ -16,3 +16,5 @@ s = "egg"
 t = "add"
 
 smap = {}
+for c in s:
+    
