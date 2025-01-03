@@ -29,7 +29,7 @@ def isIsomorphic(s: str, t: str) -> bool:
 
 s = "egg"
 t = "dad"
-isIsomorphic(s,t)
+print(isIsomorphic(s,t))
 # 
 # smap = {}
 # tmap = {}
