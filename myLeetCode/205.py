@@ -21,4 +21,4 @@ for c in s:
         smap.append(c)
         smap[c] = 1
     else:
-        smap
+        smap[c] += 1
