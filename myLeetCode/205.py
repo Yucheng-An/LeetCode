@@ -1,4 +1,4 @@
-def isIsomorphic(s t) -> bool:
+def isIsomorphic(s, t) -> bool:
 
 
 
