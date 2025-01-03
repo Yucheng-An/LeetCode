@@ -1,5 +1,6 @@
 def isIsomorphic(s, t):
-    
+    smap = {}
+    tmap = {}
 
 
 
