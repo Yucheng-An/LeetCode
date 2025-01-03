@@ -11,7 +11,7 @@ def helper(m):
         res.append(m[0][i])
     for i in range(1,mcolumn):
         res.append(m[i][-1])
-    for i in range(mrow-1,0,-1):
+    for i in range(mrow-1,-1,-1):
         res.append(m[-1][i])
     for i in range(mrow-1,1,-1):
         res.append(m[i][0])
