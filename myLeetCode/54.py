@@ -9,4 +9,5 @@ def helper(m):
     mrow = len(m[0])
     for i in range(len(m[0])):
         res.append(m[0][i])
-    for i in range()
+    for i in range(len(m)):
+        
