@@ -22,3 +22,4 @@ for c in s:
         smap[c] = 1
     else:
         smap[c] += 1
+print(smap)
