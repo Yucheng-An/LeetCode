@@ -6,7 +6,7 @@ def canCompleteCircuit(gas, cost):
     for i in range(len(gas)):
         totalGas += gas[i]
         totalCost += cost[i]
-        
+        currentBalance = currentBalance + 
 
 
 gas = [1, 2, 3, 4, 5]
