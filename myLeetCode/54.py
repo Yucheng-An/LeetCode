@@ -20,3 +20,7 @@ def helper(m, mcolumn, mrow):
 
 m = [[1,2,3],[4,5,6],[7,8,9]]
 print(helper(m))
+
+
+def helper1 (m,rowstart,rowend, columnstart, columnend):
+    
