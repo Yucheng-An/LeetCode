@@ -23,5 +23,9 @@ for c in s:
     else:
         smap[c] += 1
 for c in t:
-    
+    if c not in smap:
+        tmap[c] = 1
+    else:
+        tmap[c] += 1
 print(smap)
+print(tmap)
