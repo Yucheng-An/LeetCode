@@ -3,7 +3,7 @@
 
 def helper(m, mcolumn, mrow):
     res = []
-    mcolumn = len(m)
+    mcolumn
     mrow = len(m[0])
     for i in range(0,mrow):
         res.append(m[0][i])
