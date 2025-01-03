@@ -6,7 +6,7 @@ def canCompleteCircuit(gas, cost):
     for i in range(len(gas)):
         totalgas += gas[i]
         totalcost += cost[i]
-        currencost = gas[i] - totalcost
+        currencost = gas[i] - cost[i]
         if currencost < 0:
             startstation = i + 1
             currencost = 0
