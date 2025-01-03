@@ -7,7 +7,7 @@ def canCompleteCircuit(gas, cost):
         totalgas += gas[i]
         totalcost += cost[i]
         currencost = totalgas - totalcost
-        if currentcost < 0:
+        if currentccurrencostost < 0:
             startstation += 1
             currentcost = 0
     return startstation
