@@ -18,4 +18,4 @@ t = "add"
 smap = {}
 for c in s:
     if c not in smap:
-        
+        smap.add
