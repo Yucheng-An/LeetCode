@@ -13,4 +13,4 @@ def helper(m):
         res.append(m[i][-1])
     for i in range(len(m[0])-1,0-1):
         res.append(m[-1][i])
-    for i in rang()
+    for i in rang(len())
