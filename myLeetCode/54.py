@@ -8,4 +8,5 @@ def helper(m):
     mcolumn = len(m)
     mrow = len(m[0])
     for i in range(len(m[0])):
-        m[0][i]
+        res.append(m[0][i])
+    for i in range()
