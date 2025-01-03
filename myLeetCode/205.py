@@ -17,4 +17,4 @@ t = "add"
 
 smap = {}
 for c in s:
-    if 
+    if c 
