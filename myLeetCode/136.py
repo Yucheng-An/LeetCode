@@ -11,3 +11,4 @@ def canCompleteCircuit(gas, cost):
             startstation += 1
             currentcost = 0
     
+    
