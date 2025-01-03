@@ -1,7 +1,7 @@
 
 
 
-def helper(m):
+def helper(m, mcolumn, mrow):
     res = []
     mcolumn = len(m)
     mrow = len(m[0])
