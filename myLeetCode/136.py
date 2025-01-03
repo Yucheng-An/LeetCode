@@ -10,7 +10,10 @@ def canCompleteCircuit(gas, cost):
         if currentBalance < 0:
             startStation = i+1
             currentBalance = 0
-    if 
+    if totalGas >= totalCost:
+        return startStation
+    else:
+        return -1
 
 
 gas = [1, 2, 3, 4, 5]
