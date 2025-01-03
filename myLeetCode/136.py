@@ -3,4 +3,6 @@ def canCompleteCircuit(gas, cost):
     totalcost = 0
     startstation = 0
     for i in range(len(gas)):
+        totalgas += gas[i]
+        totalcost += cost[i]
         
