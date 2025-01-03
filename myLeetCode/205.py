@@ -22,5 +22,6 @@ for c in s:
         smap[c] = 1
     else:
         smap[c] += 1
-for c in t 
+for c in t:
+    
 print(smap)
