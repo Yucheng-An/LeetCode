@@ -2,4 +2,5 @@
 
 
 def helper(m):
-    row = 
+    row = len(m)
+    
