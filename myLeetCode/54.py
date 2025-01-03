@@ -2,6 +2,7 @@
 
 
 def helper(m):
-    column = len(m)
-    row = len(m[0])
+    
+    mcolumn = len(m)
+    mrow = len(m[0])
     
