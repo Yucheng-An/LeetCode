@@ -16,6 +16,7 @@ s = "egg"
 t = "add"
 
 smap = {}
+tmap = {}
 for c in s:
     if c not in smap:
         smap[c] = 1
