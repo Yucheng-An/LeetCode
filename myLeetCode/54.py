@@ -9,7 +9,7 @@ def helper(m):
     mrow = len(m[0])
     for i in range(0,mrow):
         res.append(m[0][i])
-    for i in range(1,len(m)):
+    for i in range(1,mcolumn):
         res.append(m[i][-1])
     for i in range(len(m[0])-1,1,-1):
         res.append(m[-1][i])
