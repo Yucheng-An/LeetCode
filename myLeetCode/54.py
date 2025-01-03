@@ -25,4 +25,4 @@ print(helper(m))
 def helper1 (m,rowstart,rowend, columnstart, columnend):
     res = []
     for i in range(rowend-rowstart+1):
-        res.append(m[rowstart])
+        res.append(m[rowstart][])
