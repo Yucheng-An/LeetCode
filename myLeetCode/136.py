@@ -5,7 +5,7 @@ def canCompleteCircuit(gas, cost):
     startStation = 0
     for i in range(len(gas)):
         totalGas += gas[i]
-        totalcost += cost[i]
+        totalCost += cost[i]
         
 
 
