@@ -1,1 +1,1 @@
-def canCompleteCircuit(self, gas: List[int], cost: List[int]):
+def canCompleteCircuit(gascost: List[int]):
