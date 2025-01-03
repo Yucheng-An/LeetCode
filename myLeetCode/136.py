@@ -1,7 +1,10 @@
 def canCompleteCircuit(gas, cost):
     totalGas = 0
     totalCost = 0 
-    
+    currentBalance = 0
+    startStation = 0
+    for i in range(len(gas)):
+        
 
 
 gas = [1, 2, 3, 4, 5]
