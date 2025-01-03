@@ -17,3 +17,4 @@ def helper(m):
         res.append(m[i][0])
     return res 
 
+m = [[1,2,3]]
