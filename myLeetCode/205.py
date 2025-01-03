@@ -27,5 +27,6 @@ for c in t:
         tmap[c] = 1
     else:
         tmap[c] += 1
+
 print(smap)
 print(tmap)
