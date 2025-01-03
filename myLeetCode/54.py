@@ -1,7 +1,9 @@
 
 
 def spiralOrder(m):
-    
+    mcolumn = len(m)
+    mrow = len(m[0])
+    while 
 
 
 def helper(m, mcolumn, mrow):
