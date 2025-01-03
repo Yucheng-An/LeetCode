@@ -1,5 +1,5 @@
 def isIsomorphic(s, t):
-    s 
+    
 
 
 
